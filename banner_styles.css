@@ -1,0 +1,133 @@
+/* ============================================================
+   banner_styles.css - Support Banner Styles for Dust and Dynasty
+   Inject into Blogger Theme: Theme > Customize > Advanced > Add CSS
+   ============================================================ */
+
+/* --- Main Banner Container --- */
+.sidebar-support-banner.post-support-banner {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+    color: #ffffff;
+    padding: 24px 28px;
+    border-radius: 12px;
+    margin: 40px auto 0;
+    max-width: 800px;
+    box-shadow: 0 8px 24px rgba(30, 58, 95, 0.3);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+/* --- Heading --- */
+.sidebar-support-banner h3 {
+    margin: 0 0 12px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+/* --- Description Text --- */
+.sidebar-support-banner p {
+    margin: 0 0 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #e2e8f0;
+    opacity: 0.95;
+}
+
+/* --- Button Group --- */
+.sidebar-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+/* --- Base Button Styles --- */
+.sidebar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* --- One-Time (Coffee) Button --- */
+.sidebar-btn-one-time {
+    background: #ff8c00;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.35);
+}
+.sidebar-btn-one-time:hover,
+.sidebar-btn-one-time:focus {
+    background: #e67e00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 140, 0, 0.45);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* --- Monthly (Patreon) Button --- */
+.sidebar-btn-monthly {
+    background: #f96854;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(249, 104, 84, 0.35);
+}
+.sidebar-btn-monthly:hover,
+.sidebar-btn-monthly:focus {
+    background: #e85d4a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(249, 104, 84, 0.45);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* --- Focus States for Accessibility --- */
+.sidebar-btn:focus-visible {
+    outline: 3px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 480px) {
+    .sidebar-support-banner.post-support-banner {
+        padding: 20px 16px;
+        margin: 30px 12px 0;
+        border-radius: 10px;
+    }
+    .sidebar-support-banner h3 {
+        font-size: 1.15rem;
+    }
+    .sidebar-support-banner p {
+        font-size: 0.88rem;
+    }
+    .sidebar-button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar-btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+    }
+}
+
+/* --- Dark Mode Compatibility (if theme supports) --- */
+@media (prefers-color-scheme: dark) {
+    .sidebar-support-banner.post-support-banner {
+        background: linear-gradient(135deg, #1a3a5c 0%, #2a4d7a 100%);
+    }
+}
+
+/* --- Print Styles --- */
+@media print {
+    .sidebar-support-banner.post-support-banner {
+        display: none;
+    }
+}

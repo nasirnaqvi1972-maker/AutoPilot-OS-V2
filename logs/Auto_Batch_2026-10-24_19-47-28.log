@@ -1,0 +1,224 @@
+
+==================================================
+PROCESSING: blenheim-palace.html
+==================================================
+  [main] Title: Blenheim Palace — The Theatre of Sovereign Triumph
+--- Running Flawless V2 Curator ---
+  [curator] Found 12 eligible sections.
+  [curator] Unsplash returned 29 candidates.
+  [curator] Candidate pool size: 29
+    [validator] Matching to: 'The Theatre of Stone: An Imposition on the Wilderness'
+      [OK] Accepted image 1
+    [validator] Matching to: 'The Genesis of a Monument: Blood, Debt, and Dynastic Fury'
+      [OK] Accepted image 2
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'Great Hall Ceiling Fresco'
+      [OK] Accepted image 3
+    [validator] Matching to: 'The Baroque Fortress: Spatial Mastery and Martial Iconography'
+      [OK] Accepted image 4
+    [validator] Matching to: 'The Long Library Interior'
+      [OK] Accepted image 5
+    [validator] Matching to: 'Blenheim Tapestry Detail'
+      [OK] Accepted image 6
+    [validator] Matching to: 'Living Under the Shadow of Olympus: Ritual, Ruin, and Renewal'
+      [OK] Accepted image 7
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Zz9B1T2V/0c1afdfc3794.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/PvPDYf0q/070a13396a5a.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/PvPDYf0q/070a13396a5a.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/20d0DD0R/89a5a3456a9d.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Z6WVV8cT/d43f465aa9be.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/hxjjkFCS/40009e018378.jpg
+  [publisher] Uploading img_07.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Txv8j7CL/54dbfadde172.jpg
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/mCZP32Vq/b0f7ff0176ee.jpg
+  [publisher] Uploading img_07.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Txv8j7CL/54dbfadde172.jpg
+  [publisher] Missing local image: img_08.jpg. Removing figure.
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 5728092493730652560
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: blenheim-palace.html moved to processed.
+
+==================================================
+PROCESSING: city-of-potos.html
+==================================================
+  [main] Title: City of Potosí — The Mountain That Ate Men
+--- Running Flawless V2 Curator ---
+  [curator] Found 6 eligible sections.
+  [curator] Unsplash returned 2 candidates.
+  [curator] Candidate pool size: 32
+    [validator] Matching to: 'The Crucible at Four Thousand Meters'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Blood, Mercury, and the Veins of the Earth'
+      [OK] Accepted image 2
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'The Architecture of Silver: Mints, Lagoons, and Temples'
+      [OK] Accepted image 3
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'The Underworld Kingdom and the Mechanics of Survival'
+      [OK] Accepted image 4
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'The Exhaustion of the Mountain and the Danger of Collapse'
+      [OK] Accepted image 5
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'The Living Heirs of the Mine'
+      [OK] Accepted image 6
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 7
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_07.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/dJpJtFht/0845cb350277.jpg
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/SDy2XPY4/39fe646a286d.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/2Y6Stgbh/65131ac4bc48.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Q3BPyTKP/c7a47da7ca87.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Xk5XTkF0/21c598bfedb3.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/HfddBfsg/53e5a320f1f2.jpg
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/XrVLTmwF/b49906ed5e75.jpg
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 5711500805738608555
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: city-of-potos.html moved to processed.
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\safe_batch.py", line 42, in process_post
+    success = curate_images(html_path, img_folder)
+  File "D:\Projects\AutoPilot_OS_v2\core\image_curator.py", line 292, in curate_images
+    print(f"    [validator] Matching to: '{slot['heading']}'")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nasir\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2726' in position 30: character maps to <undefined>
+
+==================================================
+PROCESSING: elephanta-caves.html
+==================================================
+  [main] Title: Elephanta Caves — The Silent Sanctuaries of the Sea
+--- Running Flawless V2 Curator ---
+  [curator] Found 7 eligible sections.
+  [curator] Unsplash returned 10 candidates.
+  [curator] Candidate pool size: 10
+    [validator] Matching to: 'The Island That Wears a Crown of Stone'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Origins and Historical Context'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Key Features and Architectural Marvels'
+      [OK] Accepted image 3
+    [validator] Matching to: 'Purpose and Lifestyle'
+      [OK] Accepted image 4
+    [validator] Matching to: 'Enduring Legacy and Modern Challenges'
+      [OK] Accepted image 5
+    [validator] Matching to: 'A Living Sanctuary'
+      [OK] Accepted image 6
+  [FAIL] Curator crashed: 'charmap' codec can't encode character '\u2726' in position 30: character maps to <undefined>
+  [FAIL] Curator failed to place images. Moving to failed.
+
+==================================================
+PROCESSING: gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve.html
+==================================================
+  [main] Title: Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve — The Rose of the Corsican Winds
+--- Running Flawless V2 Curator ---
+  [curator] Found 6 eligible sections.
+  [curator] Candidate pool size: 2
+    [validator] Matching to: 'The Coast That Refuses to Behave'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Origins and Historical Context'
+      [OK] Accepted image 2
+  [WARNING] Only found 2 images total. Post will be published with 2 images.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/NnNwDzNW/76ded7d8bb20.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Q7LDWkZz/600d7707fbc1.jpg
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 3479233746074983443
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve.html moved to processed.
+
+==================================================
+PROCESSING: historic-centre-of-avignon-papal-palace-episcopal-ensemble-and-avignon-bridge.html
+==================================================
+  [main] Title: Historic Centre of Avignon — The City That Held the Popes
+--- Running Flawless V2 Curator ---
+  [curator] Found 6 eligible sections.
+  [curator] Unsplash returned 30 candidates.
+  [curator] Candidate pool size: 30
+    [validator] Matching to: 'The Light on the Water'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Origins and Historical Context'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Key Features and Architectural Marvels'
+      [OK] Accepted image 3
+    [validator] Matching to: 'Purpose and Lifestyle'
+      [OK] Accepted image 4
+    [validator] Matching to: 'Enduring Legacy and Modern Challenges'
+      [OK] Accepted image 5
+    [validator] Matching to: 'A City That Sings'
+      [OK] Accepted image 6
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 7
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_07.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/hxbg90cS/4b5ea8806d1d.jpg
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/4Rc8dt8S/697b527c0bd3.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/dwkdmsXQ/2c742ffa4945.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/84bzMG0J/0447f143e31f.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/mC9X4ttH/27a85829f1ea.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/mr8XGSWS/08f131420a3d.jpg
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/JWGn9KVQ/7b42117a29d7.jpg
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 2544194332685022266
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: historic-centre-of-avignon-papal-palace-episcopal-ensemble-and-avignon-bridge.html moved to processed.
+Found 5 pending posts. Starting batch...
+
+=== Batch run 1/5 ===
+
+=== Batch run 2/5 ===
+
+=== Batch run 3/5 ===
+
+=== Batch run 4/5 ===
+
+=== Batch run 5/5 ===
+
+Batch complete! Processed 5 posts.

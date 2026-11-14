@@ -1,0 +1,56 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Polonnaruwa   The Garden City .
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Ancient City of Polonnaruwa
+Ancient City of Polonnaruwa
+Polonnaruwa was the second capital of Sri Lanka after the destruction of Anuradhapura in 993. It comprises, besides the Brahmanic monuments built by the Cholas, the monumental ruins of the fabulous garden-city created by Parakramabahu I in the 12th century.
+Description is available under license CC-BY-SA IGO 3.0
+Cité historique de Polonnaruwa
+Seconde capitale de Sri Lanka après la destruction d'Anuradhapura en 993, Polonnaruwa comprend, à côté des monuments brahmaniques élevés par les Cholas, les restes monumentaux de la fabuleuse cité-jardin créée au XIIe siècle par Parakramabahu le Grand.
+Description is available under license CC-BY-SA IGO 3.0
+مدينة بولوناروا التاريخية
+تحتضن بولوناروا التي اصبحت العاصمة الثانية لسريلانكا بعد الدمار الذي لحق بأنوردابورا عام 399 أنقاضاً ضخمة للمدينة الجنائزية الخلابة التي أسسها الكبير في القرن الثاني عشر، الى جانب نصب برهمانية شيدتها سلالة "الكولا".
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+波隆纳鲁沃古城
+公元933年，继阿努拉达普拉被毁灭后，波隆纳鲁沃城成为斯里兰卡的首府所在地。在波隆纳鲁沃古城里，不仅有考拉斯时期的婆罗门教遗址，还能看到帕拉克拉马一世于12世纪时修建的神话般花园城市的遗迹。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Древний город Полоннарува
+Полоннарува стала второй столицей Шри-Ланки после разрушения в 993 г. Анурадхапуры. Помимо памятников брахманизма, построенных государством Чола, здесь находятся внушительные руины удивительного города-сада, созданного в XII в. при правлении Паракрамабаху I.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Antigua ciudad de Polonnaruwa
+Segunda capital de Sri Lanka después de la destrucción de Anuradhapura en el año 993, la ciudad de Polonnaruwa posee una serie de monumentos brahmánicos edificados por la dinastía de los cholas, así los vestigios monumentales de la fabulosa ciudad-jardín creada en el siglo XII por Parakramabahu el Grande.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+古代都市ポロンナルワ
+source: NFUAJ
+Oude stad van Polonnaruwa
+Source: unesco.nl

@@ -1,0 +1,17 @@
+
+# Security: Ignore environment variables and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+credentials.json
+secrets/
+sorted_original_posts/
+client_secret.json
+client_secrets.json
+config/
+config/blogger_token.pickle
+*.pickle
+config/blogger_token.pickle
+*.pickle

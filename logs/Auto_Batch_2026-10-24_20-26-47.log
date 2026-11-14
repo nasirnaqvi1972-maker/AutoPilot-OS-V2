@@ -1,0 +1,201 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[SmartMatch] Placed image for block "No gentle domesticity welcomes the trave..." with confidence score: 0.34
+[SmartMatch] Placed image for block "The Grand Bridge and Capability Brown La..." with confidence score: 0.37
+[SmartMatch] Placed image for block "The origins of Blenheim Palace are inext..." with confidence score: 0.35
+[SmartMatch] Placed image for block "Architecturally, Blenheim Palace rejects..." with confidence score: 0.33
+[SmartMatch] Placed image for block "Architecturally, Blenheim Palace rejects..." with confidence score: 0.33
+[SmartMatch] Placed image for block "Beyond the central ceremonial core lie t..." with confidence score: 0.21
+[SmartMatch] Placed image for block "The domestic life within these colossal ..." with confidence score: 0.26
+[SmartMatch] Placed image for block "The domestic life within these colossal ..." with confidence score: 0.23
+[SmartMatch] Placed image for block "The Column of Victory..." with confidence score: 0.21
+Post updated.
+  [WARNING] Draft has 9 images (need 7).
+  Fixed draft 'Blenheim Palace â€” The Theatre of Soverei': generated meta description
+Draft doctor complete.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\smart_image_replacer.py", line 95, in <module>
+    print(f'[SmartMatch] Placed image for block "{text[:40]}..." with confidence score: {best_score:.2f}')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nasir\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4cd' in position 37: character maps to <undefined>
+  Fixed draft 'Budapest, Banks of the Danube, Buda Cast': generated meta description
+Draft doctor complete.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\smart_image_replacer.py", line 95, in <module>
+    print(f'[SmartMatch] Placed image for block "{text[:40]}..." with confidence score: {best_score:.2f}')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nasir\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4cd' in position 37: character maps to <undefined>
+  Fixed draft 'City of PotosÃ­ â€” The Mountain That Ate M': generated meta description
+Draft doctor complete.
+[SmartMatch] Placed image for block "Main View of Elephanta Caves Image Descr..." with confidence score: 0.31
+[SmartMatch] Placed image for block "The Approach to the Caves Image Descript..." with confidence score: 0.23
+[SmartMatch] Placed image for block "The Trimurti Image Description: The monu..." with confidence score: 0.30
+[SmartMatch] Placed image for block "Ardhanarishvara Image Description: The A..." with confidence score: 0.24
+[SmartMatch] Placed image for block "The Great Hall Image Description: The va..." with confidence score: 0.30
+[SmartMatch] Placed image for block "Preserving the Stone Image Description: ..." with confidence score: 0.15
+Post updated.
+  [WARNING] Draft has 6 images (need 7).
+  Fixed draft 'Elephanta Caves â€” The Silent Sanctuaries': generated meta description
+Draft doctor complete.
+Post updated.
+  [WARNING] Draft has 2 images (need 7).
+  Fixed draft 'Gulf of Porto: Calanche of Piana, Gulf o': generated meta description
+Draft doctor complete.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\smart_image_replacer.py", line 95, in <module>
+    print(f'[SmartMatch] Placed image for block "{text[:40]}..." with confidence score: {best_score:.2f}')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nasir\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4cd' in position 37: character maps to <undefined>
+  Fixed draft 'Historic Centre of Avignon â€” The City Th': generated meta description
+Draft doctor complete.
+Found 6 HTML posts to process.
+
+[1/6] Processing blenheim-palace-the-theatre-of-sovereign-triumph.html...
+
+==================================================
+PROCESSING: blenheim-palace-the-theatre-of-sovereign-triumph.html
+==================================================
+  [main] Title: Blenheim Palace — The Theatre of Sovereign Triumph
+  [Engine] Post already contains 9 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 1115961843123599390
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+[AutoPilot] Post published (ID: 1115961843123599390). Automatically running Smart Image Replacer to fix context...
+  [OK] SUCCESS: blenheim-palace-the-theatre-of-sovereign-triumph.html moved to processed.
+
+[2/6] Processing budapest-banks-of-the-danube-buda-castle-quarter-andr-ssy-avenue-the-city-that-r.html...
+
+==================================================
+PROCESSING: budapest-banks-of-the-danube-buda-castle-quarter-andr-ssy-avenue-the-city-that-r.html
+==================================================
+  [main] Title: Budapest, Banks of the Danube, Buda Castle Quarter & Andrássy Avenue — The City That Remembers
+  [Engine] Post already contains 7 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 6821068954230453345
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+[AutoPilot] Post published (ID: 6821068954230453345). Automatically running Smart Image Replacer to fix context...
+  [OK] SUCCESS: budapest-banks-of-the-danube-buda-castle-quarter-andr-ssy-avenue-the-city-that-r.html moved to processed.
+
+[3/6] Processing city-of-potos-the-mountain-that-ate-men.html...
+
+==================================================
+PROCESSING: city-of-potos-the-mountain-that-ate-men.html
+==================================================
+  [main] Title: City of Potosí — The Mountain That Ate Men
+  [Engine] Post already contains 7 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 7812314146080714774
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+[AutoPilot] Post published (ID: 7812314146080714774). Automatically running Smart Image Replacer to fix context...
+  [OK] SUCCESS: city-of-potos-the-mountain-that-ate-men.html moved to processed.
+
+[4/6] Processing elephanta-caves-the-silent-sanctuaries-of-the-sea.html...
+
+==================================================
+PROCESSING: elephanta-caves-the-silent-sanctuaries-of-the-sea.html
+==================================================
+  [main] Title: Elephanta Caves — The Silent Sanctuaries of the Sea
+  [Engine] Post already contains 6 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 8767397490356626612
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+[AutoPilot] Post published (ID: 8767397490356626612). Automatically running Smart Image Replacer to fix context...
+  [OK] SUCCESS: elephanta-caves-the-silent-sanctuaries-of-the-sea.html moved to processed.
+
+[5/6] Processing gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve-the-rose-of-th.html...
+
+==================================================
+PROCESSING: gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve-the-rose-of-th.html
+==================================================
+  [main] Title: Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve — The Rose of the Corsican Winds
+  [Engine] Post already contains 2 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 1555073020811037393
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+[AutoPilot] Post published (ID: 1555073020811037393). Automatically running Smart Image Replacer to fix context...
+  [OK] SUCCESS: gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve-the-rose-of-th.html moved to processed.
+
+[6/6] Processing historic-centre-of-avignon-the-city-that-held-the-popes.html...
+
+==================================================
+PROCESSING: historic-centre-of-avignon-the-city-that-held-the-popes.html
+==================================================
+  [main] Title: Historic Centre of Avignon — The City That Held the Popes
+  [Engine] Post already contains 7 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 1467134136647883897
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+[AutoPilot] Post published (ID: 1467134136647883897). Automatically running Smart Image Replacer to fix context...
+  [OK] SUCCESS: historic-centre-of-avignon-the-city-that-held-the-popes.html moved to processed.
+run_engine: delegating to safe_batch for all pending
+No pending posts.
+No pending posts.
+No pending posts.
+No pending posts.
+No pending posts.
+Found 6 pending posts. Starting batch...
+
+=== Batch run 1/6 ===
+
+=== Batch run 2/6 ===
+
+=== Batch run 3/6 ===
+
+=== Batch run 4/6 ===
+
+=== Batch run 5/6 ===
+
+=== Batch run 6/6 ===
+
+Batch complete! Processed 6 posts.

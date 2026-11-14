@@ -1,0 +1,61 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Garamba National Park   Savann.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Garamba National Park
+Garamba National Park
+Description is available under license CC-BY-SA IGO 3.0
+Parc national de la Garamba
+Description is available under license CC-BY-SA IGO 3.0
+حديقة غارامبا الوطنية
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+加兰巴国家公园
+公园拥有丰富的野生动物群落，包括数量可观的非洲森林象、科尔多凡长颈鹿、普通河马、非洲水牛、狮子、穿山甲及多种灵长类动物。这里栖息着150多种哺乳动物、459种鸟类、83种爬行动物和43种两栖动物，其中包括受威胁物种和区域特有物种。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Национальный парк Гарамба
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Parque Nacional de Garamba
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Outstanding Universal Value
+Brief synthesis
+Garamba National Park is situated in the north-eastern region of the Democratic Republic of the Congo, within Haut-Uélé Province, adjacent to the international boundary with South Sudan. The property forms the ecological core of the larger Garamba Complex, which encompasses approximately 1,470,000 hectares and includes the Azande, Gangala-na-Bodio, and Mondo-Missa hunting domains. Together, these contiguous protected areas constitute one of the last extensive and continuous forest–savanna mosaic landscapes in Central Africa, representing a critical ecological transition zone between the Guineo-Congolian forest biome and the Sudanian savanna. The property covers an area of 512,736 hectares. It is surrounded by a formally designated buffer zone comprising portions of the three adjacent hunting domains, extending up to 20 km from the park boundaries and covering an additional 544,943 hectares. The property is important for the conservation of a range of forest and savanna species, including forest elephants, buffalos, lions, Kordofan Giraffes, pangolins and several primate, reptile and bird species. This overlap of fauna from two distinct biogeographical regions gives the area particular conservation interest.
+Criterion (ix): Garamba National Park contains a mosaic of grasslands, wooded savannas, and patches of semi-deciduous forest that reflect a long-standing ecological transition between the Guineo-Congolian forest and the Sudano-Zambezian savanna zones. In the property, open savannas cover approximately 30% of the area and represent the only large expanses of open savanna in northern Democratic Republic of the Congo (DRC). Their origin is most likely linked to historically high concentrations of large herbivores in the region. The park’s open savannas and woodlands form a dynamic system capable of shifting in either direction, primarily shaped by fire and herbivory, which operate independently within the park. Forest formations are relatively small but represent the climax vegetation of the region and contribute substantially to the ecosystem's richness.
+Within the park, ecological processes such as natural fires, herbivore grazing, and seasonal flooding continue to shape the landscape. These processes drive shifts in vegetation composition and structure, maintaining a balance between open and wooded habitats. The property supports a healthy assemblage of large herbivores, including African Forest Elephants, Kordofan Giraffes, Common Hippopotamuses, African buffaloes. These large herbivores drive key ecological processes, which are in turn shaped by predator-prey dynamics involving significant populations of northern lions, spotted hyenas, and leopards. These processes illustrate an ecosystem that remains largely functional within its protected boundaries.
+Criterion (x): Garamba National Park is part of a larger ecological system that once supported some of the highest concentrations of large mammals in Central Africa. Together with its buffer zone, the property hosts a wide variety of natural habitats, ranging from open savannas to dense forests, representing the full gradient of the forest-savanna transition. In addition, the property contains a vast aquatic ecosystem that includes large, sandy-bottomed rivers, waterways lined with gallery forests, and marshes supporting extensive stands of papyrus. These habitats provide critical areas for the in-situ conservation of globally threatened species and regional endemics.
+Garamba National Park is home to over 150 mammal species, including 13 threatened species or subspecies, as well as seven species or subspecies that are endemic or sub-endemic to northeastern DRC and adjacent areas of South Sudan and northwestern Uganda. The property remains important for the conservation of a range of forest and savanna species including significant populations of African Forest Elephants, Kordofan Giraffes, Common Hippopotamuses, lions and four pangolins and several primate species. The avifauna comprises at least 459 species, including three regional endemic forms, 11 threatened species, and several species with highly restricted ranges. The reptile fauna includes 83 species, four of which are regional endemics and two of which are threatened. Amphibians account for 43 species, including three regional endemic forms.
+Integrity
+The boundaries of Garamba National Park correspond to those established at the time of its creation in 1938 and its inscription in 1980. They have clear legal recognition and provide a strong institutional basis for management. There are largely natural boundaries, formed by rivers (the Garamba, Dodo, Dungu, and Aka) which provide an unambiguous line of separation. The northern boundary is the international border with South Sudan, of which part also forms the southern boundary of Lantoto National Park. This clarity is logistically beneficial for survey work and for the park's management and anti-poaching patrols, as it leaves little room for disputing the park’s official extent.
+The surrounding hunting domains (Gangala-na-Bodio, Mondo-Missa, and Azande) functioned since 1980 as a de facto buffer zone for the property, providing an additional layer of controlled land use and supporting ecological connectivity across the wider Garamba landscape. The renomination formally recognises the buffer zone to include portions of the three hunting domains extending up to 20 km from the property boundaries and covers an area of 544,943 ha. It encompasses some of the most intact areas of the surrounding landscape and contributes to maintaining ecological processes and habitat connectivity for wide-ranging species.
+At the same time, the hunting domains have been affected by prolonged insecurity, weak governance, and pressures associated with armed incursions, transboundary transhumance, mining, and agricultural encroachment. Large-scale poaching, particularly associated with ivory and rhino horn trafficking, has caused severe declines in populations of key large mammals across the wider Garamba Complex, including the likely extinction of the Northern White Rhinoceros and significant declines in elephant populations.
+Protection and management requirements
+Garamba National Park benefits from a solid and multi-layered legal protection framework. Initially established by royal decree in 1938, its status has since been reinforced through national conservation laws most notably Law 14/003 of 2014 and through subsequent decrees regulating protected areas and the CorPSN (Corps pour la Protection des Parcs Nationaux). Garamba National Park is co-managed within a broader Garamba Complex, which includes three state-owned hunting domains (Gangala-na-Bodio, Mondo-Missa, and Azande) under a formal Public–Private Partnership (PPP) between the Institut Congolais pour la Conservation de la Nature (ICCN) and African Parks Network (APN). The arrangement establishes a shared management structure through the Garamba Management Foundation, which has a Board of Directors comprising four representatives from APN (including the Chair) and three from ICCN (including the Vice-Chair). This framework ensures transparent decision-making, balanced oversight, and alignment with national conservation legislation. It combines ICCN’s legal mandate with African Parks’ technical and operational expertise, providing a professional and performance-oriented management model. The park’s management organization is well-structured, comprising departments for biodiversity conservation, community development, law enforcement, tourism, and infrastructure, supported by a research and monitoring unit. These departments operate under the supervision of a management team comprised of a Chief of site or Park Director from APN, and a Deputy Chief of site from ICCN.
+Garamba National Park operates under a Business Plan developed by APN and the ICCN, updated every five years to align with evolving conservation priorities. The Business Plan is guided by a 20-year vision outlined in a Long-Term Sustainability Strategy (2024-2044). The plan is actively used to guide daily operations alongside management objectives such as anti-poaching, habitat restoration, and community engagement. Key threats, such as armed poaching, illegal mining, and climate-driven habitat shifts, are addressed through targeted strategies like increased ranger patrols, drone surveillance, and community livelihood programs.

@@ -1,0 +1,122 @@
+URL
+MIME Type
+From
+To
+Captures
+Duplicates
+Uniques
+http://archaeology-pak.blogspot.com	text/html	Apr 4, 2013	Jan 4, 2026	26	0	26
+http://archaeology-pak.blogspot.com/2011/08/buddhist-ruins-of-takht-i-bahi-and.html	text/html	Feb 24, 2021	Nov 25, 2023	3	0	3
+http://archaeology-pak.blogspot.com/favicon.ico	image/x-icon	Nov 28, 2018	Jan 4, 2026	9	7	2
+http://archaeology-pak.blogspot.com:80/2011/07/d-ulmial-is-located-just-3-km-from.html	text/html	May 5, 2017	Nov 25, 2023	2	0	2
+http://archaeology-pak.blogspot.com:80/2011/07/nandna-fort.html	text/html	May 7, 2017	Nov 25, 2023	2	0	2
+http://archaeology-pak.blogspot.com:80/2011/08/darawar-fort.html	text/html	May 3, 2017	Nov 25, 2023	5	0	5
+http://archaeology-pak.blogspot.com:80/2011/08/harrapa-lost-city.html	text/html	Apr 1, 2018	Nov 25, 2023	24	0	24
+http://archaeology-pak.blogspot.com:80/2011/08/historical-monuments-of-thatta.html	text/html	Nov 24, 2016	Nov 25, 2023	4	0	4
+http://archaeology-pak.blogspot.com:80/2011/08/rohtas-fort.html	text/html	May 5, 2017	Nov 25, 2023	3	0	3
+http://archaeology-pak.blogspot.com:80/2011/08/sangni-fort.html	text/html	Aug 26, 2017	Nov 25, 2023	2	0	2
+http://archaeology-pak.blogspot.com:80/2011/08/taxila-city-of-stones.html	text/html	Apr 25, 2017	Nov 25, 2023	28	0	28
+http://archaeology-pak.blogspot.com:80/2011/08/tilla-jogian.html	text/html	May 3, 2017	Nov 25, 2023	22	0	22
+http://archaeology-pak.blogspot.com:80/2012/10/kafir-kot-dera-ismaiel-khan.html	text/html	May 5, 2017	Nov 26, 2023	2	0	2
+http://archaeology-pak.blogspot.com:80/2012/10/mehrgarh-7000-bc-2500-bc.html	text/html	Jul 1, 2019	Nov 25, 2023	5	1	4
+http://archaeology-pak.blogspot.com:80/feeds/325483056562696384/comments/default	application/atom+xml	Oct 26, 2018	Jan 16, 2020	6	3	3
+http://archaeology-pak.blogspot.com:80/feeds/4782682722714304636/comments/default	application/atom+xml	Jul 1, 2019	Feb 17, 2020	5	3	2
+http://archaeology-pak.blogspot.com:80/feeds/5156852846229382939/comments/default	application/atom+xml	Aug 12, 2018	Feb 20, 2020	6	2	4
+http://archaeology-pak.blogspot.com:80/feeds/posts/default	text/html	Aug 12, 2018	Dec 31, 2025	14	13	1
+http://archaeology-pak.blogspot.com:80/feeds/posts/default?alt=rss	text/html	Aug 12, 2018	Jan 4, 2026	14	13	1
+http://www.archaeology-pak.blogspot.com/robots.txt	text/plain	Apr 29, 2013	Jan 4, 2026	54	46	8
+https://archaeology-pak.blogspot.com/2011/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011/07/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011/07/katas-raj.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2011/07/kusak-fort.html	text/html	Apr 7, 2023	Nov 25, 2023	2	0	2
+https://archaeology-pak.blogspot.com/2011/07/malot-temple.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2011/07/pharwala-fort.html	text/html	Nov 25, 2023	Dec 7, 2025	2	0	2
+https://archaeology-pak.blogspot.com/2011/08/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011/08/lahore-fort.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2011/08/moenjodaro-mound-of-dead.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2011/08/shalimar-gardan.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2011_07_17_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_07_18_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_07_19_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_07_20_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_07_21_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_07_30_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_01_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_03_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_06_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_07_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_09_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_10_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	3	0	3
+https://archaeology-pak.blogspot.com/2011_08_11_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2011_08_12_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	3	0	3
+https://archaeology-pak.blogspot.com/2011_08_13_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2012/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2012/10/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2012/10/tomb-of-bibi-jawindi.html	text/html	Nov 26, 2023	Nov 26, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2012_10_06_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2012_10_08_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+URL
+MIME Type
+From
+To
+Captures
+Duplicates
+Uniques
+https://archaeology-pak.blogspot.com/2012_10_09_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2020/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2020/02/	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/2020/02/puran-bhagat-well-sialkot-pakistan.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/2020_02_28_archive.html	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/?m=1	text/html	Nov 25, 2023	Jan 4, 2026	4	0	4
+https://archaeology-pak.blogspot.com/ads.txt	text/plain	Dec 7, 2025	Dec 7, 2025	1	0	1
+https://archaeology-pak.blogspot.com/atom.xml	text/html	Dec 7, 2025	Dec 7, 2025	1	0	1
+https://archaeology-pak.blogspot.com/atom.xml?redirect=false&max-results=	application/atom+xml	Nov 25, 2023	Jan 4, 2026	4	2	2
+https://archaeology-pak.blogspot.com/feeds/1074515281431789331/comments/default	application/atom+xml	Apr 9, 2023	Apr 9, 2023	1	0	1
+https://archaeology-pak.blogspot.com/js/cookienotice.js	text/javascript	Jul 16, 2022	Jul 16, 2022	1	0	1
+https://archaeology-pak.blogspot.com/p/privacy-policy.html	text/html	Nov 25, 2023	Dec 7, 2025	2	0	2
+https://archaeology-pak.blogspot.com/p/who-we-are.html	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/responsive/sprite_v1_6.css.svg	image/svg+xml	Nov 25, 2023	Jan 4, 2026	4	3	1
+https://archaeology-pak.blogspot.com/search	text/html	Jul 16, 2022	Jan 4, 2026	5	0	5
+https://archaeology-pak.blogspot.com/search/label/7000 BC 2500 BC	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Alberuni	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Buddhist Ruins	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Chakwal	text/html	Nov 26, 2023	Nov 26, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Darawar Fort	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Elegant Mausoleum	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Gujar Khan	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Harrapa - The Lost City	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Hill of Saints	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Hindu Temple	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Icon from History	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Kafir Kot (Bilot Fort) Dera Ismaiel Khan	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Kashmiri Architecture	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Katas Raj	warc/revisit	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Kusak Fort	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Lahore	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Lahore Fort	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Malot Temple	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Moenjodero (Mound of the Dead)	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Monuments Thatta	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Nandna Fort	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Pakistan	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Pharwala Fort	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Rohtas Fort Mughal Era	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Sangni Fort	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Sat garah	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Shalimar GArden	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Shiv Raj	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search/label/Vitoria Gun World War II	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search?updated-max=2011-07-21T06:30:00-07:00&max-results=7&start=12&by-date=false	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search?updated-max=2011-07-21T18:30:00%2B05:00&max-results=7&start=12&by-date=false	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search?updated-max=2011-08-07T04:48:00-07:00&max-results=7&start=5&by-date=false	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search?updated-max=2011-08-07T16:48:00%2B05:00&max-results=7&start=5&by-date=false	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search?updated-max=2011-08-13T02:57:00-07:00&max-results=7	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+https://archaeology-pak.blogspot.com/search?updated-max=2011-08-13T14:57:00%2B05:00&max-results=7	text/html	Nov 25, 2023	Nov 25, 2023	1	0	1
+URL
+MIME Type
+From
+To
+Captures
+Duplicates
+Uniques
+http://archaeology-pak.blogspot.com	text/html	Apr 4, 2013	Jan 4, 2026	26	0	26

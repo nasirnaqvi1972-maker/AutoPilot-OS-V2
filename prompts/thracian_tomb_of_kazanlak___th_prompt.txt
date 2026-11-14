@@ -1,0 +1,70 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Thracian Tomb Of Kazanlak   Th.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Thracian Tomb of Kazanlak
+Thracian Tomb of Kazanlak
+Discovered in 1944, this tomb dates from the Hellenistic period, around the end of the 4th century BC. It is located near Seutopolis, the capital city of the Thracian king Seutes III, and is part of a large Thracian necropolis. The tholos has a narrow corridor and a round burial chamber, both decorated with murals representing Thracian burial rituals and culture. These paintings are Bulgaria’s best-preserved artistic masterpieces from the Hellenistic period.
+Description is available under license CC-BY-SA IGO 3.0
+Tombe thrace de Kazanlak
+Découvert en 1944, ce tombeau date de la période hellénistique, vers la fin du IVe siècle av. J.-C. Il est situé près de Seutopolis – capitale du roi thrace Seutes III – et fait partie d’une grande nécropole thrace. Le tholos comprend un étroit corridor et une chambre funéraire ronde, tous deux décorés de peintures murales représentant les rites funéraires et la culture thrace. Ces peintures sont les chefs-d’œuvre artistiques les mieux préservés de la période hellénistique en Bulgarie.
+Description is available under license CC-BY-SA IGO 3.0
+ضريح كازانلاك التراقي
+إكتُشف هذا الضريح في العام 1944 وهو يرقى إلى الحقبة الهيلينية، قرابة نهاية القرن الرابع قبل الميلاد. يقع بالقرب من مدينة سيوطوبوليس، التي كانت في ما مضى عاصمة الملك التراقي سيوطس الثالث، ويشكل جزءاً لا يتجزأ من مقبرة تراقية كبيرة. يتألف القبر المقبّب من دهليز ضيق وغرفة دائرية لدفن الموتى، كلاهما مزيّن برسومات جدارية تصوّر طقوس دفن الموتى والثقافة التراقية آنذاك. وتعتبر هذه الرسومات من أفضل التحف الفنية المحافظ عليها من الحقبة الهيلينية في بلغاريا.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+卡赞利克的色雷斯古墓
+卡赞利克的色雷斯古墓发现于1944年，其历史年代可追溯到古希腊时期，即公元前4世纪末左右。古墓位于色雷斯王修瑟斯三世时期的都城修瑟波利斯(Seutopolis)附近，是色雷斯王国大片墓地中的一部分。该古墓内有狭长的地道和圆形墓室，均以壁画装饰。这些壁画代表了卡赞利克的墓葬仪式和文化。古墓中的绘画作品是保加利亚保存最完好的古希腊时期艺术杰作。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Фракийская гробница в городе Казанлык
+Обнаруженная в 1944 г. гробница датируется эллинистическим периодом, приблизительно концом IV в. до н.э. Она располагалась около Севтополиса – столицы царя Фракии Севта III, и представляла собой часть крупного фракийского некрополя. Округлое здание гробницы – «фолос» – имеет узкий коридор и круглую погребальную камеру со стенными росписями, изображающими фракийские похоронные церемонии и культуру. Эта живопись – наиболее хорошо сохранившиеся художественные произведения периода эллинизма в Болгарии.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Tumba tracia de Kazanlak
+Descubierta en 1944, esta tumba data del periodo helenístico (hacia finales del siglo IV a.C.). Está situada cerca de Seutópolis, capital del rey tracio Seutes III, y forma parte de una gran necrópolis. El tholos comprende un corredor angosto y una cámara mortuoria circular con frescos que representan ritos funerarios. Estas pinturas son las obras de arte del período helenístico mejor conservadas en Bulgaria.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+カザンラックのトラキア人の墳墓
+source: NFUAJ
+Thracische tombe van Kazanlak
+Source: unesco.nl
+Outstanding Universal Value
+Brief synthesis
+The Thracian tomb of Kazanlak is a unique aesthetic and artistic work, a masterpiece of the Thracian creative spirit. This monument is the only one of its kind anywhere in the world. The exceptionally well preserved frescos and the original condition of the structure reveal the remarkable evolution and high level of culture and pictorial art in Hellenistic Thrace.
+Criterion (i): The Thracian Tomb of Kazanlak is the masterpiece of the Thracian creative spirit.
+Criterion (iii): The Kazanlak frescoes testify to high level of culture and pictorial art in Thracia.
+Criterion (iv): The Kazanlak frescoes represent a significant stage in the development of Hellenistic funerary art.
+Integrity
+The integrity of the site is intact. The defined boundaries and buffer zone, and the location of the Tomb in a park area, provides a secure environment for the property. The property encompasses within its boundaries all the components that convey the outstanding universal value. The Tomb is protected from the negative effects of visitors, through offering access to the nearby museum that contains a copy of the tomb architecture and its fresco decoration.
+Authenticity
+The Tomb meets the requirements for authenticity as the construction and walls remain in their original condition, without modification or addition, and its frescoes are very well preserved. At the time of inscription, the Tomb was secured under a permanent protective building, and its principle cultural value - the exclusive mural decoration - was fully preserved. In this process, the murals were cleaned and strengthened. Using techniques that did not violate their authenticity, they were not retouched or additionally filled. Air conditioning was installed to ensure a constant temperature.
+Protection and management requirements
+The management is implemented by virtue of:
+- Cultural Heritage Law (Official Gazette No.19 of 2009) and subdelegated legislation. This law regulates the research, studying, protection and promotion of the immovable cultural heritage in Bulgaria, and the development of Conservation and Management plans for its inscribed World Heritage List of immovable cultural properties;
+- the Tomb's preservation and visiting regime prescribed by the National Institute for preservation of the immovable cultural properties.

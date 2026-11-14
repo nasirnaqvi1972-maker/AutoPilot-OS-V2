@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\safe_batch.py", line 63, in process_post
+    success = curate_images(html_path, img_folder)
+  File "D:\Projects\AutoPilot_OS_v2\core\image_curator.py", line 312, in curate_images
+    print(f"    [validator] Matching to: '{slot['heading']}'")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nasir\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2726' in position 30: character maps to <undefined>
+Found 1 HTML posts to process.
+
+[1/1] Processing elephanta-caves-the-silent-sanctuaries-of-the-sea.html...
+
+==================================================
+PROCESSING: elephanta-caves-the-silent-sanctuaries-of-the-sea.html
+==================================================
+  [Engine] Removed old images from HTML. Ready for fresh fetch.
+  [main] Title: Elephanta Caves — The Silent Sanctuaries of the Sea
+  [Engine] No images found. Fetching 7 images from Unsplash...
+--- Running Flawless V2 Curator ---
+  [curator] Found 7 eligible sections.
+  [curator] Unsplash returned 7 candidates.
+  [curator] Candidate pool size: 37
+      [Vision Check] Rejected image (Category: monkey).
+      [Vision Check] Rejected image (Category: animal).
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'The Island That Wears a Crown of Stone'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Origins and Historical Context'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Key Features and Architectural Marvels'
+      [OK] Accepted image 3
+    [validator] Matching to: 'Purpose and Lifestyle'
+      [OK] Accepted image 4
+    [validator] Matching to: 'Enduring Legacy and Modern Challenges'
+      [OK] Accepted image 5
+    [validator] Matching to: 'A Living Sanctuary'
+      [OK] Accepted image 6
+  [FAIL] Curator crashed: 'charmap' codec can't encode character '\u2726' in position 30: character maps to <undefined>
+  [FAIL] Curator failed to place images. Moving to failed.
+run_engine: delegating to safe_batch for all pending
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

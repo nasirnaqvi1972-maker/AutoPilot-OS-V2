@@ -1,0 +1,57 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Gulf Of Porto  Calanche Of Pia.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve
+The nature reserve, which is part of the Regional Natural Park of Corsica, occupies the Scandola peninsula, an impressive, porphyritic rock mass. The vegetation is an outstanding example of scrubland. Seagulls, cormorants and sea eagles can be found there. The clear waters, with their islets and inaccessible caves, host a rich marine life.
+Description is available under license CC-BY-SA IGO 3.0
+Golfe de Porto : calanche de Piana, golfe de Girolata, réserve de Scandola
+La réserve, qui fait partie du parc naturel régional de Corse, occupe la presqu''île de la Scandola, impressionnant massif de porphyre aux formes tourmentées. Sa végétation est un remarquable exemple de maquis. On y trouve des goélands, des cormorans et des aigles de mer. Les eaux transparentes, aux îlots et aux grottes inaccessibles, abritent une riche vie marine.
+Description is available under license CC-BY-SA IGO 3.0
+خليج بورتو:جون بيانا الصخري، خليج جيرولاتا، ومحمية سكاندولا
+تحتلّ المحمية التي تشكّل جزءاً من الحديقة الطبيعية الإقليمية لكورسيكا شبه جزيرة سكاندولا، وهي كتلة مُدهشة من الرخام السمّاقي ذات أشكال متعرّجة. ويشكّل نمو نباتها مثالاً رائعاً للدغل إذ تتوافر طيور النورس، والغاقة، وعُقاب البحر. وتحتوي المياه الشفافة في الجزر والمغاور النائية حياةً مائية غنية.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+波尔托湾：皮亚纳－卡兰切斯、基罗拉塔湾、斯康多拉保护区
+这个自然保护区是科西嘉地区自然公园的一部分，位于斯康多拉半岛，属斑岩地貌的多石地带。这里的植被是茂密的灌木丛林，天空中飞翔着海鸥、鸬鹚和海鹰。清澈的海水，星星点点的小岛，连同险峻的岩洞构成了海洋生物的富饶家园。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Мысы Жиролата и Порто, природный резерват Скандола и скалистые бухты «каланки» у города Пьяна (остров Корсика)
+Природный резерват, входящий в состав регионального парка Корсики, расположен на полуострове Скандола, который выделяется своими необычными порфировыми скалами. Местная растительность, представленная зарослями кустарников, имеет большой научный интерес. Здесь обитают морские чайки, бакланы, орланы. Очень разнообразны обитатели этих чистых вод, а также скалистых островков и недоступных для человека прибрежных пещер.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Golfo de Porto: cala de Piana, golfo de Girolata y reserva de Scandola
+Esta reserva forma parte del Parque Natural Regional de Córcega y se extiende por la península de la Scandola, una impresionante masa de rocas porfíricas con formas atormentadas. Su vegetación es un ejemplo notable de monte bajo mediterráneo y su fauna comprende gaviotas, cormoranes y águilas marinas. La biodiversidad biológica en las aguas de sus islotes y grutas inaccesibles es especialmente rica.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+ポルト湾：ピアナのカランケ、ジロラッタ湾、スカンドラ保護区
+source: NFUAJ
+Golf van Porto: Calanche van Piana, Golf van Girolata, Scandola natuurreservaat
+Source: unesco.nl
+Notes
+- Property inscribed for both geological and ecological values under natural criterion N (ii) before 1994. Criterion N (i) [Operational Guidelines 2002] was added. For more details see Decision 30.COM 8D.1.

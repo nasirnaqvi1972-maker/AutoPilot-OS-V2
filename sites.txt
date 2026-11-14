@@ -1,0 +1,1196 @@
+site_id	site_name	slug	category	unesco_status	year_inscribed	country	continent
+2	City of Quito	city-of-quito	Cultural	Listed	1978	Ecuador	South America
+8	Ichkeul National Park	ichkeul-national-park	Natural	Listed	1980	Tunisia	Asia
+9	Simien National Park	simien-national-park	Natural	Listed	1978	Ethiopia	Africa
+10	Lower Valley of the Awash	lower-valley-of-the-awash	Cultural	Listed	1980	Ethiopia	Africa
+12	Tiya	tiya	Cultural	Listed	1980	Ethiopia	Africa
+15	Aksum	aksum	Cultural	Listed	1980	Ethiopia	Africa
+17	Lower Valley of the Omo	lower-valley-of-the-omo	Cultural	Listed	1980	Ethiopia	Africa
+19	Fasil Ghebbi, Gondar Region	fasil-ghebbi-gondar-region	Cultural	Listed	1979	Ethiopia	Africa
+21	Ancient City of Aleppo	ancient-city-of-aleppo	Cultural	Listed	1986	Syrian Arab Republic	Asia
+24	Nahanni National Park	nahanni-national-park	Natural	Listed	1978	Canada	Europe
+25	Djoudj National Bird Sanctuary	djoudj-national-bird-sanctuary	Natural	Listed	1981	Senegal	Africa
+26	Island of Gorée	island-of-goree	Cultural	Listed	1978	Senegal	Africa
+27	Mesa Verde National Park	mesa-verde-national-park	Cultural	Listed	1978	United States of America	Europe
+31	Auschwitz Birkenau German Nazi Concentration and Extermination Camp (1940-1945)	auschwitz-birkenau-german-nazi-concentration-and-extermination-camp-1940-1945	Cultural	Listed	1979	Poland	Europe
+34	Forts and Castles, Volta, Greater Accra, Central and Western Regions	forts-and-castles-volta-greater-accra-central-and-western-regions	Cultural	Listed	1979	Ghana	Africa
+35	Asante Traditional Buildings	asante-traditional-buildings	Cultural	Listed	1980	Ghana	Africa
+37	Archaeological Site of Carthage	archaeological-site-of-carthage	Cultural	Listed	1979	Tunisia	Asia
+42	Boyana Church	boyana-church	Cultural	Listed	1979	Bulgaria	Europe
+43	Madara Rider	madara-rider	Cultural	Listed	1979	Bulgaria	Europe
+44	Thracian Tomb of Kazanlak	thracian-tomb-of-kazanlak	Cultural	Listed	1979	Bulgaria	Europe
+45	Rock-Hewn Churches of Ivanovo	rock-hewn-churches-of-ivanovo	Cultural	Listed	1979	Bulgaria	Europe
+58	Urnes Stave Church	urnes-stave-church	Cultural	Listed	1979	Norway	Europe
+59	Bryggen	bryggen	Cultural	Listed	1979	Norway	Europe
+63	Virunga National Park	virunga-national-park	Natural	Listed	1979	Democratic Republic of the Congo	Africa
+64	Tikal National Park	tikal-national-park	Mixed	Listed	1979	Guatemala	South America
+65	Antigua Guatemala	antigua-guatemala	Cultural	Listed	1979	Guatemala	South America
+71	Dinosaur Provincial Park	dinosaur-provincial-park	Natural	Listed	1979	Canada	Europe
+72	Kluane / Wrangell-St. Elias / Glacier Bay / Tatshenshini-Alsek	kluane-wrangell-st-elias-glacier-bay-tatshenshini-alsek	Natural	Listed	1979	Canada,United States of America	Europe
+75	Grand Canyon National Park	grand-canyon-national-park	Natural	Listed	1979	United States of America	Europe
+76	Everglades National Park	everglades-national-park	Natural	Listed	1979	United States of America	Europe
+78	Independence Hall	independence-hall	Cultural	Listed	1979	United States of America	Europe
+79	Paphos	paphos	Cultural	Listed	1980	Cyprus	Europe
+86	Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur	memphis-and-its-necropolis-the-pyramid-fields-from-giza-to-dahshur	Cultural	Listed	1979	Egypt	Asia
+88	Nubian Monuments from Abu Simbel to Philae	nubian-monuments-from-abu-simbel-to-philae	Cultural	Listed	1979	Egypt	Asia
+89	Historic Cairo	historic-cairo	Cultural	Listed	1979	Egypt	Asia
+90	Abu Mena	abu-mena	Cultural	Listed	1979	Egypt	Asia
+93	Church and Dominican Convent of Santa Maria delle Grazie with “The Last Supper” by Leonardo da Vinci	church-and-dominican-convent-of-santa-maria-delle-grazie-with-the-last-supper-by-leonardo-da-vinci	Cultural	Listed	1980	Italy	Europe
+94	Rock Drawings in Valcamonica	rock-drawings-in-valcamonica	Cultural	Listed	1979	Italy	Europe
+96	Stari Ras and Sopoćani	stari-ras-and-sopocani	Cultural	Listed	1979	Serbia	Europe
+97	Historical Complex of Split with the Palace of Diocletian	historical-complex-of-split-with-the-palace-of-diocletian	Cultural	Listed	1979	Croatia	Europe
+98	Plitvice Lakes National Park	plitvice-lakes-national-park	Natural	Listed	1979	Croatia	Europe
+100	Durmitor National Park	durmitor-national-park	Natural	Listed	1980	Montenegro	Europe
+113	Tchogha Zanbil	tchogha-zanbil	Cultural	Listed	1979	Iran (Islamic Republic of)	Asia
+114	Persepolis	persepolis	Cultural	Listed	1979	Iran (Islamic Republic of)	Asia
+116	Old Towns of Djenné	old-towns-of-djenne	Cultural	Listed	1988	Mali	Africa
+119	Timbuktu	timbuktu	Cultural	Listed	1988	Mali	Africa
+120	Sagarmatha National Park	sagarmatha-national-park	Natural	Listed	1979	Nepal	Asia
+124	Historic Town of Ouro Preto	historic-town-of-ouro-preto	Cultural	Listed	1980	Brazil	South America
+130	Ħal Saflieni Hypogeum	al-saflieni-hypogeum	Cultural	Listed	1980	Malta	Europe
+131	City of Valletta	city-of-valletta	Cultural	Listed	1980	Malta	Europe
+134	Redwood National and State Parks	redwood-national-and-state-parks	Natural	Listed	1980	United States of America	Europe
+135	Fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo	fortifications-on-the-caribbean-side-of-panama-portobelo-san-lorenzo	Cultural	Listed	1980	Panama	South America
+136	Garamba National Park	garamba-national-park	Natural	Listed	1980	Democratic Republic of the Congo	Africa
+137	Kahuzi-Biega National Park	kahuzi-biega-national-park	Natural	Listed	1980	Democratic Republic of the Congo	Africa
+144	Ruins of Kilwa Kisiwani and Ruins of Songo Mnara	ruins-of-kilwa-kisiwani-and-ruins-of-songo-mnara	Cultural	Listed	1981	United Republic of Tanzania	Africa
+145	Los Glaciares National Park	los-glaciares-national-park	Natural	Listed	1981	Argentina	South America
+148	Old City of Jerusalem and its Walls	old-city-of-jerusalem-and-its-walls	Cultural	Listed	1981	Jerusalem (Site proposed by Jordan)	Asia
+149	Archaeological Park and Ruins of Quirigua	archaeological-park-and-ruins-of-quirigua	Cultural	Listed	1981	Guatemala	South America
+150	Mammoth Cave National Park	mammoth-cave-national-park	Natural	Listed	1981	United States of America	Europe
+151	Olympic National Park	olympic-national-park	Natural	Listed	1981	United States of America	Europe
+153	Niokolo-Koba National Park	niokolo-koba-national-park	Natural	Listed	1981	Senegal	Africa
+155	Mount Nimba Strict Nature Reserve	mount-nimba-strict-nature-reserve	Natural	Listed	1981	Côte d'Ivoire,Guinea	Africa
+157	S G ang Gwaay	s-g-ang-gwaay	Cultural	Listed	1981	Canada	Europe
+159	Darien National Park	darien-national-park	Natural	Listed	1981	Panama	South America
+160	Palace and Park of Fontainebleau	palace-and-park-of-fontainebleau	Cultural	Listed	1981	France	Europe
+164	Arles, Roman and Romanesque Monuments	arles-roman-and-romanesque-monuments	Cultural	Listed	1981	France	Europe
+167	Willandra Lakes Region	willandra-lakes-region	Mixed	Listed	1981	Australia	Asia
+168	Speyer Cathedral	speyer-cathedral	Cultural	Listed	1981	Germany	Europe
+173	Stone Town of Zanzibar	stone-town-of-zanzibar	Cultural	Listed	2000	United Republic of Tanzania	Africa
+179	Tassili n'Ajjer	tassili-n-ajjer	Mixed	Listed	1982	Algeria	Asia
+180	National History Park – Citadel, Sans Souci, Ramiers	national-history-park-citadel-sans-souci-ramiers	Cultural	Listed	1982	Haiti	South America
+183	Archaeological Site of Leptis Magna	archaeological-site-of-leptis-magna	Cultural	Listed	1982	Libya	Asia
+184	Archaeological Site of Sabratha	archaeological-site-of-sabratha	Cultural	Listed	1982	Libya	Asia
+185	Aldabra Atoll	aldabra-atoll	Natural	Listed	1982	Seychelles	Africa
+186	Lord Howe Island Group	lord-howe-island-group	Natural	Listed	1982	Australia	Asia
+189	Historic Centre of the Town of Olinda	historic-centre-of-the-town-of-olinda	Cultural	Listed	1982	Brazil	South America
+190	Archaeological Site of Cyrene	archaeological-site-of-cyrene	Cultural	Listed	1982	Libya	Asia
+192	Old Walled City of Shibam	old-walled-city-of-shibam	Cultural	Listed	1982	Yemen	Asia
+193	Tipasa	tipasa	Cultural	Listed	1982	Algeria	Asia
+194	Timgad	timgad	Cultural	Listed	1982	Algeria	Asia
+196	Río Plátano Biosphere Reserve	rio-platano-biosphere-reserve	Natural	Listed	1982	Honduras	South America
+200	Sacred City of Anuradhapura	sacred-city-of-anuradhapura	Cultural	Listed	1982	Sri Lanka	Asia
+201	Ancient City of Polonnaruwa	ancient-city-of-polonnaruwa	Cultural	Listed	1982	Sri Lanka	Asia
+202	Ancient City of Sigiriya	ancient-city-of-sigiriya	Cultural	Listed	1982	Sri Lanka	Asia
+205	Talamanca Range-La Amistad Reserves / La Amistad National Park	talamanca-range-la-amistad-reserves-la-amistad-national-park	Natural	Listed	1983	Costa Rica,Panama	South America
+206	Central Zone of the Town of Angra do Heroismo in the Azores	central-zone-of-the-town-of-angra-do-heroismo-in-the-azores	Cultural	Listed	1983	Portugal	Europe
+216	Rila Monastery	rila-monastery	Cultural	Listed	1983	Bulgaria	Europe
+228	Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge	historic-centre-of-avignon-papal-palace-episcopal-ensemble-and-avignon-bridge	Cultural	Listed	1995	France	Europe
+233	Qutb Minar and its Monuments, Delhi	qutb-minar-and-its-monuments-delhi	Cultural	Listed	1993	India	Asia
+234	Churches and Convents of Goa	churches-and-convents-of-goa	Cultural	Listed	1986	India	Asia
+239	Group of Monuments at Pattadakal	group-of-monuments-at-pattadakal	Cultural	Listed	1987	India	Asia
+240	Khajuraho Group of Monuments	khajuraho-group-of-monuments	Cultural	Listed	1986	India	Asia
+242	Ajanta Caves	ajanta-caves	Cultural	Listed	1983	India	Asia
+244	Elephanta Caves	elephanta-caves	Cultural	Listed	1987	India	Asia
+246	Sun Temple, Konârak	sun-temple-konarak	Cultural	Listed	1984	India	Asia
+249	Group of Monuments at Mahabalipuram	group-of-monuments-at-mahabalipuram	Cultural	Listed	1984	India	Asia
+250	Great Living Chola Temples	great-living-chola-temples	Cultural	Listed	1987	India	Asia
+255	Fatehpur Sikri	fatehpur-sikri	Cultural	Listed	1986	India	Asia
+256	Wood Buffalo National Park	wood-buffalo-national-park	Natural	Listed	1983	Canada	Europe
+258	Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve	gulf-of-porto-calanche-of-piana-gulf-of-girolata-scandola-reserve	Natural	Listed	1983	France	Europe
+259	Great Smoky Mountains National Park	great-smoky-mountains-national-park	Natural	Listed	1983	United States of America	Europe
+260	Sangay National Park	sangay-national-park	Natural	Listed	1983	Ecuador	South America
+261	Vallée de Mai Nature Reserve	vallee-de-mai-nature-reserve	Natural	Listed	1983	Seychelles	Africa
+264	Monastery of Batalha	monastery-of-batalha	Cultural	Listed	1983	Portugal	Europe
+265	Convent of Christ in Tomar	convent-of-christ-in-tomar	Cultural	Listed	1983	Portugal	Europe
+267	Old City of Berne	old-city-of-berne	Cultural	Listed	1983	Switzerland	Europe
+268	Abbey of St Gall	abbey-of-st-gall	Cultural	Listed	1983	Switzerland	Europe
+269	Benedictine Convent of St John at Müstair	benedictine-convent-of-st-john-at-mustair	Cultural	Listed	1983	Switzerland	Europe
+273	City of Cuzco	city-of-cuzco	Cultural	Listed	1983	Peru	South America
+277	Hatra	hatra	Cultural	Listed	1985	Iraq	Asia
+280	Salonga National Park	salonga-national-park	Natural	Listed	1984	Democratic Republic of the Congo	Africa
+284	Chitwan National Park	chitwan-national-park	Natural	Listed	1984	Nepal	Asia
+285	Port, Fortresses and Group of Monuments, Cartagena	port-fortresses-and-group-of-monuments-cartagena	Cultural	Listed	1984	Colombia	South America
+286	Vatican City	vatican-city	Cultural	Listed	1984	Holy See	Europe
+287	Rock-Art Sites of Tadrart Acacus	rock-art-sites-of-tadrart-acacus	Cultural	Listed	1985	Libya	Asia
+289	Lake Malawi National Park	lake-malawi-national-park	Natural	Listed	1984	Malawi	Africa
+275	Jesuit Missions of the Guaranis: San Ignacio Mini, Santa Ana, Nuestra Señora de Loreto and Santa Maria Mayor (Argentina), Ruins of Sao Miguel das Missoes (Brazil)	jesuit-missions-of-the-guaranis-san-ignacio-mini-santa-ana-nuestra-senora-de-loreto-and-santa-maria-mayor-argentina-ruins-of-sao-miguel-das-missoes-brazil	Cultural	Listed	1983	Argentina,Brazil	South America
+293	Anjar	anjar	Cultural	Listed	1984	Lebanon	Asia
+294	Baalbek	baalbek	Cultural	Listed	1984	Lebanon	Asia
+295	Byblos	byblos	Cultural	Listed	1984	Lebanon	Asia
+299	Tyre	tyre	Cultural	Listed	1984	Lebanon	Asia
+300	Historic District of Old Québec	historic-district-of-old-quebec	Cultural	Listed	1985	Canada	Europe
+302	Mana Pools National Park, Sapi and Chewore Safari Areas	mana-pools-national-park-sapi-and-chewore-safari-areas	Natural	Listed	1984	Zimbabwe	Africa
+303	Iguazu National Park	iguazu-national-park	Natural	Listed	1984	Argentina	South America
+304	Canadian Rocky Mountain Parks	canadian-rocky-mountain-parks	Natural	Listed	1984	Canada	Europe
+306	Matobo Hills	matobo-hills	Cultural	Listed	2003	Zimbabwe	Africa
+307	Statue of Liberty	statue-of-liberty	Cultural	Listed	1984	United States of America	Europe
+308	Yosemite National Park	yosemite-national-park	Natural	Listed	1984	United States of America	Europe
+309	Historic Centre of Salvador de Bahia	historic-centre-of-salvador-de-bahia	Cultural	Listed	1985	Brazil	South America
+312	Monuments of Oviedo and the Kingdom of the Asturias	monuments-of-oviedo-and-the-kingdom-of-the-asturias	Cultural	Listed	1985	Spain	Europe
+313	Historic Centre of Cordoba	historic-centre-of-cordoba	Cultural	Listed	1984	Spain	Europe
+318	Monastery and Site of the Escurial, Madrid	monastery-and-site-of-the-escurial-madrid	Cultural	Listed	1984	Spain	Europe
+320	Works of Antoni Gaudí	works-of-antoni-gaudi	Cultural	Listed	1984	Spain	Europe
+321	Historic Mosque City of Bagerhat	historic-mosque-city-of-bagerhat	Cultural	Listed	1985	Bangladesh	Asia
+322	Ruins of the Buddhist Vihara at Paharpur	ruins-of-the-buddhist-vihara-at-paharpur	Cultural	Listed	1985	Bangladesh	Asia
+327	Quseir Amra	quseir-amra	Cultural	Listed	1985	Jordan	Asia
+330	Chavin (Archaeological Site)	chavin-archaeological-site	Cultural	Listed	1985	Peru	South America
+331	Medina of Marrakesh	medina-of-marrakesh	Cultural	Listed	1985	Morocco	Asia
+332	Punic Town of Kerkuane and its Necropolis	punic-town-of-kerkuane-and-its-necropolis	Cultural	Listed	1985	Tunisia	Asia
+333	Huascarán National Park	huascaran-national-park	Natural	Listed	1985	Peru	South America
+334	Sanctuary of Bom Jesus do Congonhas	sanctuary-of-bom-jesus-do-congonhas	Cultural	Listed	1985	Brazil	South America
+335	Nanda Devi and Valley of Flowers National Parks	nanda-devi-and-valley-of-flowers-national-parks	Natural	Listed	1988	India	Asia
+337	Kaziranga National Park	kaziranga-national-park	Natural	Listed	1985	India	Asia
+338	Manas Wildlife Sanctuary	manas-wildlife-sanctuary	Natural	Listed	1985	India	Asia
+340	Keoladeo National Park	keoladeo-national-park	Natural	Listed	1985	India	Asia
+345	Historic Fortified City of Carcassonne	historic-fortified-city-of-carcassonne	Cultural	Listed	1997	France	Europe
+347	Santiago de Compostela (Old Town)	santiago-de-compostela-old-town	Cultural	Listed	1985	Spain	Europe
+351	Painted Churches in the Troodos Region	painted-churches-in-the-troodos-region	Cultural	Listed	1985	Cyprus	Europe
+352	Rock Art of Alta	rock-art-of-alta	Cultural	Listed	1985	Norway	Europe
+353	Chaco Culture	chaco-culture	Cultural	Listed	1987	United States of America	Europe
+354	Waterton Glacier International Peace Park	waterton-glacier-international-peace-park	Natural	Listed	1995	Canada,United States of America	Europe
+355	Iguaçu National Park	iguacu-national-park	Natural	Listed	1986	Brazil	South America
+357	Göreme National Park and the Rock Sites of Cappadocia	goreme-national-park-and-the-rock-sites-of-cappadocia	Mixed	Listed	1985	Türkiye	Europe
+358	Great Mosque and Hospital of Divriği	great-mosque-and-hospital-of-divrigi	Cultural	Listed	1985	Türkiye	Europe
+359	Thracian Tomb of Sveshtari	thracian-tomb-of-sveshtari	Cultural	Listed	1985	Bulgaria	Europe
+361	Historic Centre of Évora	historic-centre-of-evora	Cultural	Listed	1986	Portugal	Europe
+365	Khami Ruins National Monument	khami-ruins-national-monument	Cultural	Listed	1986	Zimbabwe	Africa
+366	Chan Chan Archaeological Zone	chan-chan-archaeological-zone	Cultural	Listed	1986	Peru	South America
+367	Roman Monuments, Cathedral of St Peter and Church of Our Lady in Trier	roman-monuments-cathedral-of-st-peter-and-church-of-our-lady-in-trier	Cultural	Listed	1986	Germany	Europe
+368	Gondwana Rainforests of Australia	gondwana-rainforests-of-australia	Natural	Listed	1986	Australia	Asia
+371	Ironbridge Gorge	ironbridge-gorge	Cultural	Listed	1986	United Kingdom of Great Britain and Northern Ireland	Europe
+374	Castles and Town Walls of King Edward in Gwynedd	castles-and-town-walls-of-king-edward-in-gwynedd	Cultural	Listed	1986	United Kingdom of Great Britain and Northern Ireland	Europe
+377	Hattusha: the Hittite Capital	hattusha-the-hittite-capital	Cultural	Listed	1986	Türkiye	Europe
+379	Historic City of Toledo	historic-city-of-toledo	Cultural	Listed	1986	Spain	Europe
+380	Garajonay National Park	garajonay-national-park	Natural	Listed	1986	Spain	Europe
+381	Old City of Salamanca	old-city-of-salamanca	Cultural	Listed	1988	Spain	Europe
+385	Old City of Sana'a	old-city-of-sana-a	Cultural	Listed	1986	Yemen	Asia
+389	Studenica Monastery	studenica-monastery	Cultural	Listed	1986	Serbia	Europe
+390	Škocjan Caves	skocjan-caves	Natural	Listed	1986	Slovenia	Europe
+392	Temple of Apollo Epicurius at Bassae	temple-of-apollo-epicurius-at-bassae	Cultural	Listed	1986	Greece	Europe
+393	Archaeological Site of Delphi	archaeological-site-of-delphi	Cultural	Listed	1987	Greece	Europe
+394	Venice and its Lagoon	venice-and-its-lagoon	Cultural	Listed	1987	Italy	Europe
+398	Castel del Monte	castel-del-monte	Cultural	Listed	1996	Italy	Europe
+400	Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue	budapest-including-the-banks-of-the-danube-the-buda-castle-quarter-and-andrassy-avenue	Cultural	Listed	1987	Hungary	Europe
+401	Old Village of Hollókő and its Surroundings	old-village-of-holloko-and-its-surroundings	Cultural	Listed	1987	Hungary	Europe
+403	Kilimanjaro National Park	kilimanjaro-national-park	Natural	Listed	1987	United Republic of Tanzania	Africa
+405	Sinharaja Forest Reserve	sinharaja-forest-reserve	Natural	Listed	1988	Sri Lanka	Asia
+407	Dja Faunal Reserve	dja-faunal-reserve	Natural	Listed	1987	Cameroon	Africa
+409	Hawaii Volcanoes National Park	hawaii-volcanoes-national-park	Natural	Listed	1987	United States of America	Europe
+410	Sian Ka'an	sian-ka-an	Natural	Listed	1987	Mexico	South America
+411	Pre-Hispanic City and National Park of Palenque	pre-hispanic-city-and-national-park-of-palenque	Cultural	Listed	1987	Mexico	South America
+415	Historic Centre of Oaxaca and Archaeological Site of Monte Albán	historic-centre-of-oaxaca-and-archaeological-site-of-monte-alban	Cultural	Listed	1987	Mexico	South America
+416	Historic Centre of Puebla	historic-centre-of-puebla	Cultural	Listed	1987	Mexico	South America
+417	Ibiza, Biodiversity and Culture	ibiza-biodiversity-and-culture	Mixed	Listed	1999	Spain	Europe
+419	Gros Morne National Park	gros-morne-national-park	Natural	Listed	1987	Canada	Europe
+420	City of Potosí	city-of-potosi	Cultural	Listed	1987	Bolivia (Plurinational State of)	South America
+425	Blenheim Palace	blenheim-palace	Cultural	Listed	1987	United Kingdom of Great Britain and Northern Ireland	Europe
+428	City of Bath	city-of-bath	Cultural	Listed	1987	United Kingdom of Great Britain and Northern Ireland	Europe
+429	New Lanark	new-lanark	Cultural	Listed	2001	United Kingdom of Great Britain and Northern Ireland	Europe
+433	Bahla Fort	bahla-fort	Cultural	Listed	1987	Oman	Asia
+434	Archaeological Sites of Bat, Al-Khutm and Al-Ayn	archaeological-sites-of-bat-al-khutm-and-al-ayn	Cultural	Listed	1988	Oman	Asia
+437	Mount Taishan	mount-taishan	Mixed	Listed	1987	China	Asia
+440	Mogao Caves	mogao-caves	Cultural	Listed	1987	China	Asia
+441	Mausoleum of the First Qin Emperor	mausoleum-of-the-first-qin-emperor	Cultural	Listed	1987	China	Asia
+444	Ksar of Ait-Ben-Haddou	ksar-of-ait-ben-haddou	Cultural	Listed	1987	Morocco	Asia
+445	Brasilia	brasilia	Cultural	Listed	1987	Brazil	South America
+447	Ulu r u-Kata Tju t a National Park	ulu-r-u-kata-tju-t-a-national-park	Mixed	Listed	1987	Australia	Asia
+448	Nemrut Dağ	nemrut-dag	Cultural	Listed	1987	Türkiye	Europe
+449	Peking Man Site at Zhoukoudian	peking-man-site-at-zhoukoudian	Cultural	Listed	1987	China	Asia
+450	Sacred City of Kandy	sacred-city-of-kandy	Cultural	Listed	1988	Sri Lanka	Asia
+451	Old Town of Galle and its Fortifications	old-town-of-galle-and-its-fortifications	Cultural	Listed	1988	Sri Lanka	Asia
+452	Sundarbans National Park	sundarbans-national-park	Natural	Listed	1987	India	Asia
+454	Mount Athos	mount-athos	Mixed	Listed	1988	Greece	Europe
+456	Paleochristian and Byzantine Monuments of Thessalonika	paleochristian-and-byzantine-monuments-of-thessalonika	Cultural	Listed	1988	Greece	Europe
+460	Trinidad and the Valley de los Ingenios	trinidad-and-the-valley-de-los-ingenios	Cultural	Listed	1988	Cuba	South America
+474	Hortobágy National Park - the Puszta	hortobagy-national-park-the-puszta	Cultural	Listed	1999	Hungary	Europe
+475	Manovo-Gounda St Floris National Park	manovo-gounda-st-floris-national-park	Natural	Listed	1988	Central African Republic	Africa
+481	Vat Phou and Associated Ancient Settlements within the Champasak Cultural Landscape	vat-phou-and-associated-ancient-settlements-within-the-champasak-cultural-landscape	Cultural	Listed	2001	Lao People's Democratic Republic	Asia
+482	Historic Town of Guanajuato and Adjacent Mines	historic-town-of-guanajuato-and-adjacent-mines	Cultural	Listed	1988	Mexico	South America
+483	Pre-Hispanic City of Chichen-Itza	pre-hispanic-city-of-chichen-itza	Cultural	Listed	1988	Mexico	South America
+484	Xanthos-Letoon	xanthos-letoon	Cultural	Listed	1988	Türkiye	Europe
+485	Hierapolis-Pamukkale	hierapolis-pamukkale	Mixed	Listed	1988	Türkiye	Europe
+486	Wet Tropics of Queensland	wet-tropics-of-queensland	Natural	Listed	1988	Australia	Asia
+487	Henderson Island	henderson-island	Natural	Listed	1988	United Kingdom of Great Britain and Northern Ireland	Europe
+488	Tower of London	tower-of-london	Cultural	Listed	1988	United Kingdom of Great Britain and Northern Ireland	Europe
+491	Sanctuary of Asklepios at Epidaurus	sanctuary-of-asklepios-at-epidaurus	Cultural	Listed	1988	Greece	Europe
+492	Taos Pueblo	taos-pueblo	Cultural	Listed	1992	United States of America	Europe
+493	Medieval City of Rhodes	medieval-city-of-rhodes	Cultural	Listed	1988	Greece	Europe
+496	Canterbury Cathedral, St Augustine's Abbey, and St Martin's Church	canterbury-cathedral-st-augustine-s-abbey-and-st-martin-s-church	Cultural	Listed	1988	United Kingdom of Great Britain and Northern Ireland	Europe
+502	Historic City of Vigan	historic-city-of-vigan	Cultural	Listed	1999	Philippines	Asia
+505	Monastery of Alcobaça	monastery-of-alcobaca	Cultural	Listed	1989	Portugal	Europe
+506	Banc d'Arguin National Park	banc-d-arguin-national-park	Natural	Listed	1989	Mauritania	Asia
+509	Mosi-oa-Tunya / Victoria Falls	mosi-oa-tunya-victoria-falls	Natural	Listed	1989	Zambia,Zimbabwe	Africa
+511	Archaeological Site of Mystras	archaeological-site-of-mystras	Cultural	Listed	1989	Greece	Europe
+516	Cliff of Bandiagara (Land of the Dogons)	cliff-of-bandiagara-land-of-the-dogons	Mixed	Listed	1989	Mali	Africa
+517	Archaeological Site of Olympia	archaeological-site-of-olympia	Cultural	Listed	1989	Greece	Europe
+518	Poblet Monastery	poblet-monastery	Cultural	Listed	1991	Spain	Europe
+522	Renaissance Monumental Ensembles of Úbeda and Baeza	renaissance-monumental-ensembles-of-ubeda-and-baeza	Cultural	Listed	2003	Spain	Europe
+524	Buddhist Monuments at Sanchi	buddhist-monuments-at-sanchi	Cultural	Listed	1989	India	Asia
+529	Jesuit Missions of the Chiquitos	jesuit-missions-of-the-chiquitos	Cultural	Listed	1990	Bolivia (Plurinational State of)	South America
+530	Delos	delos	Cultural	Listed	1990	Greece	Europe
+532	Palaces and Parks of Potsdam and Berlin	palaces-and-parks-of-potsdam-and-berlin	Cultural	Listed	1990	Germany	Europe
+535	Collegiate Church, Castle and Old Town of Quedlinburg	collegiate-church-castle-and-old-town-of-quedlinburg	Cultural	Listed	1994	Germany	Europe
+537	Monasteries of Daphni, Hosios Loukas and Nea Moni of Chios	monasteries-of-daphni-hosios-loukas-and-nea-moni-of-chios	Cultural	Listed	1990	Greece	Europe
+543	Itchan Kala	itchan-kala	Cultural	Listed	1990	Uzbekistan	Asia
+544	Kizhi Pogost	kizhi-pogost	Cultural	Listed	1990	Russian Federation	Europe
+545	Kremlin and Red Square, Moscow	kremlin-and-red-square-moscow	Cultural	Listed	1990	Russian Federation	Europe
+548	Río Abiseo National Park	rio-abiseo-national-park	Mixed	Listed	1990	Peru	South America
+549	18th-Century Royal Palace at Caserta with the Park, the Aqueduct of Vanvitelli, and the San Leucio Complex	18th-century-royal-palace-at-caserta-with-the-park-the-aqueduct-of-vanvitelli-and-the-san-leucio-complex	Cultural	Listed	1997	Italy	Europe
+550	Historic Centre of San Gimignano	historic-centre-of-san-gimignano	Cultural	Listed	1990	Italy	Europe
+554	Whale Sanctuary of El Vizcaino	whale-sanctuary-of-el-vizcaino	Natural	Listed	1993	Mexico	South America
+555	Birka and Hovgården	birka-and-hovgarden	Cultural	Listed	1993	Sweden	Europe
+556	Engelsberg Ironworks	engelsberg-ironworks	Cultural	Listed	1993	Sweden	Europe
+557	Rock Carvings in Tanum	rock-carvings-in-tanum	Cultural	Listed	1994	Sweden	Europe
+558	Skogskyrkogården	skogskyrkogarden	Cultural	Listed	1994	Sweden	Europe
+560	Archaeological Zone of Paquimé, Casas Grandes	archaeological-zone-of-paquime-casas-grandes	Cultural	Listed	1998	Mexico	South America
+561	Rangiri Dambulla Cave Temple	rangiri-dambulla-cave-temple	Cultural	Listed	1991	Sri Lanka	Asia
+564	Old City of Zamość	old-city-of-zamosc	Cultural	Listed	1992	Poland	Europe
+565	Kasbah of Algiers	kasbah-of-algiers	Cultural	Listed	1992	Algeria	Asia
+567	Tiwanaku: Spiritual and Political Centre of the Tiwanaku Culture	tiwanaku-spiritual-and-political-centre-of-the-tiwanaku-culture	Cultural	Listed	2000	Bolivia (Plurinational State of)	South America
+573	Air and Ténéré Natural Reserves	air-and-tenere-natural-reserves	Natural	Listed	1991	Niger	Africa
+574	Historic Town of Sukhothai and Associated Historic Towns	historic-town-of-sukhothai-and-associated-historic-towns	Cultural	Listed	1991	Thailand	Asia
+575	Ban Chiang Archaeological Site	ban-chiang-archaeological-site	Cultural	Listed	1992	Thailand	Asia
+577	Heard and McDonald Islands	heard-and-mcdonald-islands	Natural	Listed	1997	Australia	Asia
+578	Shark Bay, Western Australia	shark-bay-western-australia	Natural	Listed	1991	Australia	Asia
+579	Bronze Age Burial Site of Sammallahdenmäki	bronze-age-burial-site-of-sammallahdenmaki	Cultural	Listed	1999	Finland	Europe
+583	Fortress of Suomenlinna	fortress-of-suomenlinna	Cultural	Listed	1991	Finland	Europe
+584	Petäjävesi Old Church	petajavesi-old-church	Cultural	Listed	1994	Finland	Europe
+585	Historic Centre of Morelia	historic-centre-of-morelia	Cultural	Listed	1991	Mexico	South America
+588	Danube Delta	danube-delta	Natural	Listed	1991	Romania	Europe
+590	Dong Phayayen-Khao Yai Forest Complex	dong-phayayen-khao-yai-forest-complex	Natural	Listed	2005	Thailand	Asia
+591	Thungyai-Huai Kha Khaeng Wildlife Sanctuaries	thungyai-huai-kha-khaeng-wildlife-sanctuaries	Natural	Listed	1991	Thailand	Asia
+593	Sangiran Early Man Site	sangiran-early-man-site	Cultural	Listed	1996	Indonesia	Asia
+595	Pythagoreion and Heraion of Samos	pythagoreion-and-heraion-of-samos	Cultural	Listed	1992	Greece	Europe
+596	Villages with Fortified Churches in Transylvania	villages-with-fortified-churches-in-transylvania	Cultural	Listed	1993	Romania	Europe
+597	Monastery of Horezu	monastery-of-horezu	Cultural	Listed	1993	Romania	Europe
+599	Island of Mozambique	island-of-mozambique	Cultural	Listed	1991	Mozambique	Africa
+601	Cathedral of Notre-Dame, Former Abbey of Saint-Rémi and Palace of Tau, Reims	cathedral-of-notre-dame-former-abbey-of-saint-remi-and-palace-of-tau-reims	Cultural	Listed	1991	France	Europe
+603	Samarkand – Crossroad of Cultures	samarkand-crossroad-of-cultures	Cultural	Listed	2001	Uzbekistan	Asia
+604	Historic Monuments of Novgorod and Surroundings	historic-monuments-of-novgorod-and-surroundings	Cultural	Listed	1992	Russian Federation	Europe
+606	Serra da Capivara National Park	serra-da-capivara-national-park	Cultural	Listed	1991	Brazil	South America
+608	Ujung Kulon National Park	ujung-kulon-national-park	Natural	Listed	1991	Indonesia	Asia
+609	Komodo National Park	komodo-national-park	Natural	Listed	1991	Indonesia	Asia
+611	Historic Town of Zabid	historic-town-of-zabid	Cultural	Listed	1993	Yemen	Asia
+613	Ruins of León Viejo	ruins-of-leon-viejo	Cultural	Listed	2000	Nicaragua	South America
+614	City of Safranbolu	city-of-safranbolu	Cultural	Listed	1994	Türkiye	Europe
+617	Historic Centre of Český Krumlov	historic-centre-of-cesky-krumlov	Cultural	Listed	1992	Czechia	Europe
+618	Historic Town of Banská Štiavnica and the Technical Monuments in its Vicinity	historic-town-of-banska-stiavnica-and-the-technical-monuments-in-its-vicinity	Cultural	Listed	1993	Slovakia	Europe
+621	Historic Centre of Telč	historic-centre-of-telc	Cultural	Listed	1992	Czechia	Europe
+622	Vlkolínec	vlkolinec	Cultural	Listed	1993	Slovakia	Europe
+624	Town of Bamberg	town-of-bamberg	Cultural	Listed	1993	Germany	Europe
+625	Mir Castle Complex	mir-castle-complex	Cultural	Listed	2000	Belarus	Europe
+629	Macquarie Island	macquarie-island	Natural	Listed	1997	Australia	Asia
+630	K’gari (Fraser Island)	kgari-fraser-island	Natural	Listed	1992	Australia	Asia
+631	El Tajin, Pre-Hispanic City	el-tajin-pre-hispanic-city	Cultural	Listed	1992	Mexico	South America
+632	Cultural and Historic Ensemble of the Solovetsky Islands	cultural-and-historic-ensemble-of-the-solovetsky-islands	Cultural	Listed	1992	Russian Federation	Europe
+633	White Monuments of Vladimir and Suzdal	white-monuments-of-vladimir-and-suzdal	Cultural	Listed	1992	Russian Federation	Europe
+634	Church of the Ascension, Kolomenskoye	church-of-the-ascension-kolomenskoye	Cultural	Listed	1994	Russian Federation	Europe
+637	Jiuzhaigou Valley Scenic and Historic Interest Area	jiuzhaigou-valley-scenic-and-historic-interest-area	Natural	Listed	1992	China	Asia
+638	Huanglong Scenic and Historic Interest Area	huanglong-scenic-and-historic-interest-area	Natural	Listed	1992	China	Asia
+640	Wulingyuan Scenic and Historic Interest Area	wulingyuan-scenic-and-historic-interest-area	Natural	Listed	1992	China	Asia
+642	Prambanan Temple Compounds	prambanan-temple-compounds	Cultural	Listed	1991	Indonesia	Asia
+648	Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue	jesuit-missions-of-la-santisima-trinidad-de-parana-and-jesus-de-tavarangue	Cultural	Listed	1993	Paraguay	South America
+652	Puerto-Princesa Subterranean River National Park	puerto-princesa-subterranean-river-national-park	Natural	Listed	1999	Philippines	Asia
+657	Architectural Ensemble of the Trinity Sergius Lavra in Sergiev Posad	architectural-ensemble-of-the-trinity-sergius-lavra-in-sergiev-posad	Cultural	Listed	1993	Russian Federation	Europe
+658	Coro and its Port	coro-and-its-port	Cultural	Listed	1993	Venezuela (Bolivarian Republic of)	South America
+659	Brú na Bóinne - Archaeological Ensemble of the Bend of the Boyne	bru-na-boinne-archaeological-ensemble-of-the-bend-of-the-boyne	Cultural	Listed	1993	Ireland	Europe
+660	Buddhist Monuments in the Horyu-ji Area	buddhist-monuments-in-the-horyu-ji-area	Cultural	Listed	1993	Japan	Asia
+661	Himeji-jo	himeji-jo	Cultural	Listed	1993	Japan	Asia
+662	Yakushima	yakushima	Natural	Listed	1993	Japan	Asia
+663	Shirakami-Sanchi	shirakami-sanchi	Natural	Listed	1993	Japan	Asia
+664	Archaeological Ensemble of Mérida	archaeological-ensemble-of-merida	Cultural	Listed	1993	Spain	Europe
+665	Royal Monastery of Santa María de Guadalupe	royal-monastery-of-santa-maria-de-guadalupe	Cultural	Listed	1993	Spain	Europe
+670	The Sassi and the Park of the Rupestrian Churches of Matera	the-sassi-and-the-park-of-the-rupestrian-churches-of-matera	Cultural	Listed	1993	Italy	Europe
+675	Joya de Cerén Archaeological Site	joya-de-ceren-archaeological-site	Cultural	Listed	1993	El Salvador	South America
+676	Historic Centre of Zacatecas	historic-centre-of-zacatecas	Cultural	Listed	1993	Mexico	South America
+678	Complex of Hué Monuments	complex-of-hue-monuments	Cultural	Listed	1993	Viet Nam	Asia
+682	Bwindi Impenetrable National Park	bwindi-impenetrable-national-park	Natural	Listed	1994	Uganda	Africa
+684	Rwenzori Mountains National Park	rwenzori-mountains-national-park	Natural	Listed	1994	Uganda	Africa
+685	Doñana National Park	donana-national-park	Natural	Listed	1994	Spain	Europe
+686	Miguasha National Park	miguasha-national-park	Natural	Listed	1999	Canada	Europe
+687	Völklingen Ironworks	volklingen-ironworks	Cultural	Listed	1994	Germany	Europe
+688	Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)	historic-monuments-of-ancient-kyoto-kyoto-uji-and-otsu-cities	Cultural	Listed	1994	Japan	Asia
+690	Pilgrimage Church of St John of Nepomuk at Zelená Hora	pilgrimage-church-of-st-john-of-nepomuk-at-zelena-hora	Cultural	Listed	1994	Czechia	Europe
+695	Roskilde Cathedral	roskilde-cathedral	Cultural	Listed	1995	Denmark	Europe
+696	Kronborg Castle	kronborg-castle	Cultural	Listed	2000	Denmark	Europe
+698	Australian Fossil Mammal Sites (Riversleigh / Naracoorte)	australian-fossil-mammal-sites-riversleigh-naracoorte	Natural	Listed	1994	Australia	Asia
+699	City of Luxembourg: its Old Quarters and Fortifications	city-of-luxembourg-its-old-quarters-and-fortifications	Cultural	Listed	1994	Luxembourg	Europe
+700	Lines and Geoglyphs of Nasca and Palpa	lines-and-geoglyphs-of-nasca-and-palpa	Cultural	Listed	1994	Peru	South America
+701	Canaima National Park	canaima-national-park	Natural	Listed	1994	Venezuela (Bolivarian Republic of)	South America
+703	Mountain Resort and its Outlying Temples, Chengde	mountain-resort-and-its-outlying-temples-chengde	Cultural	Listed	1994	China	Asia
+704	Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu	temple-and-cemetery-of-confucius-and-the-kong-family-mansion-in-qufu	Cultural	Listed	1994	China	Asia
+705	Ancient Building Complex in the Wudang Mountains	ancient-building-complex-in-the-wudang-mountains	Cultural	Listed	1994	China	Asia
+707	Historic Ensemble of the Potala Palace, Lhasa	historic-ensemble-of-the-potala-palace-lhasa	Cultural	Listed	1994	China	Asia
+709	Upper Svaneti	upper-svaneti	Cultural	Listed	1996	Georgia	Europe
+711	Los Katíos National Park	los-katios-national-park	Natural	Listed	1994	Colombia	South America
+712	City of Vicenza and the Palladian Villas of the Veneto	city-of-vicenza-and-the-palladian-villas-of-the-veneto	Cultural	Listed	1994	Italy	Europe
+714	Rock Paintings of the Sierra de San Francisco	rock-paintings-of-the-sierra-de-san-francisco	Cultural	Listed	1993	Mexico	South America
+715	Rapa Nui National Park	rapa-nui-national-park	Cultural	Listed	1995	Chile	South America
+717	Historic Centre of Siena	historic-centre-of-siena	Cultural	Listed	1995	Italy	Europe
+718	Okapi Wildlife Reserve	okapi-wildlife-reserve	Natural	Listed	1996	Democratic Republic of the Congo	Africa
+719	Virgin Komi Forests	virgin-komi-forests	Natural	Listed	1995	Russian Federation	Europe
+721	Carlsbad Caverns National Park	carlsbad-caverns-national-park	Natural	Listed	1995	United States of America	Europe
+722	Rice Terraces of the Philippine Cordilleras	rice-terraces-of-the-philippine-cordilleras	Cultural	Listed	1995	Philippines	Asia
+723	Cultural Landscape of Sintra	cultural-landscape-of-sintra	Cultural	Listed	1995	Portugal	Europe
+724	Medieval Monuments in Kosovo	medieval-monuments-in-kosovo	Cultural	Listed	2004	Serbia	Europe
+728	Old and New Towns of Edinburgh	old-and-new-towns-of-edinburgh	Cultural	Listed	1995	United Kingdom of Great Britain and Northern Ireland	Europe
+730	Crespi d'Adda	crespi-d-adda	Cultural	Listed	1995	Italy	Europe
+731	Hanseatic Town of Visby	hanseatic-town-of-visby	Cultural	Listed	1995	Sweden	Europe
+732	Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec	kutna-hora-historical-town-centre-with-the-church-of-st-barbara-and-the-cathedral-of-our-lady-at-sedlec	Cultural	Listed	1995	Czechia	Europe
+733	Ferrara, City of the Renaissance, and its Po Delta	ferrara-city-of-the-renaissance-and-its-po-delta	Cultural	Listed	1995	Italy	Europe
+734	Historic Villages of Shirakawa-go and Gokayama	historic-villages-of-shirakawa-go-and-gokayama	Cultural	Listed	1995	Japan	Asia
+736	Seokguram Grotto and Bulguksa Temple	seokguram-grotto-and-bulguksa-temple	Cultural	Listed	1995	Republic of Korea	Asia
+737	Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks	haeinsa-temple-janggyeong-panjeon-the-depositories-for-the-tripitaka-koreana-woodblocks	Cultural	Listed	1995	Republic of Korea	Asia
+738	Jongmyo Shrine	jongmyo-shrine	Cultural	Listed	1995	Republic of Korea	Asia
+739	Schokland and Surroundings	schokland-and-surroundings	Cultural	Listed	1995	Netherlands (Kingdom of the)	Europe
+740	Gough and Inaccessible Islands	gough-and-inaccessible-islands	Natural	Listed	1995	United Kingdom of Great Britain and Northern Ireland	Europe
+741	Old Town Lunenburg	old-town-lunenburg	Cultural	Listed	1995	Canada	Europe
+742	Historic Centre of Santa Cruz de Mompox	historic-centre-of-santa-cruz-de-mompox	Cultural	Listed	1995	Colombia	South America
+743	National Archeological Park of Tierradentro	national-archeological-park-of-tierradentro	Cultural	Listed	1995	Colombia	South America
+744	San Agustín Archaeological Park	san-agustin-archaeological-park	Cultural	Listed	1995	Colombia	South America
+747	Historic Quarter of the City of Colonia del Sacramento	historic-quarter-of-the-city-of-colonia-del-sacramento	Cultural	Listed	1995	Uruguay	South America
+750	Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata	ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata	Cultural	Listed	1996	Mauritania	Asia
+751	Verla Groundwood and Board Mill	verla-groundwood-and-board-mill	Cultural	Listed	1996	Finland	Europe
+753	Medina of Essaouira (formerly Mogador)	medina-of-essaouira-formerly-mogador	Cultural	Listed	2001	Morocco	Asia
+754	Lake Baikal	lake-baikal	Natural	Listed	1996	Russian Federation	Europe
+755	Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar	historic-centre-of-oporto-luiz-i-bridge-and-monastery-of-serra-do-pilar	Cultural	Listed	1996	Portugal	Europe
+757	Sceilg Mhichíl	sceilg-mhichil	Cultural	Listed	1996	Ireland	Europe
+758	Millenary Benedictine Abbey of Pannonhalma and its Natural Environment	millenary-benedictine-abbey-of-pannonhalma-and-its-natural-environment	Cultural	Listed	1996	Hungary	Europe
+761	Kunta Kinteh Island and Related Sites	kunta-kinteh-island-and-related-sites	Cultural	Listed	2003	Gambia	Africa
+762	Church Town of Gammelstad, Luleå	church-town-of-gammelstad-lulea	Cultural	Listed	1996	Sweden	Europe
+763	Lednice-Valtice Cultural Landscape	lednice-valtice-cultural-landscape	Cultural	Listed	1996	Czechia	Europe
+764	Belize Barrier Reef Reserve System	belize-barrier-reef-reserve-system	Natural	Listed	1996	Belize	South America
+765	Volcanoes of Kamchatka	volcanoes-of-kamchatka	Natural	Listed	1996	Russian Federation	Europe
+768	Golden Mountains of Altai	golden-mountains-of-altai	Natural	Listed	1998	Russian Federation	Europe
+769	Uvs Nuur Basin	uvs-nuur-basin	Natural	Listed	2003	Mongolia,Russian Federation	Asia,Europe
+770	Canal du Midi	canal-du-midi	Cultural	Listed	1996	France	Europe
+772	Fertö / Neusiedlersee Cultural Landscape	ferto-neusiedlersee-cultural-landscape	Cultural	Listed	2001	Austria,Hungary	Europe
+773	Pyrénées - Mont Perdu	pyrenees-mont-perdu	Mixed	Listed	1997	France,Spain	Europe
+774	Laponian Area	laponian-area	Mixed	Listed	1996	Sweden	Europe
+776	Itsukushima Shinto Shrine	itsukushima-shinto-shrine	Cultural	Listed	1996	Japan	Asia
+777	Monasteries of Haghpat and Sanahin	monasteries-of-haghpat-and-sanahin	Cultural	Listed	1996	Armenia	Europe
+778	Lushan National Park	lushan-national-park	Cultural	Listed	1996	China	Asia
+779	Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area	mount-emei-scenic-area-including-leshan-giant-buddha-scenic-area	Mixed	Listed	1996	China	Asia
+780	Archaeological Site of Aigai (modern name Vergina)	archaeological-site-of-aigai-modern-name-vergina	Cultural	Listed	1996	Greece	Europe
+781	Historic Walled Town of Cuenca	historic-walled-town-of-cuenca	Cultural	Listed	1996	Spain	Europe
+782	La Lonja de la Seda de Valencia	la-lonja-de-la-seda-de-valencia	Cultural	Listed	1996	Spain	Europe
+783	Luther Memorials in Eisleben and Wittenberg	luther-memorials-in-eisleben-and-wittenberg	Cultural	Listed	1996	Germany	Europe
+784	Historic Centre of the City of Salzburg	historic-centre-of-the-city-of-salzburg	Cultural	Listed	1996	Austria	Europe
+785	Semmering Railway	semmering-railway	Cultural	Listed	1998	Austria	Europe
+786	Palace and Gardens of Schönbrunn	palace-and-gardens-of-schonbrunn	Cultural	Listed	1996	Austria	Europe
+787	The Trulli of Alberobello	the-trulli-of-alberobello	Cultural	Listed	1996	Italy	Europe
+788	Early Christian Monuments of Ravenna	early-christian-monuments-of-ravenna	Cultural	Listed	1996	Italy	Europe
+789	Historic Centre of the City of Pienza	historic-centre-of-the-city-of-pienza	Cultural	Listed	1996	Italy	Europe
+791	Pre-Hispanic Town of Uxmal	pre-hispanic-town-of-uxmal	Cultural	Listed	1996	Mexico	South America
+792	Historic Monuments Zone of Querétaro	historic-monuments-zone-of-queretaro	Cultural	Listed	1996	Mexico	South America
+793	Historic City of Meknes	historic-city-of-meknes	Cultural	Listed	1996	Morocco	Asia
+794	Dougga / Thugga	dougga-thugga	Cultural	Listed	1997	Tunisia	Asia
+795	Maritime Greenwich	maritime-greenwich	Cultural	Listed	1997	United Kingdom of Great Britain and Northern Ireland	Europe
+797	City of Verona	city-of-verona	Cultural	Listed	2000	Italy	Europe
+798	The Sundarbans	the-sundarbans	Natural	Listed	1997	Bangladesh	Asia
+801	Lake Turkana National Parks	lake-turkana-national-parks	Natural	Listed	1997	Kenya	Africa
+803	Las Médulas	las-medulas	Cultural	Listed	1997	Spain	Europe
+805	San Millán Yuso and Suso Monasteries	san-millan-yuso-and-suso-monasteries	Cultural	Listed	1997	Spain	Europe
+809	Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč	episcopal-complex-of-the-euphrasian-basilica-in-the-historic-centre-of-porec	Cultural	Listed	1997	Croatia	Europe
+810	Historic City of Trogir	historic-city-of-trogir	Cultural	Listed	1997	Croatia	Europe
+812	Ancient City of Ping Yao	ancient-city-of-ping-yao	Cultural	Listed	1997	China	Asia
+813	Classical Gardens of Suzhou	classical-gardens-of-suzhou	Cultural	Listed	1997	China	Asia
+814	Morne Trois Pitons National Park	morne-trois-pitons-national-park	Natural	Listed	1997	Dominica	South America
+815	Hospicio Cabañas, Guadalajara	hospicio-cabanas-guadalajara	Cultural	Listed	1997	Mexico	South America
+816	Changdeokgung Palace Complex	changdeokgung-palace-complex	Cultural	Listed	1997	Republic of Korea	Asia
+817	Hwaseong Fortress	hwaseong-fortress	Cultural	Listed	1997	Republic of Korea	Asia
+818	Mill Network at Kinderdijk-Elshout	mill-network-at-kinderdijk-elshout	Cultural	Listed	1997	Netherlands (Kingdom of the)	Europe
+819	Historic Area of Willemstad, Inner City and Harbour, Curaçao	historic-area-of-willemstad-inner-city-and-harbour-curacao	Cultural	Listed	1997	Netherlands (Kingdom of the)	Europe
+820	Cocos Island National Park	cocos-island-national-park	Natural	Listed	1997	Costa Rica	South America
+821	Historic Centre of São Luís	historic-centre-of-sao-luis	Cultural	Listed	1997	Brazil	South America
+824	Botanical Garden (Orto Botanico), Padua	botanical-garden-orto-botanico-padua	Cultural	Listed	1997	Italy	Europe
+827	Cathedral, Torre Civica and Piazza Grande, Modena	cathedral-torre-civica-and-piazza-grande-modena	Cultural	Listed	1997	Italy	Europe
+828	Historic Centre of Urbino	historic-centre-of-urbino	Cultural	Listed	1998	Italy	Europe
+831	Archaeological Area of Agrigento	archaeological-area-of-agrigento	Cultural	Listed	1997	Italy	Europe
+832	Villa Romana del Casale	villa-romana-del-casale	Cultural	Listed	1997	Italy	Europe
+833	Su Nuraxi di Barumini	su-nuraxi-di-barumini	Cultural	Listed	1997	Italy	Europe
+835	Medieval Town of Toruń	medieval-town-of-torun	Cultural	Listed	1997	Poland	Europe
+837	Medina of Tétouan (formerly known as Titawin)	medina-of-tetouan-formerly-known-as-titawin	Cultural	Listed	1997	Morocco	Asia
+839	Alejandro de Humboldt National Park	alejandro-de-humboldt-national-park	Natural	Listed	2001	Cuba	South America
+840	Viñales Valley	vinales-valley	Cultural	Listed	1999	Cuba	South America
+841	San Pedro de la Roca Castle, Santiago de Cuba	san-pedro-de-la-roca-castle-santiago-de-cuba	Cultural	Listed	1997	Cuba	South America
+842	Cilento and Vallo di Diano National Park with the Archeological Sites of Paestum and Velia, and the Certosa di Padula	cilento-and-vallo-di-diano-national-park-with-the-archeological-sites-of-paestum-and-velia-and-the-certosa-di-padula	Cultural	Listed	1998	Italy	Europe
+846	Classical Weimar	classical-weimar	Cultural	Listed	1998	Germany	Europe
+847	Castle of the Teutonic Order in Malbork	castle-of-the-teutonic-order-in-malbork	Cultural	Listed	1997	Poland	Europe
+849	Archaeological Site of Troy	archaeological-site-of-troy	Cultural	Listed	1998	Türkiye	Europe
+850	Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab)	ouadi-qadisha-the-holy-valley-and-the-forest-of-the-cedars-of-god-horsh-arz-el-rab	Cultural	Listed	1998	Lebanon	Asia
+852	Historic Centre of Riga	historic-centre-of-riga	Cultural	Listed	1997	Latvia	Europe
+853	Early Christian Necropolis of Pécs (Sopianae)	early-christian-necropolis-of-pecs-sopianae	Cultural	Listed	2000	Hungary	Europe
+854	East Rennell	east-rennell	Natural	Listed	1998	Solomon Islands	Asia
+855	Flemish Béguinages	flemish-beguinages	Cultural	Listed	1998	Belgium	Europe
+856	The Four Lifts on the Canal du Centre and their Environs, La Louvière and Le Roeulx (Hainaut)	the-four-lifts-on-the-canal-du-centre-and-their-environs-la-louviere-and-le-roeulx-hainaut	Cultural	Listed	1998	Belgium	Europe
+857	La Grand-Place, Brussels	la-grand-place-brussels	Cultural	Listed	1998	Belgium	Europe
+859	Holy Trinity Column in Olomouc	holy-trinity-column-in-olomouc	Cultural	Listed	2000	Czechia	Europe
+860	Gardens and Castle at Kroměříž	gardens-and-castle-at-kromeriz	Cultural	Listed	1998	Czechia	Europe
+861	Holašovice Historic Village	holasovice-historic-village	Cultural	Listed	1998	Czechia	Europe
+862	Historic Monuments Zone of Tlacotalpan	historic-monuments-zone-of-tlacotalpan	Cultural	Listed	1998	Mexico	South America
+863	Historic Centre of Santa Ana de los Ríos de Cuenca	historic-centre-of-santa-ana-de-los-rios-de-cuenca	Cultural	Listed	1999	Ecuador	South America
+867	Ir.D.F. Woudagemaal (D.F. Wouda Steam Pumping Station)	ir-d-f-woudagemaal-d-f-wouda-steam-pumping-station	Cultural	Listed	1998	Netherlands (Kingdom of the)	Europe
+868	Routes of Santiago de Compostela in France	routes-of-santiago-de-compostela-in-france	Cultural	Listed	1998	France	Europe
+870	Historic Monuments of Ancient Nara	historic-monuments-of-ancient-nara	Cultural	Listed	1998	Japan	Asia
+871	Naval Port of Karlskrona	naval-port-of-karlskrona	Cultural	Listed	1998	Sweden	Europe
+872	Historic Site of Lyon	historic-site-of-lyon	Cultural	Listed	1998	France	Europe
+873	Provins, Town of Medieval Fairs	provins-town-of-medieval-fairs	Cultural	Listed	2001	France	Europe
+874	Rock Art of the Mediterranean Basin on the Iberian Peninsula	rock-art-of-the-mediterranean-basin-on-the-iberian-peninsula	Cultural	Listed	1998	Spain	Europe
+875	Archaeological Ensemble of Tarraco	archaeological-ensemble-of-tarraco	Cultural	Listed	2000	Spain	Europe
+876	University and Historic Precinct of Alcalá de Henares	university-and-historic-precinct-of-alcala-de-henares	Cultural	Listed	1998	Spain	Europe
+877	New Zealand Sub-Antarctic Islands	new-zealand-sub-antarctic-islands	Natural	Listed	1998	New Zealand	Asia
+880	Summer Palace, an Imperial Garden in Beijing	summer-palace-an-imperial-garden-in-beijing	Cultural	Listed	1998	China	Asia
+881	Temple of Heaven: an Imperial Sacrificial Altar in Beijing	temple-of-heaven-an-imperial-sacrificial-altar-in-beijing	Cultural	Listed	1998	China	Asia
+883	Fuerte de Samaipata	fuerte-de-samaipata	Cultural	Listed	1998	Bolivia (Plurinational State of)	South America
+885	Historic Centre of Shakhrisyabz	historic-centre-of-shakhrisyabz	Cultural	Listed	2000	Uzbekistan	Asia
+886	State Historical and Cultural Park “Ancient Merv”	state-historical-and-cultural-park-ancient-merv	Cultural	Listed	1999	Turkmenistan	Asia
+889	Desembarco del Granma National Park	desembarco-del-granma-national-park	Natural	Listed	1999	Cuba	South America
+890	Historic Centre of the Town of Diamantina	historic-centre-of-the-town-of-diamantina	Cultural	Listed	1999	Brazil	South America
+892	Discovery Coast Atlantic Forest Reserves	discovery-coast-atlantic-forest-reserves	Natural	Listed	1999	Brazil	South America
+893	Atlantic Forest South-East Reserves	atlantic-forest-south-east-reserves	Natural	Listed	1999	Brazil	South America
+895	Historic Fortified Town of Campeche	historic-fortified-town-of-campeche	Cultural	Listed	1999	Mexico	South America
+896	Museumsinsel (Museum Island), Berlin	museumsinsel-museum-island-berlin	Cultural	Listed	1999	Germany	Europe
+897	Wartburg Castle	wartburg-castle	Cultural	Listed	1999	Germany	Europe
+898	High Coast / Kvarken Archipelago	high-coast-kvarken-archipelago	Natural	Listed	2000	Finland,Sweden	Europe
+899	Droogmakerij de Beemster (Beemster Polder)	droogmakerij-de-beemster-beemster-polder	Cultural	Listed	1999	Netherlands (Kingdom of the)	Europe
+900	Western Caucasus	western-caucasus	Natural	Listed	1999	Russian Federation	Europe
+901	Litomyšl Castle	litomysl-castle	Cultural	Listed	1999	Czechia	Europe
+902	Historic Centre of Sighişoara	historic-centre-of-sighisoara	Cultural	Listed	1999	Romania	Europe
+904	Wooden Churches of Maramureş	wooden-churches-of-maramures	Cultural	Listed	1999	Romania	Europe
+905	Kalwaria Zebrzydowska: the Mannerist Architectural and Park Landscape Complex and Pilgrimage Park	kalwaria-zebrzydowska-the-mannerist-architectural-and-park-landscape-complex-and-pilgrimage-park	Cultural	Listed	1999	Poland	Europe
+906	Dacian Fortresses of the Orastie Mountains	dacian-fortresses-of-the-orastie-mountains	Cultural	Listed	1999	Romania	Europe
+907	Villa Adriana (Tivoli)	villa-adriana-tivoli	Cultural	Listed	1999	Italy	Europe
+908	Isole Eolie (Aeolian Islands)	isole-eolie-aeolian-islands	Natural	Listed	2000	Italy	Europe
+910	Brimstone Hill Fortress National Park	brimstone-hill-fortress-national-park	Cultural	Listed	1999	Saint Kitts and Nevis	South America
+912	Dazu Rock Carvings	dazu-rock-carvings	Cultural	Listed	1999	China	Asia
+913	Shrines and Temples of Nikko	shrines-and-temples-of-nikko	Cultural	Listed	1999	Japan	Asia
+915	Fossil Hominid Sites of South Africa	fossil-hominid-sites-of-south-africa	Cultural	Listed	1999	South Africa	Africa
+917	Greater Blue Mountains Area	greater-blue-mountains-area	Natural	Listed	2000	Australia	Asia
+925	Rock Shelters of Bhimbetka	rock-shelters-of-bhimbetka	Cultural	Listed	2003	India	Asia
+928	Area de Conservación Guanacaste	area-de-conservacion-guanacaste	Natural	Listed	1999	Costa Rica	South America
+929	San Cristóbal de La Laguna	san-cristobal-de-la-laguna	Cultural	Listed	1999	Spain	Europe
+930	Palmeral of Elche	palmeral-of-elche	Cultural	Listed	2000	Spain	Europe
+932	Jurisdiction of Saint-Emilion	jurisdiction-of-saint-emilion	Cultural	Listed	1999	France	Europe
+934	Laurisilva of Madeira	laurisilva-of-madeira	Natural	Listed	1999	Portugal	Europe
+936	Cueva de las Manos, Río Pinturas	cueva-de-las-manos-rio-pinturas	Cultural	Listed	1999	Argentina	South America
+937	Península Valdés	peninsula-valdes	Natural	Listed	1999	Argentina	South America
+938	Sukur Cultural Landscape	sukur-cultural-landscape	Cultural	Listed	1999	Nigeria	Africa
+939	Archaeological Monuments Zone of Xochicalco	archaeological-monuments-zone-of-xochicalco	Cultural	Listed	1999	Mexico	South America
+940	Historic Inner City of Paramaribo	historic-inner-city-of-paramaribo	Cultural	Listed	2002	Suriname	South America
+941	Archaeological Sites of Mycenae and Tiryns	archaeological-sites-of-mycenae-and-tiryns	Cultural	Listed	1999	Greece	Europe
+942	The Historic Centre (Chorá) with the Monastery of Saint-John the Theologian and the Cave of the Apocalypse on the Island of Pátmos	the-historic-centre-chora-with-the-monastery-of-saint-john-the-theologian-and-the-cave-of-the-apocalypse-on-the-island-of-patmos	Cultural	Listed	1999	Greece	Europe
+943	Belfries of Belgium and France	belfries-of-belgium-and-france	Cultural	Listed	1999	Belgium,France	Europe
+945	Chhatrapati Shivaji Terminus (formerly Victoria Terminus)	chhatrapati-shivaji-terminus-formerly-victoria-terminus	Cultural	Listed	2004	India	Asia
+946	Old Bridge Area of the Old City of Mostar	old-bridge-area-of-the-old-city-of-mostar	Cultural	Listed	2005	Bosnia and Herzegovina	Europe
+948	Hoi An Ancient Town	hoi-an-ancient-town	Cultural	Listed	1999	Viet Nam	Asia
+949	My Son Sanctuary	my-son-sanctuary	Cultural	Listed	1999	Viet Nam	Asia
+950	Royal Hill of Ambohimanga	royal-hill-of-ambohimanga	Cultural	Listed	2001	Madagascar	Africa
+954	Saint Catherine Area	saint-catherine-area	Cultural	Listed	2002	Egypt	Asia
+955	Lorentz National Park	lorentz-national-park	Natural	Listed	1999	Indonesia	Asia
+958	Walled City of Baku with the Shirvanshah's Palace and Maiden Tower	walled-city-of-baku-with-the-shirvanshah-s-palace-and-maiden-tower	Cultural	Listed	2000	Azerbaijan	Europe
+959	Historic Quarter of the Seaport City of Valparaíso	historic-quarter-of-the-seaport-city-of-valparaiso	Cultural	Listed	2003	Chile	South America
+960	Monastery of Geghard and the Upper Azat Valley	monastery-of-geghard-and-the-upper-azat-valley	Cultural	Listed	2000	Armenia	Europe
+963	The Cathedral of St James in Šibenik	the-cathedral-of-st-james-in-sibenik	Cultural	Listed	2000	Croatia	Europe
+965	Rietveld Schröderhuis (Rietveld Schröder House)	rietveld-schroderhuis-rietveld-schroder-house	Cultural	Listed	2000	Netherlands (Kingdom of the)	Europe
+966	Ischigualasto / Talampaya Natural Parks	ischigualasto-talampaya-natural-parks	Natural	Listed	2000	Argentina	South America
+967	Noel Kempff Mercado National Park	noel-kempff-mercado-national-park	Natural	Listed	2000	Bolivia (Plurinational State of)	South America
+968	Agricultural Landscape of Southern Öland	agricultural-landscape-of-southern-oland	Cultural	Listed	2000	Sweden	Europe
+972	Gusuku Sites and Related Properties of the Kingdom of Ryukyu	gusuku-sites-and-related-properties-of-the-kingdom-of-ryukyu	Cultural	Listed	2000	Japan	Asia
+973	Bardejov Town Conservation Reserve	bardejov-town-conservation-reserve	Cultural	Listed	2000	Slovakia	Europe
+974	Monastic Island of Reichenau	monastic-island-of-reichenau	Cultural	Listed	2000	Germany	Europe
+975	Zollverein Coal Mine Industrial Complex in Essen	zollverein-coal-mine-industrial-complex-in-essen	Cultural	Listed	2001	Germany	Europe
+976	Gyeongju Historic Areas	gyeongju-historic-areas	Cultural	Listed	2000	Republic of Korea	Asia
+977	Gochang, Hwasun and Ganghwa Dolmen Sites	gochang-hwasun-and-ganghwa-dolmen-sites	Cultural	Listed	2000	Republic of Korea	Asia
+980	Historic and Architectural Complex of the Kazan Kremlin	historic-and-architectural-complex-of-the-kazan-kremlin	Cultural	Listed	2000	Russian Federation	Europe
+982	Ensemble of the Ferapontov Monastery	ensemble-of-the-ferapontov-monastery	Cultural	Listed	2000	Russian Federation	Europe
+983	Historic Town of St George and Related Fortifications, Bermuda	historic-town-of-st-george-and-related-fortifications-bermuda	Cultural	Listed	2000	United Kingdom of Great Britain and Northern Ireland	Europe
+984	Blaenavon Industrial Landscape	blaenavon-industrial-landscape	Cultural	Listed	2000	United Kingdom of Great Britain and Northern Ireland	Europe
+986	Ciudad Universitaria de Caracas	ciudad-universitaria-de-caracas	Cultural	Listed	2000	Venezuela (Bolivarian Republic of)	South America
+987	Roman Walls of Lugo	roman-walls-of-lugo	Cultural	Listed	2000	Spain	Europe
+988	Catalan Romanesque Churches of the Vall de Boí	catalan-romanesque-churches-of-the-vall-de-boi	Cultural	Listed	2000	Spain	Europe
+989	Archaeological Site of Atapuerca	archaeological-site-of-atapuerca	Cultural	Listed	2000	Spain	Europe
+990	Assisi, the Basilica of San Francesco and Other Franciscan Sites	assisi-the-basilica-of-san-francesco-and-other-franciscan-sites	Cultural	Listed	2000	Italy	Europe
+993	Historic Centre of the Town of Goiás	historic-centre-of-the-town-of-goias	Cultural	Listed	2001	Brazil	South America
+994	Curonian Spit	curonian-spit	Cultural	Listed	2000	Lithuania,Russian Federation	Europe
+995	Jesuit Block and Estancias of Córdoba	jesuit-block-and-estancias-of-cordoba	Cultural	Listed	2000	Argentina	South America
+996	Historic Centre of Brugge	historic-centre-of-brugge	Cultural	Listed	2000	Belgium	Europe
+998	Central Amazon Conservation Complex	central-amazon-conservation-complex	Natural	Listed	2000	Brazil	South America
+999	Pantanal Conservation Area	pantanal-conservation-area	Natural	Listed	2000	Brazil	South America
+1000	Brazilian Atlantic Islands: Fernando de Noronha and Atol das Rocas Reserves	brazilian-atlantic-islands-fernando-de-noronha-and-atol-das-rocas-reserves	Natural	Listed	2001	Brazil	South America
+1001	Mount Qingcheng and the Dujiangyan Irrigation System	mount-qingcheng-and-the-dujiangyan-irrigation-system	Cultural	Listed	2000	China	Asia
+1002	Ancient Villages in Southern Anhui – Xidi and Hongcun	ancient-villages-in-southern-anhui-xidi-and-hongcun	Cultural	Listed	2000	China	Asia
+1003	Longmen Grottoes	longmen-grottoes	Cultural	Listed	2000	China	Asia
+1004	Imperial Tombs of the Ming and Qing Dynasties	imperial-tombs-of-the-ming-and-qing-dynasties	Cultural	Listed	2000	China	Asia
+1005	Major Town Houses of the Architect Victor Horta (Brussels)	major-town-houses-of-the-architect-victor-horta-brussels	Cultural	Listed	2000	Belgium	Europe
+1006	Neolithic Flint Mines at Spiennes (Mons)	neolithic-flint-mines-at-spiennes-mons	Cultural	Listed	2000	Belgium	Europe
+1008	Archaeological Landscape of the First Coffee Plantations in the South-East of Cuba	archaeological-landscape-of-the-first-coffee-plantations-in-the-south-east-of-cuba	Cultural	Listed	2000	Cuba	South America
+1009	Notre-Dame Cathedral in Tournai	notre-dame-cathedral-in-tournai	Cultural	Listed	2000	Belgium	Europe
+1010	Land of Frankincense	land-of-frankincense	Cultural	Listed	2000	Oman	Asia
+1011	Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots	cathedral-and-churches-of-echmiatsin-and-the-archaeological-site-of-zvartnots	Cultural	Listed	2000	Armenia	Europe
+1012	Kinabalu Park	kinabalu-park	Natural	Listed	2000	Malaysia	Asia
+1013	Gunung Mulu National Park	gunung-mulu-national-park	Natural	Listed	2000	Malaysia	Asia
+1016	Historical Centre of the City of Arequipa	historical-centre-of-the-city-of-arequipa	Cultural	Listed	2000	Peru	South America
+1017	Central Suriname Nature Reserve	central-suriname-nature-reserve	Natural	Listed	2000	Suriname	South America
+1021	Tsodilo	tsodilo	Cultural	Listed	2001	Botswana	Africa
+1022	Tombs of Buganda Kings at Kasubi	tombs-of-buganda-kings-at-kasubi	Cultural	Listed	2001	Uganda	Africa
+1023	Natural System of Wrangel Island Reserve	natural-system-of-wrangel-island-reserve	Natural	Listed	2004	Russian Federation	Europe
+1024	Late Baroque Towns of the Val di Noto (South-Eastern Sicily)	late-baroque-towns-of-the-val-di-noto-south-eastern-sicily	Cultural	Listed	2002	Italy	Europe
+1025	Villa d'Este, Tivoli	villa-d-este-tivoli	Cultural	Listed	2001	Italy	Europe
+1026	Val d'Orcia	val-d-orcia	Cultural	Listed	2004	Italy	Europe
+1027	Mining Area of the Great Copper Mountain in Falun	mining-area-of-the-great-copper-mountain-in-falun	Cultural	Listed	2001	Sweden	Europe
+1028	Saltaire	saltaire	Cultural	Listed	2001	United Kingdom of Great Britain and Northern Ireland	Europe
+1029	Dorset and East Devon Coast	dorset-and-east-devon-coast	Natural	Listed	2001	United Kingdom of Great Britain and Northern Ireland	Europe
+1030	Derwent Valley Mills	derwent-valley-mills	Cultural	Listed	2001	United Kingdom of Great Britain and Northern Ireland	Europe
+1033	Historic Centre of Vienna	historic-centre-of-vienna	Cultural	Listed	2001	Austria	Europe
+1037	Swiss Alps Jungfrau-Aletsch	swiss-alps-jungfrau-aletsch	Natural	Listed	2001	Switzerland	Europe
+1039	Yungang Grottoes	yungang-grottoes	Cultural	Listed	2001	China	Asia
+1040	Masada	masada	Cultural	Listed	2001	Israel	Europe
+1042	Old City of Acre	old-city-of-acre	Cultural	Listed	2001	Israel	Europe
+1044	Aranjuez Cultural Landscape	aranjuez-cultural-landscape	Cultural	Listed	2001	Spain	Europe
+1046	Alto Douro Wine Region	alto-douro-wine-region	Cultural	Listed	2001	Portugal	Europe
+1052	Tugendhat Villa in Brno	tugendhat-villa-in-brno	Cultural	Listed	2001	Czechia	Europe
+1054	Churches of Peace in Jawor and Świdnica	churches-of-peace-in-jawor-and-swidnica	Cultural	Listed	2001	Poland	Europe
+1055	Lamu Old Town	lamu-old-town	Cultural	Listed	2001	Kenya	Africa
+1056	Mahabodhi Temple Complex at Bodh Gaya	mahabodhi-temple-complex-at-bodh-gaya	Cultural	Listed	2002	India	Asia
+1058	Portuguese City of Mazagan (El Jadida)	portuguese-city-of-mazagan-el-jadida	Cultural	Listed	2004	Morocco	Asia
+1063	Tokaj Wine Region Historic Cultural Landscape	tokaj-wine-region-historic-cultural-landscape	Cultural	Listed	2002	Hungary	Europe
+1066	Upper Middle Rhine Valley	upper-middle-rhine-valley	Cultural	Listed	2002	Germany	Europe
+1067	Historic Centres of Stralsund and Wismar	historic-centres-of-stralsund-and-wismar	Cultural	Listed	2002	Germany	Europe
+1068	Sacri Monti of Piedmont and Lombardy	sacri-monti-of-piedmont-and-lombardy	Cultural	Listed	2003	Italy	Europe
+1070	Citadel, Ancient City and Fortress Buildings of Derbent	citadel-ancient-city-and-fortress-buildings-of-derbent	Cultural	Listed	2003	Russian Federation	Europe
+1073	Gebel Barkal and the Sites of the Napatan Region	gebel-barkal-and-the-sites-of-the-napatan-region	Cultural	Listed	2003	Sudan	Asia
+1077	Takht-e Soleyman	takht-e-soleyman	Cultural	Listed	2003	Iran (Islamic Republic of)	Asia
+1079	Franciscan Missions in the Sierra Gorda of Querétaro	franciscan-missions-in-the-sierra-gorda-of-queretaro	Cultural	Listed	2003	Mexico	South America
+1081	Orkhon Valley Cultural Landscape	orkhon-valley-cultural-landscape	Cultural	Listed	2004	Mongolia	Asia
+1084	Royal Botanic Gardens, Kew	royal-botanic-gardens-kew	Cultural	Listed	2003	United Kingdom of Great Britain and Northern Ireland	Europe
+1087	Town Hall and Roland on the Marketplace of Bremen	town-hall-and-roland-on-the-marketplace-of-bremen	Cultural	Listed	2004	Germany	Europe
+1091	Complex of Koguryo Tombs	complex-of-koguryo-tombs	Cultural	Listed	2004	Democratic People's Republic of Korea	Asia
+1093	Um er-Rasas (Kastrom Mefa'a)	um-er-rasas-kastrom-mefa-a	Cultural	Listed	2004	Jordan	Asia
+1094	Purnululu National Park	purnululu-national-park	Natural	Listed	2003	Australia	Asia
+1096	White City of Tel-Aviv – the Modern Movement	white-city-of-tel-aviv-the-modern-movement	Cultural	Listed	2003	Israel	Europe
+1097	Ensemble of the Novodevichy Convent	ensemble-of-the-novodevichy-convent	Cultural	Listed	2004	Russian Federation	Europe
+1101	Champaner-Pavagadh Archaeological Park	champaner-pavagadh-archaeological-park	Cultural	Listed	2004	India	Asia
+1103	Mausoleum of Khoja Ahmed Yasawi	mausoleum-of-khoja-ahmed-yasawi	Cultural	Listed	2003	Kazakhstan	Asia
+1106	Pasargadae	pasargadae	Cultural	Listed	2004	Iran (Islamic Republic of)	Asia
+1107	Incense Route - Desert Cities in the Negev	incense-route-desert-cities-in-the-negev	Cultural	Listed	2005	Israel	Europe
+1108	Biblical Tels - Megiddo, Hazor, Beer Sheba	biblical-tels-megiddo-hazor-beer-sheba	Cultural	Listed	2005	Israel	Europe
+1110	Historic Centre of Macao	historic-centre-of-macao	Cultural	Listed	2005	China	Asia
+1114	Yin Xu	yin-xu	Cultural	Listed	2006	China	Asia
+1116	Quebrada de Humahuaca	quebrada-de-humahuaca	Cultural	Listed	2003	Argentina	South America
+1117	Landscape of the Pico Island Vineyard Culture	landscape-of-the-pico-island-vineyard-culture	Cultural	Listed	2004	Portugal	Europe
+1118	Osun-Osogbo Sacred Grove	osun-osogbo-sacred-grove	Cultural	Listed	2005	Nigeria	Africa
+1130	Ashur (Qal'at Sherqat)	ashur-qal-at-sherqat	Cultural	Listed	2003	Iraq	Asia
+1134	Grimeton Radio Station, Varberg	grimeton-radio-station-varberg	Cultural	Listed	2004	Sweden	Europe
+1135	Capital Cities and Tombs of the Ancient Koguryo Kingdom	capital-cities-and-tombs-of-the-ancient-koguryo-kingdom	Cultural	Listed	2004	China	Asia
+1136	Luis Barragán House and Studio	luis-barragan-house-and-studio	Cultural	Listed	2004	Mexico	South America
+1137	Kernavė Archaeological Site (Cultural Reserve of Kernavė)	kernave-archaeological-site-cultural-reserve-of-kernave	Cultural	Listed	2004	Lithuania	Europe
+1138	Coiba National Park and its Special Zone of Marine Protection	coiba-national-park-and-its-special-zone-of-marine-protection	Natural	Listed	2005	Panama	South America
+1139	Tomb of Askia	tomb-of-askia	Cultural	Listed	2004	Mali	Africa
+1145	Petroglyphs of the Archaeological Landscape of Tanbaly	petroglyphs-of-the-archaeological-landscape-of-tanbaly	Cultural	Listed	2004	Kazakhstan	Asia
+1152	Þingvellir National Park	ingvellir-national-park	Cultural	Listed	2004	Iceland	Europe
+1155	Old town of Regensburg with Stadtamhof	old-town-of-regensburg-with-stadtamhof	Cultural	Listed	2006	Germany	Europe
+1158	Etruscan Necropolises of Cerveteri and Tarquinia	etruscan-necropolises-of-cerveteri-and-tarquinia	Cultural	Listed	2004	Italy	Europe
+1161	Pitons Management Area	pitons-management-area	Natural	Listed	2004	Saint Lucia	South America
+1162	Vredefort Dome	vredefort-dome	Natural	Listed	2005	South Africa	Africa
+1165	Centennial Hall in Wrocław	centennial-hall-in-wrocaw	Cultural	Listed	2006	Poland	Europe
+1167	Tropical Rainforest Heritage of Sumatra	tropical-rainforest-heritage-of-sumatra	Natural	Listed	2004	Indonesia	Asia
+1170	Historical Centre of the City of Yaroslavl	historical-centre-of-the-city-of-yaroslavl	Cultural	Listed	2005	Russian Federation	Europe
+1181	Le Havre, the City Rebuilt by Auguste Perret	le-havre-the-city-rebuilt-by-auguste-perret	Cultural	Listed	2005	France	Europe
+1185	Plantin-Moretus House-Workshops-Museum Complex	plantin-moretus-house-workshops-museum-complex	Cultural	Listed	2005	Belgium	Europe
+1186	Wadi Al-Hitan (Whale Valley)	wadi-al-hitan-whale-valley	Natural	Listed	2005	Egypt	Asia
+1187	Struve Geodetic Arc	struve-geodetic-arc	Cultural	Listed	2005	Belarus,Estonia,Finland,Latvia,Lithuania,Norway,Republic of Moldova,Russian Federation,Sweden,Ukraine	Europe
+1188	Soltaniyeh	soltaniyeh	Cultural	Listed	2005	Iran (Islamic Republic of)	Asia
+1193	Shiretoko	shiretoko	Natural	Listed	2005	Japan	Asia
+1195	West Norwegian Fjords – Geirangerfjord and Nærøyfjord	west-norwegian-fjords-geirangerfjord-and-nryfjord	Natural	Listed	2005	Norway	Europe
+1196	Architectural, Residential and Cultural Complex of the Radziwill Family at Nesvizh	architectural-residential-and-cultural-complex-of-the-radziwill-family-at-nesvizh	Cultural	Listed	2005	Belarus	Europe
+1199	Kunya-Urgench	kunya-urgench	Cultural	Listed	2005	Turkmenistan	Asia
+1200	Syracuse and the Rocky Necropolis of Pantalica	syracuse-and-the-rocky-necropolis-of-pantalica	Cultural	Listed	2005	Italy	Europe
+1202	Urban Historic Centre of Cienfuegos	urban-historic-centre-of-cienfuegos	Cultural	Listed	2005	Cuba	South America
+1207	Aflaj Irrigation Systems of Oman	aflaj-irrigation-systems-of-oman	Cultural	Listed	2006	Oman	Asia
+1209	Agave Landscape and Ancient Industrial Facilities of Tequila	agave-landscape-and-ancient-industrial-facilities-of-tequila	Cultural	Listed	2006	Mexico	South America
+1211	Genoa: Le Strade Nuove and the system of the Palazzi dei Rolli	genoa-le-strade-nuove-and-the-system-of-the-palazzi-dei-rolli	Cultural	Listed	2006	Italy	Europe
+1213	Sichuan Giant Panda Sanctuaries - Wolong, Mt Siguniang and Jiajin Mountains	sichuan-giant-panda-sanctuaries-wolong-mt-siguniang-and-jiajin-mountains	Natural	Listed	2006	China	Asia
+1214	Sewell Mining Town	sewell-mining-town	Cultural	Listed	2006	Chile	South America
+1215	Cornwall and West Devon Mining Landscape	cornwall-and-west-devon-mining-landscape	Cultural	Listed	2006	United Kingdom of Great Britain and Northern Ireland	Europe
+1216	Malpelo Fauna and Flora Sanctuary	malpelo-fauna-and-flora-sanctuary	Natural	Listed	2006	Colombia	South America
+1217	Vizcaya Bridge	vizcaya-bridge	Cultural	Listed	2006	Spain	Europe
+1222	Bisotun	bisotun	Cultural	Listed	2006	Iran (Islamic Republic of)	Asia
+1226	Stone Circles of Senegambia	stone-circles-of-senegambia	Cultural	Listed	2006	Gambia,Senegal	Africa
+1227	Aapravasi Ghat	aapravasi-ghat	Cultural	Listed	2006	Mauritius	Africa
+1229	Crac des Chevaliers and Qal’at Salah El-Din	crac-des-chevaliers-and-qalat-salah-el-din	Cultural	Listed	2006	Syrian Arab Republic	Asia
+1239	Berlin Modernism Housing Estates	berlin-modernism-housing-estates	Cultural	Listed	2008	Germany	Europe
+1243	Lavaux, Vineyard Terraces	lavaux-vineyard-terraces	Cultural	Listed	2007	Switzerland	Europe
+1250	Central University City Campus of the Universidad Nacional Autónoma de México (UNAM)	central-university-city-campus-of-the-universidad-nacional-autonoma-de-mexico-unam	Cultural	Listed	2007	Mexico	South America
+1253	Gamzigrad-Romuliana, Palace of Galerius	gamzigrad-romuliana-palace-of-galerius	Cultural	Listed	2007	Serbia	Europe
+1255	Twyfelfontein or /Ui-//aes	twyfelfontein-or-ui-aes	Cultural	Listed	2007	Namibia	Africa
+1256	Bordeaux, Port of the Moon	bordeaux-port-of-the-moon	Cultural	Listed	2007	France	Europe
+1257	Rainforests of the Atsinanana	rainforests-of-the-atsinanana	Natural	Listed	2007	Madagascar	Africa
+1258	Teide National Park	teide-national-park	Natural	Listed	2007	Spain	Europe
+1260	Mehmed Paša Sokolović Bridge in Višegrad	mehmed-pasa-sokolovic-bridge-in-visegrad	Cultural	Listed	2007	Bosnia and Herzegovina	Europe
+1265	Richtersveld Cultural and Botanical Landscape	richtersveld-cultural-and-botanical-landscape	Cultural	Listed	2007	South Africa	Africa
+121	Kathmandu Valley	kathmandu-valley	Cultural	Listed	1979	Nepal	Asia
+1183	Kondoa Rock-Art Sites	kondoa-rock-art-sites	Cultural	Listed	2006	United Republic of Tanzania	Africa
+476	Chongoni Rock-Art Area	chongoni-rock-art-area	Cultural	Listed	2006	Malawi	Africa
+1189	Harar Jugol, the Fortified Historic Town	harar-jugol-the-fortified-historic-town	Cultural	Listed	2006	Ethiopia	Africa
+276	Samarra Archaeological City	samarra-archaeological-city	Cultural	Listed	2007	Iraq	Asia
+166	Sydney Opera House	sydney-opera-house	Cultural	Listed	2007	Australia	Asia
+1112	Kaiping Diaolou and Villages	kaiping-diaolou-and-villages	Cultural	Listed	2007	China	Asia
+231	Red Fort Complex	red-fort-complex	Cultural	Listed	2007	India	Asia
+1242	Parthian Fortresses of Nisa	parthian-fortresses-of-nisa	Cultural	Listed	2007	Turkmenistan	Asia
+1076	Gobustan Rock Art Cultural Landscape	gobustan-rock-art-cultural-landscape	Cultural	Listed	2007	Azerbaijan	Europe
+1221	Rideau Canal	rideau-canal	Cultural	Listed	2007	Canada	Europe
+978	Old Town of Corfu	old-town-of-corfu	Cultural	Listed	2007	Greece	Europe
+1270	Historic Centre of Camagüey	historic-centre-of-camaguey	Cultural	Listed	2008	Cuba	South America
+1240	Stari Grad Plain	stari-grad-plain	Cultural	Listed	2008	Croatia	Europe
+1160	Madriu-Perafita-Claror Valley	madriu-perafita-claror-valley	Cultural	Listed	2004	Andorra	Europe
+1053	Wooden Churches of Southern Małopolska	wooden-churches-of-southern-maopolska	Cultural	Listed	2003	Poland	Europe
+1273	Wooden Churches of the Slovak part of the Carpathian Mountain Area	wooden-churches-of-the-slovak-part-of-the-carpathian-mountain-area	Cultural	Listed	2008	Slovakia	Europe
+1274	Protective town of San Miguel and the Sanctuary of Jesús Nazareno de Atotonilco	protective-town-of-san-miguel-and-the-sanctuary-of-jesus-nazareno-de-atotonilco	Cultural	Listed	2008	Mexico	South America
+1179	Swiss Tectonic Arena Sardona	swiss-tectonic-arena-sardona	Natural	Listed	2008	Switzerland	Europe
+1276	Rhaetian Railway in the Albula / Bernina Landscapes	rhaetian-railway-in-the-albula-bernina-landscapes	Cultural	Listed	2008	Italy,Switzerland	Europe
+1113	Fujian Tulou	fujian-tulou	Cultural	Listed	2008	China	Asia
+310	Cave of Altamira and Paleolithic Cave Art of Northern Spain	cave-of-altamira-and-paleolithic-cave-art-of-northern-spain	Cultural	Listed	1985	Spain	Europe
+1280	Chief Roi Mata’s Domain	chief-roi-matas-domain	Cultural	Listed	2008	Vanuatu	Asia
+1283	Fortifications of Vauban	fortifications-of-vauban	Cultural	Listed	2008	France	Europe
+1285	Joggins Fossil Cliffs	joggins-fossil-cliffs	Natural	Listed	2008	Canada	Europe
+1287	Mantua and Sabbioneta	mantua-and-sabbioneta	Cultural	Listed	2008	Italy	Europe
+1290	Monarch Butterfly Biosphere Reserve	monarch-butterfly-biosphere-reserve	Natural	Listed	2008	Mexico	South America
+1292	Mount Sanqingshan National Park	mount-sanqingshan-national-park	Natural	Listed	2008	China	Asia
+1293	Hegra Archaeological Site (al-Hijr / Madā ͐ in Ṣāliḥ)	hegra-archaeological-site-al-hijr-mada-in-salih	Cultural	Listed	2008	Saudi Arabia	Asia
+1115	Lagoons of New Caledonia: Reef Diversity and Associated Ecosystems	lagoons-of-new-caledonia-reef-diversity-and-associated-ecosystems	Natural	Listed	2008	France	Europe
+1267	Surtsey	surtsey	Natural	Listed	2008	Iceland	Europe
+1245	San Marino Historic Centre and Mount Titano	san-marino-historic-centre-and-mount-titano	Cultural	Listed	2008	San Marino	Europe
+620	Levoča, Spišský Hrad and the Associated Cultural Monuments	levoca-spissky-hrad-and-the-associated-cultural-monuments	Cultural	Listed	1993	Slovakia	Europe
+430	Frontiers of the Roman Empire	frontiers-of-the-roman-empire	Cultural	Listed	1987	Germany,United Kingdom of Great Britain and Northern Ireland	Europe
+944	Mountain Railways of India	mountain-railways-of-india	Cultural	Listed	1999	India	Asia
+1262	Armenian Monastic Ensembles of Iran	armenian-monastic-ensembles-of-iran	Cultural	Listed	2008	Iran (Islamic Republic of)	Asia
+1102	Saryarka – Steppe and Lakes of Northern Kazakhstan	saryarka-steppe-and-lakes-of-northern-kazakhstan	Natural	Listed	2008	Kazakhstan	Asia
+887	Kuk Early Agricultural Site	kuk-early-agricultural-site	Cultural	Listed	2008	Papua New Guinea	Asia
+1147	Ecosystem and Relict Cultural Landscape of Lopé-Okanda	ecosystem-and-relict-cultural-landscape-of-lope-okanda	Mixed	Listed	2007	Gabon	Africa
+1263	Socotra Archipelago	socotra-archipelago	Natural	Listed	2008	Yemen	Asia
+653	Tubbataha Reefs Natural Park	tubbataha-reefs-natural-park	Natural	Listed	1993	Philippines	Asia
+395	Piazza del Duomo, Pisa	piazza-del-duomo-pisa	Cultural	Listed	1987	Italy	Europe
+323	Royal Palaces of Abomey	royal-palaces-of-abomey	Cultural	Listed	1985	Benin	Africa
+956	Island of Saint-Louis	island-of-saint-louis	Cultural	Listed	2000	Senegal	Africa
+348	Old Town of Ávila with its Extra-Muros Churches	old-town-of-avila-with-its-extra-muros-churches	Cultural	Listed	1985	Spain	Europe
+1208	Bam and its Cultural Landscape	bam-and-its-cultural-landscape	Cultural	Listed	2004	Iran (Islamic Republic of)	Asia
+165	Cistercian Abbey of Fontenay	cistercian-abbey-of-fontenay	Cultural	Listed	1981	France	Europe
+344	Pont du Gard (Roman Aqueduct)	pont-du-gard-roman-aqueduct	Cultural	Listed	1985	France	Europe
+163	Roman Theatre and its Surroundings and the "Triumphal Arch" of Orange	roman-theatre-and-its-surroundings-and-the-triumphal-arch-of-orange	Cultural	Listed	1981	France	Europe
+83	Palace and Park of Versailles	palace-and-park-of-versailles	Cultural	Listed	1979	France	Europe
+84	Vézelay, Church and Hill	vezelay-church-and-hill	Cultural	Listed	1979	France	Europe
+623	Mines of Rammelsberg, Historic Town of Goslar and Upper Harz Water Management System	mines-of-rammelsberg-historic-town-of-goslar-and-upper-harz-water-management-system	Cultural	Listed	1992	Germany	Europe
+1298	Stoclet House	stoclet-house	Cultural	Listed	2009	Belgium	Europe
+1220	Bahá’i Holy Places in Haifa and the Western Galilee	bahai-holy-places-in-haifa-and-the-western-galilee	Cultural	Listed	2008	Israel	Europe
+1302	La Chaux-de-Fonds / Le Locle, Watchmaking Town Planning	la-chaux-de-fonds-le-locle-watchmaking-town-planning	Cultural	Listed	2009	Switzerland	Europe
+1303	Pontcysyllte Aqueduct and Canal	pontcysyllte-aqueduct-and-canal	Cultural	Listed	2009	United Kingdom of Great Britain and Northern Ireland	Europe
+1279	Mount Wutai	mount-wutai	Cultural	Listed	2009	China	Asia
+1231	Sacred Mijikenda Kaya Forests	sacred-mijikenda-kaya-forests	Cultural	Listed	2008	Kenya	Africa
+1224	Temple of Preah Vihear	temple-of-preah-vihear	Cultural	Listed	2008	Cambodia	Asia
+1315	Shushtar Historical Hydraulic System	shushtar-historical-hydraulic-system	Cultural	Listed	2009	Iran (Islamic Republic of)	Asia
+1310	Cidade Velha, Historic Centre of Ribeira Grande	cidade-velha-historic-centre-of-ribeira-grande	Cultural	Listed	2009	Cabo Verde	Africa
+1317	Pitons, cirques and remparts of Reunion Island	pitons-cirques-and-remparts-of-reunion-island	Natural	Listed	2010	France	Europe
+1237	The Dolomites	the-dolomites	Natural	Listed	2009	Italy	Europe
+1269	Sacred City of Caral-Supe	sacred-city-of-caral-supe	Cultural	Listed	2009	Peru	South America
+1312	Tower of Hercules	tower-of-hercules	Cultural	Listed	2009	Spain	Europe
+219	Srebarna Nature Reserve	srebarna-nature-reserve	Natural	Listed	1983	Bulgaria	Europe
+725	Caves of Aggtelek Karst and Slovak Karst	caves-of-aggtelek-karst-and-slovak-karst	Natural	Listed	1995	Hungary,Slovakia	Europe
+836	Archaeological Site of Volubilis	archaeological-site-of-volubilis	Cultural	Listed	1997	Morocco	Asia
+822	Historic Centre (Old Town) of Tallinn	historic-centre-old-town-of-tallinn	Cultural	Listed	1997	Estonia	Europe
+187	St Mary's Cathedral and St Michael's Church at Hildesheim	st-mary-s-cathedral-and-st-michael-s-church-at-hildesheim	Cultural	Listed	1985	Germany	Europe
+292	Cologne Cathedral	cologne-cathedral	Cultural	Listed	1996	Germany	Europe
+263	Monastery of the Hieronymites and Tower of Belém in Lisbon	monastery-of-the-hieronymites-and-tower-of-belem-in-lisbon	Cultural	Listed	1983	Portugal	Europe
+804	Palau de la Música Catalana and Hospital de Sant Pau, Barcelona	palau-de-la-musica-catalana-and-hospital-de-sant-pau-barcelona	Cultural	Listed	1997	Spain	Europe
+865	L'viv – the Ensemble of the Historic Centre	l-viv-the-ensemble-of-the-historic-centre	Cultural	Listed	1998	Ukraine	Europe
+370	Durham Castle and Cathedral	durham-castle-and-cathedral	Cultural	Listed	1986	United Kingdom of Great Britain and Northern Ireland	Europe
+426	Palace of Westminster and Westminster Abbey including Saint Margaret’s Church	palace-of-westminster-and-westminster-abbey-including-saint-margarets-church	Cultural	Listed	1987	United Kingdom of Great Britain and Northern Ireland	Europe
+203	From the Great Saltworks of Salins-les-Bains to the Royal Saltworks of Arc-et-Senans, the Production of Open-pan Salt	from-the-great-saltworks-of-salins-les-bains-to-the-royal-saltworks-of-arc-et-senans-the-production-of-open-pan-salt	Cultural	Listed	1982	France	Europe
+39	Ngorongoro Conservation Area	ngorongoro-conservation-area	Mixed	Listed	1979	United Republic of Tanzania	Africa
+225	Pirin National Park	pirin-national-park	Natural	Listed	1983	Bulgaria	Europe
+866	Prehistoric Rock Art Sites in the Côa Valley and Siega Verde	prehistoric-rock-art-sites-in-the-coa-valley-and-siega-verde	Cultural	Listed	1998	Portugal,Spain	Europe
+1090	Monte San Giorgio	monte-san-giorgio	Natural	Listed	2003	Italy,Switzerland	Europe
+1234	Putorana Plateau	putorana-plateau	Natural	Listed	2010	Russian Federation	Europe
+1306	Australian Convict Sites	australian-convict-sites	Cultural	Listed	2010	Australia	Asia
+1203	Central Highlands of Sri Lanka	central-highlands-of-sri-lanka	Natural	Listed	2010	Sri Lanka	Asia
+1141	Proto-urban Site of Sarazm	proto-urban-site-of-sarazm	Cultural	Listed	2010	Tajikistan	Asia
+1329	At-Turaif District in ad-Dir'iyah	at-turaif-district-in-ad-dir-iyah	Cultural	Listed	2010	Saudi Arabia	Asia
+1337	Episcopal City of Albi	episcopal-city-of-albi	Cultural	Listed	2010	France	Europe
+1349	Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht	seventeenth-century-canal-ring-area-of-amsterdam-inside-the-singelgracht	Cultural	Listed	2010	Netherlands (Kingdom of the)	Europe
+55	Røros Mining Town and the Circumference	rros-mining-town-and-the-circumference	Cultural	Listed	1980	Norway	Europe
+1326	Papahānaumokuākea	papahanaumokuakea	Mixed	Listed	2010	United States of America	Europe
+1335	China Danxia	china-danxia	Natural	Listed	2010	China	Asia
+1338	The Jantar Mantar, Jaipur	the-jantar-mantar-jaipur	Cultural	Listed	2010	India	Asia
+1345	Sheikh Safi al-din Khānegāh and Shrine Ensemble in Ardabil	sheikh-safi-al-din-khanegah-and-shrine-ensemble-in-ardabil	Cultural	Listed	2010	Iran (Islamic Republic of)	Asia
+1346	Tabriz Historic Bazaar Complex	tabriz-historic-bazaar-complex	Cultural	Listed	2010	Iran (Islamic Republic of)	Asia
+1325	Phoenix Islands Protected Area	phoenix-islands-protected-area	Natural	Listed	2010	Kiribati	Asia
+1339	Bikini Atoll Nuclear Test Site	bikini-atoll-nuclear-test-site	Cultural	Listed	2010	Marshall Islands	Asia
+1324	Historic Villages of Korea: Hahoe and Yangdong	historic-villages-of-korea-hahoe-and-yangdong	Cultural	Listed	2010	Republic of Korea	Asia
+1328	Central Sector of the Imperial Citadel of Thang Long - Hanoi	central-sector-of-the-imperial-citadel-of-thang-long-hanoi	Cultural	Listed	2010	Viet Nam	Asia
+1351	Camino Real de Tierra Adentro	camino-real-de-tierra-adentro	Cultural	Listed	2010	Mexico	South America
+1352	Prehistoric Caves of Yagul and Mitla in the Central Valley of Oaxaca	prehistoric-caves-of-yagul-and-mitla-in-the-central-valley-of-oaxaca	Cultural	Listed	2010	Mexico	South America
+1225	Ruins of Loropéni	ruins-of-loropeni	Cultural	Listed	2009	Burkina Faso	Africa
+1230	Sulaiman-Too Sacred Mountain	sulaiman-too-sacred-mountain	Cultural	Listed	2009	Kyrgyzstan	Asia
+402	Manú National Park	manu-national-park	Natural	Listed	1987	Peru	South America
+272	Hanseatic City of Lübeck	hanseatic-city-of-lubeck	Cultural	Listed	1987	Germany	Europe
+582	Old Rauma	old-rauma	Cultural	Listed	1991	Finland	Europe
+81	Chartres Cathedral	chartres-cathedral	Cultural	Listed	1979	France	Europe
+931	City of Graz – Historic Centre and Schloss Eggenberg	city-of-graz-historic-centre-and-schloss-eggenberg	Cultural	Listed	1999	Austria	Europe
+1272	São Francisco Square in the Town of São Cristóvão	sao-francisco-square-in-the-town-of-sao-cristovao	Cultural	Listed	2010	Brazil	South America
+1305	Historic Monuments of Dengfeng in “The Centre of Heaven and Earth”	historic-monuments-of-dengfeng-in-the-centre-of-heaven-and-earth	Cultural	Listed	2010	China	Asia
+598	Churches of Moldavia	churches-of-moldavia	Cultural	Listed	1993	Romania	Europe
+1131	Royal Exhibition Building and Carlton Gardens	royal-exhibition-building-and-carlton-gardens	Cultural	Listed	2004	Australia	Asia
+1083	Three Parallel Rivers of Yunnan Protected Areas	three-parallel-rivers-of-yunnan-protected-areas	Natural	Listed	2003	China	Asia
+720	Messel Pit Fossil Site	messel-pit-fossil-site	Natural	Listed	1995	Germany	Europe
+169	Würzburg Residence with the Court Gardens and Residence Square	wurzburg-residence-with-the-court-gardens-and-residence-square	Cultural	Listed	1981	Germany	Europe
+823	Residences of the Royal House of Savoy	residences-of-the-royal-house-of-savoy	Cultural	Listed	1997	Italy	Europe
+1246	Iwami Ginzan Silver Mine and its Cultural Landscape	iwami-ginzan-silver-mine-and-its-cultural-landscape	Cultural	Listed	2007	Japan	Asia
+29	Historic Centre of Kraków	historic-centre-of-krakow	Cultural	Listed	1978	Poland	Europe
+38	Amphitheatre of El Jem	amphitheatre-of-el-jem	Cultural	Listed	1979	Tunisia	Asia
+499	Kairouan	kairouan	Cultural	Listed	1988	Tunisia	Asia
+498	Medina of Sousse	medina-of-sousse	Cultural	Listed	1988	Tunisia	Asia
+36	Medina of Tunis	medina-of-tunis	Cultural	Listed	1979	Tunisia	Asia
+383	Cathedral, Alcázar and Archivo de Indias in Seville	cathedral-alcazar-and-archivo-de-indias-in-seville	Cultural	Listed	1987	Spain	Europe
+1060	Kenya Lake System in the Great Rift Valley	kenya-lake-system-in-the-great-rift-valley	Natural	Listed	2011	Kenya	Africa
+1359	Saloum Delta	saloum-delta	Cultural	Listed	2011	Senegal	Africa
+1377	Wadi Rum Protected Area	wadi-rum-protected-area	Mixed	Listed	2011	Jordan	Asia
+1336	Archaeological Sites of the Island of Meroe	archaeological-sites-of-the-island-of-meroe	Cultural	Listed	2011	Sudan	Asia
+1348	Ancient Villages of Northern Syria	ancient-villages-of-northern-syria	Cultural	Listed	2011	Syrian Arab Republic	Asia
+1343	Cultural Sites of Al Ain (Hafit, Hili, Bidaa Bint Saud and Oases Areas)	cultural-sites-of-al-ain-hafit-hili-bidaa-bint-saud-and-oases-areas	Cultural	Listed	2011	United Arab Emirates	Asia
+1369	Ningaloo Coast	ningaloo-coast	Natural	Listed	2011	Australia	Asia
+1334	West Lake Cultural Landscape of Hangzhou	west-lake-cultural-landscape-of-hangzhou	Cultural	Listed	2011	China	Asia
+1372	The Persian Garden	the-persian-garden	Cultural	Listed	2011	Iran (Islamic Republic of)	Asia
+1362	Ogasawara Islands	ogasawara-islands	Natural	Listed	2011	Japan	Asia
+1277	Hiraizumi – Temples, Gardens and Archaeological Sites Representing the Buddhist Pure Land	hiraizumi-temples-gardens-and-archaeological-sites-representing-the-buddhist-pure-land	Cultural	Listed	2011	Japan	Asia
+1382	Petroglyphic Complexes of the Mongolian Altai	petroglyphic-complexes-of-the-mongolian-altai	Cultural	Listed	2011	Mongolia	Asia
+1358	Citadel of the Ho Dynasty	citadel-of-the-ho-dynasty	Cultural	Listed	2011	Viet Nam	Asia
+1360	Nord-Pas de Calais Mining Basin	nord-pas-de-calais-mining-basin	Cultural	Listed	2012	France	Europe
+1368	Fagus Factory in Alfeld	fagus-factory-in-alfeld	Cultural	Listed	2011	Germany	Europe
+1318	Longobards in Italy. Places of the Power (568-774 A.D.)	longobards-in-italy-places-of-the-power-568-774-a-d	Cultural	Listed	2011	Italy	Europe
+1371	Cultural Landscape of the Serra de Tramuntana	cultural-landscape-of-the-serra-de-tramuntana	Cultural	Listed	2011	Spain	Europe
+1363	Prehistoric Pile Dwellings around the Alps	prehistoric-pile-dwellings-around-the-alps	Cultural	Listed	2011	Austria,France,Germany,Italy,Slovenia,Switzerland	Europe
+1366	Selimiye Mosque and its Social Complex	selimiye-mosque-and-its-social-complex	Cultural	Listed	2011	Türkiye	Europe
+1330	Residence of Bukovinian and Dalmatian Metropolitans	residence-of-bukovinian-and-dalmatian-metropolitans	Cultural	Listed	2011	Ukraine	Europe
+1376	Historic Bridgetown and its Garrison	historic-bridgetown-and-its-garrison	Cultural	Listed	2011	Barbados	South America
+1121	Coffee Cultural Landscape of Colombia	coffee-cultural-landscape-of-colombia	Cultural	Listed	2011	Colombia	South America
+1236	León Cathedral	leon-cathedral	Cultural	Listed	2011	Nicaragua	South America
+1379	Margravial Opera House Bayreuth	margravial-opera-house-bayreuth	Cultural	Listed	2012	Germany	Europe
+1386	Rock Islands Southern Lagoon	rock-islands-southern-lagoon	Mixed	Listed	2012	Palau	Asia
+1388	Chengjiang Fossil Site	chengjiang-fossil-site	Natural	Listed	2012	China	Asia
+1389	Site of Xanadu	site-of-xanadu	Cultural	Listed	2012	China	Asia
+1282	Decorated Farmhouses of Hälsingland	decorated-farmhouses-of-halsingland	Cultural	Listed	2012	Sweden	Europe
+1393	Sites of Human Evolution at Mount Carmel: The Nahal Me’arot / Wadi el-Mughara Caves	sites-of-human-evolution-at-mount-carmel-the-nahal-mearot-wadi-el-mughara-caves	Cultural	Listed	2012	Israel	Europe
+1396	Archaeological Heritage of the Lenggong Valley	archaeological-heritage-of-the-lenggong-valley	Cultural	Listed	2012	Malaysia	Asia
+1397	Masjed-e Jāmé of Isfahan	masjed-e-jame-of-isfahan	Cultural	Listed	2012	Iran (Islamic Republic of)	Asia
+1398	Gonbad-e Qābus	gonbad-e-qabus	Cultural	Listed	2012	Iran (Islamic Republic of)	Asia
+1400	Lakes of Ounianga	lakes-of-ounianga	Natural	Listed	2012	Chad	Africa
+1401	Rabat, Modern Capital and Historic City: a Shared Heritage	rabat-modern-capital-and-historic-city-a-shared-heritage	Cultural	Listed	2012	Morocco	Asia
+1404	Landscape of Grand Pré	landscape-of-grand-pre	Cultural	Listed	2012	Canada	Europe
+1405	Neolithic Site of Çatalhöyük	neolithic-site-of-catalhoyuk	Cultural	Listed	2012	Türkiye	Europe
+1407	Bassari Country: Bassari, Fula and Bedik Cultural Landscapes	bassari-country-bassari-fula-and-bedik-cultural-landscapes	Cultural	Listed	2012	Senegal	Africa
+1194	Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hita Karana Philosophy	cultural-landscape-of-bali-province-the-subak-system-as-a-manifestation-of-the-tri-hita-karana-philosophy	Cultural	Listed	2012	Indonesia	Asia
+1344	Major Mining Sites of Wallonia	major-mining-sites-of-wallonia	Cultural	Listed	2012	Belgium	Europe
+1313	Heritage of Mercury. Almadén and Idrija	heritage-of-mercury-almaden-and-idrija	Cultural	Listed	2012	Slovenia,Spain	Europe
+1100	Rio de Janeiro: Carioca Landscapes between the Mountain and the Sea	rio-de-janeiro-carioca-landscapes-between-the-mountain-and-the-sea	Cultural	Listed	2012	Brazil	South America
+1333	Konso Cultural Landscape	konso-cultural-landscape	Cultural	Listed	2011	Ethiopia	Africa
+1295	Fort Jesus, Mombasa	fort-jesus-mombasa	Cultural	Listed	2011	Kenya	Africa
+1153	The Causses and the Cévennes, Mediterranean agro-pastoral Cultural Landscape	the-causses-and-the-cevennes-mediterranean-agro-pastoral-cultural-landscape	Cultural	Listed	2011	France	Europe
+32	Wieliczka and Bochnia Royal Salt Mines	wieliczka-and-bochnia-royal-salt-mines	Cultural	Listed	1978	Poland	Europe
+1410	El Pinacate and Gran Desierto de Altar Biosphere Reserve	el-pinacate-and-gran-desierto-de-altar-biosphere-reserve	Natural	Listed	2013	Mexico	South America
+1364	Pearling, Testimony of an Island Economy	pearling-testimony-of-an-island-economy	Cultural	Listed	2012	Bahrain	Asia
+1259	Le Morne Cultural Landscape	le-morne-cultural-landscape	Cultural	Listed	2008	Mauritius	Africa
+271	Pilgrimage Church of Wies	pilgrimage-church-of-wies	Cultural	Listed	1983	Germany	Europe
+515	Abbey and Altenmünster of Lorsch	abbey-and-altenmunster-of-lorsch	Cultural	Listed	1991	Germany	Europe
+726	Historic Centre of Naples	historic-centre-of-naples	Cultural	Listed	1995	Italy	Europe
+1223	Melaka and George Town, Historic Cities of the Straits of Malacca	melaka-and-george-town-historic-cities-of-the-straits-of-malacca	Cultural	Listed	2008	Malaysia	Asia
+147	Kakadu National Park	kakadu-national-park	Mixed	Listed	1981	Australia	Asia
+1182	Islands and Protected Areas of the Gulf of California	islands-and-protected-areas-of-the-gulf-of-california	Natural	Listed	2005	Mexico	South America
+1412	Red Bay Basque Whaling Station	red-bay-basque-whaling-station	Cultural	Listed	2013	Canada	Europe
+1413	Bergpark Wilhelmshöhe	bergpark-wilhelmshohe	Cultural	Listed	2013	Germany	Europe
+1414	Xinjiang Tianshan	xinjiang-tianshan	Natural	Listed	2013	China	Asia
+1111	Cultural Landscape of Honghe Hani Rice Terraces	cultural-landscape-of-honghe-hani-rice-terraces	Cultural	Listed	2013	China	Asia
+1278	Historic Monuments and Sites in Kaesong	historic-monuments-and-sites-in-kaesong	Cultural	Listed	2013	Democratic People's Republic of Korea	Asia
+1418	Fujisan, sacred place and source of artistic inspiration	fujisan-sacred-place-and-source-of-artistic-inspiration	Cultural	Listed	2013	Japan	Asia
+1399	Levuka Historical Port Town	levuka-historical-port-town	Cultural	Listed	2013	Fiji	Asia
+1422	Golestan Palace	golestan-palace	Cultural	Listed	2013	Iran (Islamic Republic of)	Asia
+175	Medici Villas and Gardens in Tuscany	medici-villas-and-gardens-in-tuscany	Cultural	Listed	2013	Italy	Europe
+1424	Wooden Tserkvas of the Carpathian Region in Poland and Ukraine	wooden-tserkvas-of-the-carpathian-region-in-poland-and-ukraine	Cultural	Listed	2013	Poland,Ukraine	Europe
+1411	Ancient City of Tauric Chersonese and its Chora	ancient-city-of-tauric-chersonese-and-its-chora	Cultural	Listed	2013	Ukraine	Europe
+800	Mount Kenya National Park/Natural Forest	mount-kenya-national-park-natural-forest	Natural	Listed	1997	Kenya	Africa
+1268	Historic Centre of Agadez	historic-centre-of-agadez	Cultural	Listed	2013	Niger	Africa
+1252	Tajik National Park (Mountains of the Pamirs)	tajik-national-park-mountains-of-the-pamirs	Natural	Listed	2013	Tajikistan	Asia
+1427	Mount Etna	mount-etna	Natural	Listed	2013	Italy	Europe
+1430	Namib Sand Sea	namib-sand-sea	Natural	Listed	2013	Namibia	Africa
+1322	Historic Town of Grand-Bassam	historic-town-of-grand-bassam	Cultural	Listed	2012	Côte d'Ivoire	Africa
+1380	Sangha Trinational	sangha-trinational	Natural	Listed	2012	Cameroon,Central African Republic,Congo	Africa
+1342	Western Ghats	western-ghats	Natural	Listed	2012	India	Asia
+1433	Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route, Bethlehem	birthplace-of-jesus-church-of-the-nativity-and-the-pilgrimage-route-bethlehem	Cultural	Listed	2012	State of Palestine	Asia
+199	Selous Game Reserve	selous-game-reserve	Natural	Listed	1982	United Republic of Tanzania	Africa
+848	Choirokoitia	choirokoitia	Cultural	Listed	1998	Cyprus	Europe
+541	Vilnius Historic Centre	vilnius-historic-centre	Cultural	Listed	1994	Lithuania	Europe
+372	Studley Royal Park including the Ruins of Fountains Abbey	studley-royal-park-including-the-ruins-of-fountains-abbey	Cultural	Listed	1986	United Kingdom of Great Britain and Northern Ireland	Europe
+241	Group of Monuments at Hampi	group-of-monuments-at-hampi	Cultural	Listed	1986	India	Asia
+547	Mount Huangshan	mount-huangshan	Mixed	Listed	1990	China	Asia
+811	Old Town of Lijiang	old-town-of-lijiang	Cultural	Listed	1997	China	Asia
+247	Hill Forts of Rajasthan	hill-forts-of-rajasthan	Cultural	Listed	2013	India	Asia
+1402	Al Zubarah Archaeological Site	al-zubarah-archaeological-site	Cultural	Listed	2013	Qatar	Asia
+181	Tasmanian Wilderness	tasmanian-wilderness	Mixed	Listed	1982	Australia	Asia
+162	Amiens Cathedral	amiens-cathedral	Cultural	Listed	1981	France	Europe
+635	Bourges Cathedral	bourges-cathedral	Cultural	Listed	1992	France	Europe
+3	Aachen Cathedral	aachen-cathedral	Cultural	Listed	1978	Germany	Europe
+479	Town of Luang Prabang	town-of-luang-prabang	Cultural	Listed	1995	Lao People's Democratic Republic	Asia
+677	Baroque Churches of the Philippines	baroque-churches-of-the-philippines	Cultural	Listed	1993	Philippines	Asia
+1367	Garrison Border Town of Elvas and its Fortifications	garrison-border-town-of-elvas-and-its-fortifications	Cultural	Listed	2012	Portugal	Europe
+1319	Royal Tombs of the Joseon Dynasty	royal-tombs-of-the-joseon-dynasty	Cultural	Listed	2009	Republic of Korea	Asia
+540	Historic Centre of Saint Petersburg and Related Groups of Monuments	historic-centre-of-saint-petersburg-and-related-groups-of-monuments	Cultural	Listed	1990	Russian Federation	Europe
+1061	Ancient Maya City and Protected Tropical Forests of Calakmul, Campeche	ancient-maya-city-and-protected-tropical-forests-of-calakmul-campeche	Mixed	Listed	2002	Mexico	South America
+1248	South China Karst	south-china-karst	Natural	Listed	2007	China	Asia
+1314	Wadden Sea	wadden-sea	Natural	Listed	2009	Denmark,Germany,Netherlands (Kingdom of the)	Europe
+1361	Historic Jeddah, the Gate to Makkah	historic-jeddah-the-gate-to-makkah	Cultural	Listed	2014	Saudi Arabia	Asia
+1370	Caves of Maresha and Bet-Guvrin in the Judean Lowlands as a Microcosm of the Land of the Caves	caves-of-maresha-and-bet-guvrin-in-the-judean-lowlands-as-a-microcosm-of-the-land-of-the-caves	Cultural	Listed	2014	Israel	Europe
+1390	Vineyard Landscape of Piedmont: Langhe-Roero and Monferrato	vineyard-landscape-of-piedmont-langhe-roero-and-monferrato	Cultural	Listed	2014	Italy	Europe
+1416	Stevns Klint	stevns-klint	Natural	Listed	2014	Denmark	Europe
+1426	Decorated Cave of Pont d’Arc, known as Grotte Chauvet-Pont d’Arc, Ardèche	decorated-cave-of-pont-darc-known-as-grotte-chauvet-pont-darc-ardeche	Cultural	Listed	2014	France	Europe
+1432	Okavango Delta	okavango-delta	Natural	Listed	2014	Botswana	Africa
+1435	Monumental Earthworks of Poverty Point	monumental-earthworks-of-poverty-point	Cultural	Listed	2014	United States of America	Europe
+1437	Erbil Citadel	erbil-citadel	Cultural	Listed	2014	Iraq	Asia
+1439	Namhansanseong	namhansanseong	Cultural	Listed	2014	Republic of Korea	Asia
+1441	Van Nellefabriek	van-nellefabriek	Cultural	Listed	2014	Netherlands (Kingdom of the)	Europe
+1442	Silk Roads: the Routes Network of Chang'an-Tianshan Corridor	silk-roads-the-routes-network-of-chang-an-tianshan-corridor	Cultural	Listed	2014	China,Kazakhstan,Kyrgyzstan	Asia
+1444	Pyu Ancient Cities	pyu-ancient-cities	Cultural	Listed	2014	Myanmar	Asia
+1447	Carolingian Westwork and Civitas Corvey	carolingian-westwork-and-civitas-corvey	Cultural	Listed	2014	Germany	Europe
+1449	Tomioka Silk Mill and Related Sites	tomioka-silk-mill-and-related-sites	Cultural	Listed	2014	Japan	Asia
+1452	Bursa and Cumalıkızık: the Birth of the Ottoman Empire	bursa-and-cumalkzk-the-birth-of-the-ottoman-empire	Cultural	Listed	2014	Türkiye	Europe
+1453	Precolumbian Chiefdom Settlements with Stone Spheres of the Diquís	precolumbian-chiefdom-settlements-with-stone-spheres-of-the-diquis	Cultural	Listed	2014	Costa Rica	South America
+1455	Susa	susa	Cultural	Listed	2015	Iran (Islamic Republic of)	Asia
+1456	Shahr-i Sokhta	shahr-i-sokhta	Cultural	Listed	2014	Iran (Islamic Republic of)	Asia
+1457	Pergamon and its Multi-Layered Cultural Landscape	pergamon-and-its-multi-layered-cultural-landscape	Cultural	Listed	2014	Türkiye	Europe
+1459	Qhapaq Ñan, Andean Road System	qhapaq-nan-andean-road-system	Cultural	Listed	2014	Argentina,Bolivia (Plurinational State of),Chile,Colombia,Ecuador,Peru	South America
+33	Białowieża Forest	biaowieza-forest	Natural	Listed	1979	Belarus,Poland	Europe
+922	Rani-ki-Vav (the Queen’s Stepwell) at Patan, Gujarat	rani-ki-vav-the-queens-stepwell-at-patan-gujarat	Cultural	Listed	2014	India	Asia
+981	Bolgar Historical and Archaeological Complex	bolgar-historical-and-archaeological-complex	Cultural	Listed	2014	Russian Federation	Europe
+1403	Mount Hamiguitan Range Wildlife Sanctuary	mount-hamiguitan-range-wildlife-sanctuary	Natural	Listed	2014	Philippines	Asia
+1406	Great Himalayan National Park Conservation Area	great-himalayan-national-park-conservation-area	Natural	Listed	2014	India	Asia
+1492	Palestine: Land of Olives and Vines – Cultural Landscape of Southern Jerusalem, Battir	palestine-land-of-olives-and-vines-cultural-landscape-of-southern-jerusalem-battir	Cultural	Listed	2014	State of Palestine	Asia
+1007	Cape Floral Region Protected Areas	cape-floral-region-protected-areas	Natural	Listed	2004	South Africa	Africa
+1018	Ephesus	ephesus	Cultural	Listed	2015	Türkiye	Europe
+1356	Blue and John Crow Mountains	blue-and-john-crow-mountains	Mixed	Listed	2015	Jamaica	South America
+1425	The Climats, terroirs of Burgundy	the-climats-terroirs-of-burgundy	Cultural	Listed	2015	France	Europe
+1440	Great Burkhan Khaldun Mountain and its surrounding sacred landscape	great-burkhan-khaldun-mountain-and-its-surrounding-sacred-landscape	Cultural	Listed	2015	Mongolia	Asia
+1446	Baptism Site “Bethany Beyond the Jordan” (Al-Maghtas)	baptism-site-bethany-beyond-the-jordan-al-maghtas	Cultural	Listed	2015	Jordan	Asia
+1463	Aqueduct of Padre Tembleque Hydraulic System	aqueduct-of-padre-tembleque-hydraulic-system	Cultural	Listed	2015	Mexico	South America
+1464	Fray Bentos Industrial Landscape	fray-bentos-industrial-landscape	Cultural	Listed	2015	Uruguay	South America
+1465	Champagne Hillsides, Houses and Cellars	champagne-hillsides-houses-and-cellars	Cultural	Listed	2015	France	Europe
+1466	San Antonio Missions	san-antonio-missions	Cultural	Listed	2015	United States of America	Europe
+1467	Speicherstadt and Kontorhaus District with Chilehaus	speicherstadt-and-kontorhaus-district-with-chilehaus	Cultural	Listed	2015	Germany	Europe
+1469	The par force hunting landscape in North Zealand	the-par-force-hunting-landscape-in-north-zealand	Cultural	Listed	2015	Denmark	Europe
+1471	Necropolis of Bet She’arim: A Landmark of Jewish Renewal	necropolis-of-bet-shearim-a-landmark-of-jewish-renewal	Cultural	Listed	2015	Israel	Europe
+1472	Rock Art in the Hail Region of Saudi Arabia	rock-art-in-the-hail-region-of-saudi-arabia	Cultural	Listed	2015	Saudi Arabia	Asia
+1474	Tusi Sites	tusi-sites	Cultural	Listed	2015	China	Asia
+1477	Baekje Historic Areas	baekje-historic-areas	Cultural	Listed	2015	Republic of Korea	Asia
+1480	Victorian Gothic and Art Deco Ensembles of Mumbai	victorian-gothic-and-art-deco-ensembles-of-mumbai	Cultural	Listed	2018	India	Asia
+1481	The Ahwar of Southern Iraq: Refuge of Biodiversity and the Relict Landscape of the Mesopotamian Cities	the-ahwar-of-southern-iraq-refuge-of-biodiversity-and-the-relict-landscape-of-the-mesopotamian-cities	Mixed	Listed	2016	Iraq	Asia
+1483	Singapore Botanic Gardens	singapore-botanic-gardens	Cultural	Listed	2015	Singapore	Asia
+1484	Sites of Japan’s Meiji Industrial Revolution: Iron and Steel, Shipbuilding and Coal Mining	sites-of-japans-meiji-industrial-revolution-iron-and-steel-shipbuilding-and-coal-mining	Cultural	Listed	2015	Japan	Asia
+1485	The Forth Bridge	the-forth-bridge	Cultural	Listed	2015	United Kingdom of Great Britain and Northern Ireland	Europe
+1486	Rjukan-Notodden Industrial Heritage Site	rjukan-notodden-industrial-heritage-site	Cultural	Listed	2015	Norway	Europe
+1487	Arab-Norman Palermo and the Cathedral Churches of Cefalú and Monreale	arab-norman-palermo-and-the-cathedral-churches-of-cefalu-and-monreale	Cultural	Listed	2015	Italy	Europe
+1488	Diyarbakır Fortress and Hevsel Gardens Cultural Landscape	diyarbakr-fortress-and-hevsel-gardens-cultural-landscape	Cultural	Listed	2015	Türkiye	Europe
+669	Routes of Santiago de Compostela: Camino Francés and Routes of Northern Spain	routes-of-santiago-de-compostela-camino-frances-and-routes-of-northern-spain	Cultural	Listed	1993	Spain	Europe
+1099	Mapungubwe Cultural Landscape	mapungubwe-cultural-landscape	Cultural	Listed	2003	South Africa	Africa
+1192	Qal’at al-Bahrain – Ancient Harbour and Capital of Dilmun	qalat-al-bahrain-ancient-harbour-and-capital-of-dilmun	Cultural	Listed	2005	Bahrain	Asia
+30	Historic Centre of Warsaw	historic-centre-of-warsaw	Cultural	Listed	1980	Poland	Europe
+316	Burgos Cathedral	burgos-cathedral	Cultural	Listed	1984	Spain	Europe
+1423	Cultural Landscape of Maymand	cultural-landscape-of-maymand	Cultural	Listed	2015	Iran (Islamic Republic of)	Asia
+1493	Pampulha Modern Ensemble	pampulha-modern-ensemble	Cultural	Listed	2016	Brazil	South America
+1490	Western Tien-Shan	western-tien-shan	Natural	Listed	2016	Kazakhstan,Kyrgyzstan,Uzbekistan	Asia
+1497	Mistaken Point	mistaken-point	Natural	Listed	2016	Canada	Europe
+1321	The Architectural Work of Le Corbusier, an Outstanding Contribution to the Modern Movement	the-architectural-work-of-le-corbusier-an-outstanding-contribution-to-the-modern-movement	Cultural	Listed	2016	Argentina,Belgium,France,Germany,India,Japan,Switzerland	Asia,Europe,South America
+1499	Antigua Naval Dockyard and Related Archaeological Sites	antigua-naval-dockyard-and-related-archaeological-sites	Cultural	Listed	2016	Antigua and Barbuda	South America
+1500	Gorham's Cave Complex	gorham-s-cave-complex	Cultural	Listed	2016	United Kingdom of Great Britain and Northern Ireland	Europe
+1501	Antequera Dolmens Site	antequera-dolmens-site	Cultural	Listed	2016	Spain	Europe
+1502	Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar	archaeological-site-of-nalanda-mahavihara-at-nalanda-bihar	Cultural	Listed	2016	India	Asia
+1475	Ennedi Massif: Natural and Cultural Landscape	ennedi-massif-natural-and-cultural-landscape	Mixed	Listed	2016	Chad	Africa
+1503	Nan Madol: Ceremonial Centre of Eastern Micronesia	nan-madol-ceremonial-centre-of-eastern-micronesia	Cultural	Listed	2016	Micronesia (Federated States of)	Asia
+1504	Stećci Medieval Tombstone Graveyards	stecci-medieval-tombstone-graveyards	Cultural	Listed	2016	Bosnia and Herzegovina,Croatia,Montenegro,Serbia	Europe
+1505	Lut Desert	lut-desert	Natural	Listed	2016	Iran (Islamic Republic of)	Asia
+1506	The Persian Qanat	the-persian-qanat	Cultural	Listed	2016	Iran (Islamic Republic of)	Asia
+1508	Zuojiang Huashan Rock Art Cultural Landscape	zuojiang-huashan-rock-art-cultural-landscape	Cultural	Listed	2016	China	Asia
+1510	Archipiélago de Revillagigedo	archipielago-de-revillagigedo	Natural	Listed	2016	Mexico	South America
+1513	Khangchendzonga National Park	khangchendzonga-national-park	Mixed	Listed	2016	India	Asia
+1517	Archaeological Site of Philippi	archaeological-site-of-philippi	Cultural	Listed	2016	Greece	Europe
+1518	Archaeological Site of Ani	archaeological-site-of-ani	Cultural	Listed	2016	Türkiye	Europe
+1299	Lena Pillars Nature Park	lena-pillars-nature-park	Natural	Listed	2012	Russian Federation	Europe
+132	Megalithic Temples of Malta	megalithic-temples-of-malta	Cultural	Listed	1980	Malta	Europe
+125	Natural and Culturo-Historical Region of Kotor	natural-and-culturo-historical-region-of-kotor	Cultural	Listed	1979	Montenegro	Europe
+311	Old Town of Segovia and its Aqueduct	old-town-of-segovia-and-its-aqueduct	Cultural	Listed	1985	Spain	Europe
+514	Heart of Neolithic Orkney	heart-of-neolithic-orkney	Cultural	Listed	1999	United Kingdom of Great Britain and Northern Ireland	Europe
+442	Monticello and the University of Virginia in Charlottesville	monticello-and-the-university-of-virginia-in-charlottesville	Cultural	Listed	1987	United States of America	Europe
+1511	Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo	mbanza-kongo-vestiges-of-the-capital-of-the-former-kingdom-of-kongo	Cultural	Listed	2017	Angola	Africa
+1550	Asmara: A Modernist African City	asmara-a-modernist-african-city	Cultural	Listed	2017	Eritrea	Africa
+1545	ǂKhomani Cultural Landscape	khomani-cultural-landscape	Cultural	Listed	2017	South Africa	Africa
+1532	Temple Zone of Sambor Prei Kuk, Archaeological Site of Ancient Ishanapura	temple-zone-of-sambor-prei-kuk-archaeological-site-of-ancient-ishanapura	Cultural	Listed	2017	Cambodia	Asia
+1540	Qinghai Hoh Xil	qinghai-hoh-xil	Natural	Listed	2017	China	Asia
+1541	Kulangsu, a Historic International Settlement	kulangsu-a-historic-international-settlement	Cultural	Listed	2017	China	Asia
+1551	Historic City of Ahmadabad	historic-city-of-ahmadabad	Cultural	Listed	2017	India	Asia
+1544	Historic City of Yazd	historic-city-of-yazd	Cultural	Listed	2017	Iran (Islamic Republic of)	Asia
+1535	Sacred Island of Okinoshima and Associated Sites in the Munakata Region	sacred-island-of-okinoshima-and-associated-sites-in-the-munakata-region	Cultural	Listed	2017	Japan	Asia
+1448	Landscapes of Dauria	landscapes-of-dauria	Natural	Listed	2017	Mongolia,Russian Federation	Asia,Europe
+1536	Kujataa Greenland: Norse and Inuit Farming at the Edge of the Ice Cap	kujataa-greenland-norse-and-inuit-farming-at-the-edge-of-the-ice-cap	Cultural	Listed	2017	Denmark	Europe
+1529	Taputapuātea	taputapuatea	Cultural	Listed	2017	France	Europe
+495	Strasbourg, Grande-Île and Neustadt	strasbourg-grande-ile-and-neustadt	Cultural	Listed	1988	France	Europe
+1527	Caves and Ice Age Art in the Swabian Jura	caves-and-ice-age-art-in-the-swabian-jura	Cultural	Listed	2017	Germany	Europe
+729	Bauhaus and its Sites in Weimar, Dessau and Bernau	bauhaus-and-its-sites-in-weimar-dessau-and-bernau	Cultural	Listed	1996	Germany	Europe
+1533	Venetian Works of Defence between the 16th and 17th Centuries: Stato da Terra – Western Stato da Mar	venetian-works-of-defence-between-the-16th-and-17th-centuries-stato-da-terra-western-stato-da-mar	Cultural	Listed	2017	Croatia,Italy,Montenegro	Europe
+1539	Tarnowskie Góry Lead-Silver-Zinc Mine and its Underground Water Management System	tarnowskie-gory-lead-silver-zinc-mine-and-its-underground-water-management-system	Cultural	Listed	2017	Poland	Europe
+1525	Assumption Cathedral and Monastery of the town-island of Sviyazhsk	assumption-cathedral-and-monastery-of-the-town-island-of-sviyazhsk	Cultural	Listed	2017	Russian Federation	Europe
+1519	Aphrodisias	aphrodisias	Cultural	Listed	2017	Türkiye	Europe
+422	The English Lake District	the-english-lake-district	Cultural	Listed	2017	United Kingdom of Great Britain and Northern Ireland	Europe
+1526	Los Alerces National Park	los-alerces-national-park	Natural	Listed	2017	Argentina	South America
+1548	Valongo Wharf Archaeological Site	valongo-wharf-archaeological-site	Cultural	Listed	2017	Brazil	South America
+262	Sanganeb Marine National Park and Dungonab Bay – Mukkawar Island Marine National Park	sanganeb-marine-national-park-and-dungonab-bay-mukkawar-island-marine-national-park	Natural	Listed	2016	Sudan	Asia
+369	Giant's Causeway and Causeway Coast	giant-s-causeway-and-causeway-coast	Natural	Listed	1986	United Kingdom of Great Britain and Northern Ireland	Europe
+1438	Trang An Landscape Complex	trang-an-landscape-complex	Mixed	Listed	2014	Viet Nam	Asia
+1443	The Grand Canal	the-grand-canal	Cultural	Listed	2014	China	Asia
+232	Humayun's Tomb, Delhi	humayun-s-tomb-delhi	Cultural	Listed	1993	India	Asia
+1142	Sacred Sites and Pilgrimage Routes in the Kii Mountain Range	sacred-sites-and-pilgrimage-routes-in-the-kii-mountain-range	Cultural	Listed	2004	Japan	Asia
+602	Historic Centre of Bukhara	historic-centre-of-bukhara	Cultural	Listed	1993	Uzbekistan	Asia
+229	Place Stanislas, Place de la Carrière and Place d'Alliance in Nancy	place-stanislas-place-de-la-carriere-and-place-d-alliance-in-nancy	Cultural	Listed	1983	France	Europe
+378	Mudejar Architecture of Aragon	mudejar-architecture-of-aragon	Cultural	Listed	1986	Spain	Europe
+384	Old Town of Cáceres	old-town-of-caceres	Cultural	Listed	1986	Spain	Europe
+198	Cahokia Mounds State Historic Site	cahokia-mounds-state-historic-site	Cultural	Listed	1982	United States of America	Europe
+266	La Fortaleza and San Juan National Historic Site in Puerto Rico	la-fortaleza-and-san-juan-national-historic-site-in-puerto-rico	Cultural	Listed	1983	United States of America	Europe
+387	St Kilda	st-kilda	Mixed	Listed	1986	United Kingdom of Great Britain and Northern Ireland	Europe
+1553	Archaeological Border complex of Hedeby and the Danevirke	archaeological-border-complex-of-hedeby-and-the-danevirke	Cultural	Listed	2018	Germany	Europe
+22	Ancient City of Bosra	ancient-city-of-bosra	Cultural	Listed	1980	Syrian Arab Republic	Asia
+766	Central Sikhote-Alin	central-sikhote-alin	Natural	Listed	2001	Russian Federation	Europe
+1174	Chiribiquete National Park – “The Maloca of the Jaguar”	chiribiquete-national-park-the-maloca-of-the-jaguar	Mixed	Listed	2018	Colombia	South America
+1415	Pimachiowin Aki	pimachiowin-aki	Mixed	Listed	2018	Canada	Europe
+1495	Hidden Christian Sites in the Nagasaki Region	hidden-christian-sites-in-the-nagasaki-region	Cultural	Listed	2018	Japan	Asia
+1537	Ancient City of Qalhat	ancient-city-of-qalhat	Cultural	Listed	2018	Oman	Asia
+1557	Aasivissuit – Nipisat. Inuit Hunting Ground between Ice and Sea	aasivissuit-nipisat-inuit-hunting-ground-between-ice-and-sea	Cultural	Listed	2018	Denmark	Europe
+1559	Fanjingshan	fanjingshan	Natural	Listed	2018	China	Asia
+1560	Caliphate City of Medina Azahara	caliphate-city-of-medina-azahara	Cultural	Listed	2018	Spain	Europe
+1562	Sansa, Buddhist Mountain Monasteries in Korea	sansa-buddhist-mountain-monasteries-in-korea	Cultural	Listed	2018	Republic of Korea	Asia
+1563	Al-Ahsa Oasis, an Evolving Cultural Landscape	al-ahsa-oasis-an-evolving-cultural-landscape	Cultural	Listed	2018	Saudi Arabia	Asia
+1565	Hebron/Al-Khalil Old Town	hebron-al-khalil-old-town	Cultural	Listed	2017	State of Palestine	Asia
+1568	Sassanid Archaeological Landscape of Fars Region	sassanid-archaeological-landscape-of-fars-region	Cultural	Listed	2018	Iran (Islamic Republic of)	Asia
+1572	Göbekli Tepe	gobekli-tepe	Cultural	Listed	2018	Türkiye	Europe
+1575	Barberton Makhonjwa Mountains	barberton-makhonjwa-mountains	Natural	Listed	2018	South Africa	Africa
+710	Gelati Monastery	gelati-monastery	Cultural	Listed	1994	Georgia	Europe
+911	Mount Wuyi	mount-wuyi	Mixed	Listed	1999	China	Asia
+4	L’Anse aux Meadows National Historic Site	lanse-aux-meadows-national-historic-site	Cultural	Listed	1978	Canada	Europe
+933	The Loire Valley between Sully-sur-Loire and Chalonnes	the-loire-valley-between-sully-sur-loire-and-chalonnes	Cultural	Listed	2000	France	Europe
+708	Historical Monuments of Mtskheta	historical-monuments-of-mtskheta	Cultural	Listed	1994	Georgia	Europe
+1143	Vegaøyan – The Vega Archipelago	vegayan-the-vega-archipelago	Cultural	Listed	2004	Norway	Europe
+356	Historic Areas of Istanbul	historic-areas-of-istanbul	Cultural	Listed	1985	Türkiye	Europe
+23	Site of Palmyra	site-of-palmyra	Cultural	Listed	1980	Syrian Arab Republic	Asia
+1434	Chaîne des Puys - Limagne fault tectonic arena	chaine-des-puys-limagne-fault-tectonic-arena	Natural	Listed	2018	France	Europe
+1078	Jewish Quarter and St Procopius' Basilica in Třebíč	jewish-quarter-and-st-procopius-basilica-in-trebic	Cultural	Listed	2003	Czechia	Europe
+1577	Budj Bim Cultural Landscape	budj-bim-cultural-landscape	Cultural	Listed	2019	Australia	Asia
+1578	Risco Caido and the Sacred Mountains of Gran Canaria Cultural Landscape	risco-caido-and-the-sacred-mountains-of-gran-canaria-cultural-landscape	Cultural	Listed	2019	Spain	Europe
+1308	Paraty and Ilha Grande – Culture and Biodiversity	paraty-and-ilha-grande-culture-and-biodiversity	Mixed	Listed	2019	Brazil	South America
+1580	Water Management System of Augsburg	water-management-system-of-augsburg	Cultural	Listed	2019	Germany	Europe
+1478	Erzgebirge/Krušnohoří Mining Region	erzgebirge-krusnohori-mining-region	Cultural	Listed	2019	Czechia,Germany	Europe
+1523	Churches of the Pskov School of Architecture	churches-of-the-pskov-school-of-architecture	Cultural	Listed	2019	Russian Federation	Europe
+1573	Royal Building of Mafra – Palace, Basilica, Convent, Cerco Garden and Hunting Park ( Tapada )	royal-building-of-mafra-palace-basilica-convent-cerco-garden-and-hunting-park-tapada	Cultural	Listed	2019	Portugal	Europe
+1592	Archaeological Ruins of Liangzhu City	archaeological-ruins-of-liangzhu-city	Cultural	Listed	2019	China	Asia
+1498	Seowon, Korean Neo-Confucian Academies	seowon-korean-neo-confucian-academies	Cultural	Listed	2019	Republic of Korea	Asia
+1590	Sanctuary of Bom Jesus do Monte in Braga	sanctuary-of-bom-jesus-do-monte-in-braga	Cultural	Listed	2019	Portugal	Europe
+1587	Megalithic Jar Sites in Xiengkhuang – Plain of Jars	megalithic-jar-sites-in-xiengkhuang-plain-of-jars	Cultural	Listed	2019	Lao People's Democratic Republic	Asia
+1588	Bagan	bagan	Cultural	Listed	2019	Myanmar	Asia
+1594	Jodrell Bank Observatory	jodrell-bank-observatory	Cultural	Listed	2019	United Kingdom of Great Britain and Northern Ireland	Europe
+1534	Tehuacán-Cuicatlán Valley: originary habitat of Mesoamerica	tehuacan-cuicatlan-valley-originary-habitat-of-mesoamerica	Mixed	Listed	2018	Mexico	South America
+1470	Naumburg Cathedral	naumburg-cathedral	Cultural	Listed	2018	Germany	Europe
+1602	Ancient Ferrous Metallurgy Sites of Burkina Faso	ancient-ferrous-metallurgy-sites-of-burkina-faso	Cultural	Listed	2019	Burkina Faso	Africa
+1542	Dilmun Burial Mounds	dilmun-burial-mounds	Cultural	Listed	2019	Bahrain	Asia
+1597	Writing-on-Stone / Áísínai’pi	writing-on-stone-aisinaipi	Cultural	Listed	2019	Canada	Europe
+1604	Vatnajökull National Park - Dynamic Nature of Fire and Ice	vatnajokull-national-park-dynamic-nature-of-fire-and-ice	Natural	Listed	2019	Iceland	Europe
+1599	Krzemionki Prehistoric Striped Flint Mining Region	krzemionki-prehistoric-striped-flint-mining-region	Cultural	Listed	2019	Poland	Europe
+1605	Jaipur City, Rajasthan	jaipur-city-rajasthan	Cultural	Listed	2019	India	Asia
+1570	Kakatiya Rudreshwara (Ramappa) Temple, Telangana	kakatiya-rudreshwara-ramappa-temple-telangana	Cultural	Listed	2021	India	Asia
+1610	Ombilin Coal Mining Heritage of Sawahlunto	ombilin-coal-mining-heritage-of-sawahlunto	Cultural	Listed	2019	Indonesia	Asia
+1450	Thimlich Ohinga Archaeological Site	thimlich-ohinga-archaeological-site	Cultural	Listed	2018	Kenya	Africa
+1264	Jeju Volcanic Island and Lava Tubes	jeju-volcanic-island-and-lava-tubes	Natural	Listed	2007	Republic of Korea	Asia
+95	Old City of Dubrovnik	old-city-of-dubrovnik	Cultural	Listed	1979	Croatia	Europe
+697	Jelling Mounds, Runic Stones and Church	jelling-mounds-runic-stones-and-church	Cultural	Listed	1994	Denmark	Europe
+825	Archaeological Area and the Patriarchal Basilica of Aquileia	archaeological-area-and-the-patriarchal-basilica-of-aquileia	Cultural	Listed	1998	Italy	Europe
+1496	The 20th-Century Architecture of Frank Lloyd Wright	the-20th-century-architecture-of-frank-lloyd-wright	Cultural	Listed	2019	United States of America	Europe
+1612	The work of engineer Eladio Dieste: Church of Atlántida	the-work-of-engineer-eladio-dieste-church-of-atlantida	Cultural	Listed	2021	Uruguay	South America
+1614	Mathildenhöhe Darmstadt	mathildenhohe-darmstadt	Cultural	Listed	2021	Germany	Europe
+1571	Le Colline del Prosecco di Conegliano e Valdobbiadene	le-colline-del-prosecco-di-conegliano-e-valdobbiadene	Cultural	Listed	2019	Italy	Europe
+1549	Historic Centre of Sheki with the Khan’s Palace	historic-centre-of-sheki-with-the-khans-palace	Cultural	Listed	2019	Azerbaijan	Europe
+1585	Trans-Iranian Railway	trans-iranian-railway	Cultural	Listed	2021	Iran (Islamic Republic of)	Asia
+1574	Amami-Oshima Island, Tokunoshima Island, Northern part of Okinawa Island, and Iriomote Island	amami-oshima-island-tokunoshima-island-northern-part-of-okinawa-island-and-iriomote-island	Natural	Listed	2021	Japan	Asia
+1591	Getbol, Korean Tidal Flats	getbol-korean-tidal-flats	Natural	Listed	2021	Republic of Korea	Asia
+1620	Sítio Roberto Burle Marx	sitio-roberto-burle-marx	Cultural	Listed	2021	Brazil	South America
+1624	Chankillo Archaeoastronomical Complex	chankillo-archaeoastronomical-complex	Cultural	Listed	2021	Peru	South America
+1625	Cordouan Lighthouse	cordouan-lighthouse	Cultural	Listed	2021	France	Europe
+1623	Padua’s fourteenth-century fresco cycles	paduas-fourteenth-century-fresco-cycles	Cultural	Listed	2021	Italy	Europe
+1622	Arslantepe Mound	arslantepe-mound	Cultural	Listed	2021	Türkiye	Europe
+759	Dutch Water Defence Lines	dutch-water-defence-lines	Cultural	Listed	1996	Netherlands (Kingdom of the)	Europe
+1149	Ilulissat Icefjord	ilulissat-icefjord	Natural	Listed	2004	Denmark	Europe
+534	Garden Kingdom of Dessau-Wörlitz	garden-kingdom-of-dessau-worlitz	Cultural	Listed	2000	Germany	Europe
+546	Maulbronn Monastery Complex	maulbronn-monastery-complex	Cultural	Listed	1993	Germany	Europe
+1387	University of Coimbra – Alta and Sofia	university-of-coimbra-alta-and-sofia	Cultural	Listed	2013	Portugal	Europe
+559	Royal Domain of Drottningholm	royal-domain-of-drottningholm	Cultural	Listed	1991	Sweden	Europe
+1035	Cerrado Protected Areas: Chapada dos Veadeiros and Emas National Parks	cerrado-protected-areas-chapada-dos-veadeiros-and-emas-national-parks	Natural	Listed	2001	Brazil	South America
+1178	Humberstone and Santa Laura Saltpeter Works	humberstone-and-santa-laura-saltpeter-works	Cultural	Listed	2005	Chile	South America
+971	Churches of Chiloé	churches-of-chiloe	Cultural	Listed	2000	Chile	South America
+1631	Frontiers of the Roman Empire – The Lower German Limes	frontiers-of-the-roman-empire-the-lower-german-limes	Cultural	Listed	2021	Germany,Netherlands (Kingdom of the)	Europe
+1632	Jomon Prehistoric Sites in Northern Japan	jomon-prehistoric-sites-in-northern-japan	Cultural	Listed	2021	Japan	Asia
+1633	The Slate Landscape of Northwest Wales	the-slate-landscape-of-northwest-wales	Cultural	Listed	2021	United Kingdom of Great Britain and Northern Ireland	Europe
+1634	Settlement and Artificial Mummification of the Chinchorro Culture in the Arica and Parinacota Region	settlement-and-artificial-mummification-of-the-chinchorro-culture-in-the-arica-and-parinacota-region	Cultural	Listed	2021	Chile	South America
+1635	Nice, Winter Resort Town of the Riviera	nice-winter-resort-town-of-the-riviera	Cultural	Listed	2021	France	Europe
+1636	ShUM Sites of Speyer, Worms and Mainz	shum-sites-of-speyer-worms-and-mainz	Cultural	Listed	2021	Germany	Europe
+1561	Quanzhou: Emporium of the World in Song-Yuan China	quanzhou-emporium-of-the-world-in-song-yuan-china	Cultural	Listed	2021	China	Asia
+689	As-Salt - The Place of Tolerance and Urban Hospitality	as-salt-the-place-of-tolerance-and-urban-hospitality	Cultural	Listed	2021	Jordan	Asia
+1645	Dholavira: a Harappan City	dholavira-a-harappan-city	Cultural	Listed	2021	India	Asia
+702	Earliest 16th-Century Monasteries on the Slopes of Popocatepetl	earliest-16th-century-monasteries-on-the-slopes-of-popocatepetl	Cultural	Listed	1994	Mexico	South America
+1647	Cultural Landscape of Hawraman/Uramanat	cultural-landscape-of-hawraman-uramanat	Cultural	Listed	2021	Iran (Islamic Republic of)	Asia
+1648	Sudanese style mosques in northern Côte d’Ivoire	sudanese-style-mosques-in-northern-cote-divoire	Cultural	Listed	2021	Côte d'Ivoire	Africa
+1650	The Porticoes of Bologna	the-porticoes-of-bologna	Cultural	Listed	2021	Italy	Europe
+1461	Kaeng Krachan Forest Complex	kaeng-krachan-forest-complex	Natural	Listed	2021	Thailand	Asia
+1653	Ivindo National Park	ivindo-national-park	Natural	Listed	2021	Gabon	Africa
+1654	Petroglyphs of Lake Onega and the White Sea	petroglyphs-of-lake-onega-and-the-white-sea	Cultural	Listed	2021	Russian Federation	Europe
+1552	Roșia Montană Mining Landscape	rosia-montana-mining-landscape	Cultural	Listed	2021	Romania	Europe
+1509	Hubei Shennongjia	hubei-shennongjia	Natural	Listed	2016	China	Asia
+158	Head-Smashed-In Buffalo Jump	head-smashed-in-buffalo-jump	Cultural	Listed	1981	Canada	Europe
+1538	Ivrea, industrial city of the 20th century	ivrea-industrial-city-of-the-20th-century	Cultural	Listed	2018	Italy	Europe
+527	Kyiv: Saint-Sophia Cathedral and Related Monastic Buildings, Kyiv-Pechersk Lavra	kyiv-saint-sophia-cathedral-and-related-monastic-buildings-kyiv-pechersk-lavra	Cultural	Listed	1990	Ukraine	Europe
+129	Maya Site of Copan	maya-site-of-copan	Cultural	Listed	1980	Honduras	South America
+1656	Jewish-Medieval Heritage of Erfurt	jewish-medieval-heritage-of-erfurt	Cultural	Listed	2023	Germany	Europe
+1641	The Gedeo Cultural Landscape	the-gedeo-cultural-landscape	Cultural	Listed	2023	Ethiopia	Africa
+494	Andrefana Dry Forests	andrefana-dry-forests	Natural	Listed	1990	Madagascar	Africa
+1528	Talayotic Menorca	talayotic-menorca	Cultural	Listed	2023	Spain	Europe
+1657	Volcanoes and Forests of Mount Pelée and the Pitons of Northern Martinique	volcanoes-and-forests-of-mount-pelee-and-the-pitons-of-northern-martinique	Natural	Listed	2023	France	Europe
+1658	Old town of Kuldīga	old-town-of-kuldiga	Cultural	Listed	2023	Latvia	Europe
+1660	Viking-Age Ring Fortresses	viking-age-ring-fortresses	Cultural	Listed	2023	Denmark	Europe
+1661	Modernist Kaunas: Architecture of Optimism, 1919-1939	modernist-kaunas-architecture-of-optimism-1919-1939	Cultural	Listed	2023	Lithuania	Europe
+1663	National Archaeological Park Tak’alik Ab’aj	national-archaeological-park-takalik-abaj	Cultural	Listed	2023	Guatemala	South America
+1665	Cultural Landscape of Old Tea Forests of the Jingmai Mountain in Pu’er	cultural-landscape-of-old-tea-forests-of-the-jingmai-mountain-in-puer	Cultural	Listed	2023	China	Asia
+1564	Tr’ondëk-Klondike	trondek-klondike	Cultural	Listed	2023	Canada	Europe
+1666	Gaya Tumuli	gaya-tumuli	Cultural	Listed	2023	Republic of Korea	Asia
+1667	Koh Ker: Archaeological Site of Ancient Lingapura or Chok Gargyar	koh-ker-archaeological-site-of-ancient-lingapura-or-chok-gargyar	Cultural	Listed	2023	Cambodia	Asia
+1675	Silk Roads: Zarafshan-Karakum Corridor	silk-roads-zarafshan-karakum-corridor	Cultural	Listed	2023	Tajikistan,Turkmenistan,Uzbekistan	Asia
+692	Forest Massif of Odzala-Kokoua	forest-massif-of-odzala-kokoua	Natural	Listed	2023	Congo	Africa
+1668	The Persian Caravanserai	the-persian-caravanserai	Cultural	Listed	2023	Iran (Islamic Republic of)	Asia
+1669	Gordion	gordion	Cultural	Listed	2023	Türkiye	Europe
+1375	Santiniketan	santiniketan	Cultural	Listed	2023	India	Asia
+1140	Koutammakou, the Land of the Batammariba	koutammakou-the-land-of-the-batammariba	Cultural	Listed	2004	Benin,Togo	Africa
+111	Bale Mountains National Park	bale-mountains-national-park	Natural	Listed	2023	Ethiopia	Africa
+1558	Žatec and the Landscape of Saaz Hops	zatec-and-the-landscape-of-saaz-hops	Cultural	Listed	2023	Czechia	Europe
+1584	Hyrcanian Forests	hyrcanian-forests	Natural	Listed	2019	Azerbaijan,Iran (Islamic Republic of)	Asia,Europe
+1589	Landscape for Breeding and Training of Ceremonial Carriage Horses at Kladruby nad Labem	landscape-for-breeding-and-training-of-ceremonial-carriage-horses-at-kladruby-nad-labem	Cultural	Listed	2019	Czechia	Europe
+826	Portovenere, Cinque Terre, and the Islands (Palmaria, Tino and Tinetto)	portovenere-cinque-terre-and-the-islands-palmaria-tino-and-tinetto	Cultural	Listed	1997	Italy	Europe
+1680	Jodensavanne Archaeological Site: Jodensavanne Settlement and Cassipora Creek Cemetery	jodensavanne-archaeological-site-jodensavanne-settlement-and-cassipora-creek-cemetery	Cultural	Listed	2023	Suriname	South America
+1681	ESMA Museum and Site of Memory – Former Clandestine Centre of Detention, Torture and Extermination	esma-museum-and-site-of-memory-former-clandestine-centre-of-detention-torture-and-extermination	Cultural	Listed	2023	Argentina	South America
+1683	Eisinga Planetarium in Franeker	eisinga-planetarium-in-franeker	Cultural	Listed	2023	Netherlands (Kingdom of the)	Europe
+1685	Tugay forests of the Tigrovaya Balka Nature Reserve	tugay-forests-of-the-tigrovaya-balka-nature-reserve	Natural	Listed	2023	Tajikistan	Asia
+1569	The Maison Carrée of Nîmes	the-maison-carree-of-nimes	Cultural	Listed	2023	France	Europe
+1686	Anticosti	anticosti	Natural	Listed	2023	Canada	Europe
+1687	Ancient Jericho/Tell es-Sultan	ancient-jericho-tell-es-sultan	Cultural	Listed	2023	State of Palestine	Asia
+1689	Hopewell Ceremonial Earthworks	hopewell-ceremonial-earthworks	Cultural	Listed	2023	United States of America	Europe
+1692	Evaporitic Karst and Caves of Northern Apennines	evaporitic-karst-and-caves-of-northern-apennines	Natural	Listed	2023	Italy	Europe
+1693	Cold Winter Deserts of Turan	cold-winter-deserts-of-turan	Natural	Listed	2023	Kazakhstan,Turkmenistan,Uzbekistan	Asia
+1694	Wooden Hypostyle Mosques of Medieval Anatolia	wooden-hypostyle-mosques-of-medieval-anatolia	Cultural	Listed	2023	Türkiye	Europe
+1695	Zagori Cultural Landscape	zagori-cultural-landscape	Cultural	Listed	2023	Greece	Europe
+1696	Cultural Landscape of Khinalig People and “Köç Yolu” Transhumance Route	cultural-landscape-of-khinalig-people-and-koc-yolu-transhumance-route	Cultural	Listed	2023	Azerbaijan	Europe
+1031	Historic Centre of Guimarães and Couros Zone	historic-centre-of-guimaraes-and-couros-zone	Cultural	Listed	2001	Portugal	Europe
+1671	The Cosmological Axis of Yogyakarta and its Historic Landmarks	the-cosmological-axis-of-yogyakarta-and-its-historic-landmarks	Cultural	Listed	2023	Indonesia	Asia
+1662	The Ancient Town of Si Thep and its Associated Dvaravati Monuments	the-ancient-town-of-si-thep-and-its-associated-dvaravati-monuments	Cultural	Listed	2023	Thailand	Asia
+1697	Nyungwe National Park	nyungwe-national-park	Natural	Listed	2023	Rwanda	Africa
+1621	Deer Stone Monuments and Related Bronze Age Sites	deer-stone-monuments-and-related-bronze-age-sites	Cultural	Listed	2023	Mongolia	Asia
+1699	‘Uruq Bani Ma’arid	uruq-bani-maarid	Natural	Listed	2023	Saudi Arabia	Asia
+1670	Sacred Ensembles of the Hoysalas	sacred-ensembles-of-the-hoysalas	Cultural	Listed	2023	India	Asia
+1640	Djerba: Testimony to a settlement pattern in an island territory	djerba-testimony-to-a-settlement-pattern-in-an-island-territory	Cultural	Listed	2023	Tunisia	Asia
+1678	Astronomical Observatories of Kazan Federal University	astronomical-observatories-of-kazan-federal-university	Cultural	Listed	2023	Russian Federation	Europe
+1676	Human Rights, Liberation and Reconciliation: Nelson Mandela Legacy Sites	human-rights-liberation-and-reconciliation-nelson-mandela-legacy-sites	Cultural	Listed	2024	South Africa	Africa
+1700	Landmarks of the Ancient Kingdom of Saba, Marib	landmarks-of-the-ancient-kingdom-of-saba-marib	Cultural	Listed	2023	Yemen	Asia
+195	Taï National Park	tai-national-park	Natural	Listed	1982	Côte d'Ivoire	Africa
+227	Comoé National Park	comoe-national-park	Natural	Listed	1983	Côte d'Ivoire	Africa
+362	Old Town of Ghadamès	old-town-of-ghadames	Cultural	Listed	1986	Libya	Asia
+174	Historic Centre of Florence	historic-centre-of-florence	Cultural	Listed	1982	Italy	Europe
+829	Archaeological Areas of Pompei, Herculaneum and Torre Annunziata	archaeological-areas-of-pompei-herculaneum-and-torre-annunziata	Cultural	Listed	1997	Italy	Europe
+1643	The works of Jože Plečnik in Ljubljana – Human Centred Urban Design	the-works-of-joze-plecnik-in-ljubljana-human-centred-urban-design	Cultural	Listed	2021	Slovenia	Europe
+1702	Rachid Karami International Fair-Tripoli	rachid-karami-international-fair-tripoli	Cultural	Listed	2023	Lebanon	Asia
+1703	The Historic Centre of Odesa	the-historic-centre-of-odesa	Cultural	Listed	2023	Ukraine	Europe
+1586	Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero	memorial-sites-of-the-genocide-nyamata-murambi-gisozi-and-bisesero	Cultural	Listed	2023	Rwanda	Africa
+1705	Schwerin Residence Ensemble	schwerin-residence-ensemble	Cultural	Listed	2024	Germany	Europe
+1707	Te Henua Enata – The Marquesas Islands	te-henua-enata-the-marquesas-islands	Mixed	Listed	2024	France	Europe
+1708	Via Appia. Regina Viarum	via-appia-regina-viarum	Cultural	Listed	2024	Italy	Europe
+1711	Moidams – the Mound-Burial System of the Ahom Dynasty	moidams-the-mound-burial-system-of-the-ahom-dynasty	Cultural	Listed	2024	India	Asia
+1712	The Cultural Landscape of Al-Faw Archaeological Area	the-cultural-landscape-of-al-faw-archaeological-area	Cultural	Listed	2024	Saudi Arabia	Asia
+1713	Royal Court of Tiébélé	royal-court-of-tiebele	Cultural	Listed	2024	Burkina Faso	Africa
+1714	Beijing Central Axis: A Building Ensemble Exhibiting the Ideal Order of the Chinese Capital	beijing-central-axis-a-building-ensemble-exhibiting-the-ideal-order-of-the-chinese-capital	Cultural	Listed	2024	China	Asia
+1716	Hegmataneh	hegmataneh	Cultural	Listed	2024	Iran (Islamic Republic of)	Asia
+1718	Frontiers of the Roman Empire – Dacia	frontiers-of-the-roman-empire-dacia	Cultural	Listed	2024	Romania	Europe
+1720	The Historic Town and Archaeological Site of Gedi	the-historic-town-and-archaeological-site-of-gedi	Cultural	Listed	2024	Kenya	Africa
+1721	Umm Al-Jimāl	umm-al-jimal	Cultural	Listed	2024	Jordan	Asia
+1722	The Flow Country	the-flow-country	Natural	Listed	2024	United Kingdom of Great Britain and Northern Ireland	Europe
+1723	The Emergence of Modern Human Behaviour: The Pleistocene Occupation Sites of South Africa	the-emergence-of-modern-human-behaviour-the-pleistocene-occupation-sites-of-south-africa	Cultural	Listed	2024	South Africa	Africa
+13	Melka Kunture and Balchit: Archaeological and Palaeontological Sites in the Highland Area of Ethiopia	melka-kunture-and-balchit-archaeological-and-palaeontological-sites-in-the-highland-area-of-ethiopia	Cultural	Listed	2024	Ethiopia	Africa
+1698	Sado Island Gold Mines	sado-island-gold-mines	Cultural	Listed	2024	Japan	Asia
+1611	Lençóis Maranhenses National Park	lencois-maranhenses-national-park	Natural	Listed	2024	Brazil	South America
+1673	Vjetrenica Cave, Ravno	vjetrenica-cave-ravno	Natural	Listed	2024	Bosnia and Herzegovina	Europe
+1014	The Archaeological Heritage of Niah National Park’s Caves Complex	the-archaeological-heritage-of-niah-national-parks-caves-complex	Cultural	Listed	2024	Malaysia	Asia
+1473	Brâncuși Monumental Ensemble of Târgu Jiu	brancusi-monumental-ensemble-of-targu-jiu	Cultural	Listed	2024	Romania	Europe
+1468	Moravian Church Settlements	moravian-church-settlements	Cultural	Listed	2015	Denmark,Germany,United Kingdom of Great Britain and Northern Ireland,United States of America	Europe
+1507	Phu Phrabat, a testimony to the Sīma stone tradition of the Dvaravati period	phu-phrabat-a-testimony-to-the-sima-stone-tradition-of-the-dvaravati-period	Cultural	Listed	2024	Thailand	Asia
+1688	Cultural Landscape of Kenozero Lake	cultural-landscape-of-kenozero-lake	Cultural	Listed	2024	Russian Federation	Europe
+1567	Funerary and memory sites of the First World War (Western Front)	funerary-and-memory-sites-of-the-first-world-war-western-front	Cultural	Listed	2023	Belgium,France	Europe
+1593	Mozu-Furuichi Kofun Group: Mounded Tombs of Ancient Japan	mozu-furuichi-kofun-group-mounded-tombs-of-ancient-japan	Cultural	Listed	2019	Japan	Asia
+500	Historic Centre of Lima	historic-centre-of-lima	Cultural	Listed	1988	Peru	South America
+1555	Colonies of Benevolence	colonies-of-benevolence	Cultural	Listed	2021	Belgium,Netherlands (Kingdom of the)	Europe
+217	Ancient City of Nessebar	ancient-city-of-nessebar	Cultural	Listed	1983	Bulgaria	Europe
+1616	Colchic Rainforests and Wetlands	colchic-rainforests-and-wetlands	Natural	Listed	2021	Georgia	Europe
+91	Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura	historic-centre-of-rome-the-properties-of-the-holy-see-in-that-city-enjoying-extraterritorial-rights-and-san-paolo-fuori-le-mura	Cultural	Listed	1980	Holy See,Italy	Europe
+85	Prehistoric Sites and Decorated Caves of the Vézère Valley	prehistoric-sites-and-decorated-caves-of-the-vezere-valley	Cultural	Listed	1979	France	Europe
+1603	French Austral Lands and Seas	french-austral-lands-and-seas	Natural	Listed	2019	France	Europe
+1618	Paseo del Prado and Buen Retiro, a landscape of Arts and Sciences	paseo-del-prado-and-buen-retiro-a-landscape-of-arts-and-sciences	Cultural	Listed	2021	Spain	Europe
+884	Three Castles, Defensive Wall and Ramparts of the Market-Town of Bellinzona	three-castles-defensive-wall-and-ramparts-of-the-market-town-of-bellinzona	Cultural	Listed	2000	Switzerland	Europe
+1638	Badain Jaran Desert - Towers of Sand and Lakes	badain-jaran-desert-towers-of-sand-and-lakes	Natural	Listed	2024	China	Asia
+1606	Migratory Bird Sanctuaries along the Coast of Yellow Sea-Bohai Gulf of China	migratory-bird-sanctuaries-along-the-coast-of-yellow-sea-bohai-gulf-of-china	Natural	Listed	2019	China	Asia
+1595	The Archaeological Ensemble of 17th Century Port Royal	the-archaeological-ensemble-of-17th-century-port-royal	Cultural	Listed	2025	Jamaica	South America
+1725	Megaliths of Carnac and of the shores of Morbihan	megaliths-of-carnac-and-of-the-shores-of-morbihan	Cultural	Listed	2025	France	Europe
+1726	The Palaces of King Ludwig II of Bavaria: Neuschwanstein, Linderhof, Schachen and Herrenchiemsee	the-palaces-of-king-ludwig-ii-of-bavaria-neuschwanstein-linderhof-schachen-and-herrenchiemsee	Cultural	Listed	2025	Germany	Europe
+1728	Møns Klint	mns-klint	Natural	Listed	2025	Denmark	Europe
+1730	Funerary Tradition in the Prehistory of Sardinia – The domus de janas	funerary-tradition-in-the-prehistory-of-sardinia-the-domus-de-janas	Cultural	Listed	2025	Italy	Europe
+1731	Sardis and the Lydian Tumuli of Bin Tepe	sardis-and-the-lydian-tumuli-of-bin-tepe	Cultural	Listed	2025	Türkiye	Europe
+1732	Yen Tu-Vinh Nghiem-Con Son, Kiep Bac Complex of Monuments and Landscapes	yen-tu-vinh-nghiem-con-son-kiep-bac-complex-of-monuments-and-landscapes	Cultural	Listed	2025	Viet Nam	Asia
+1733	Minoan Palatial Centres	minoan-palatial-centres	Cultural	Listed	2025	Greece	Europe
+1734	Forest Research Institute Malaysia Forest Park Selangor	forest-research-institute-malaysia-forest-park-selangor	Cultural	Listed	2025	Malaysia	Asia
+1735	Faya Palaeolandscape	faya-palaeolandscape	Cultural	Listed	2025	United Arab Emirates	Asia
+1736	Xixia Imperial Tombs	xixia-imperial-tombs	Cultural	Listed	2025	China	Asia
+1739	Maratha Military Landscapes of India	maratha-military-landscapes-of-india	Cultural	Listed	2025	India	Asia
+1740	Petroglyphs along the Bangucheon Stream	petroglyphs-along-the-bangucheon-stream	Cultural	Listed	2025	Republic of Korea	Asia
+1743	Rock Paintings of Shulgan-Tash Cave	rock-paintings-of-shulgan-tash-cave	Cultural	Listed	2025	Russian Federation	Europe
+1627	Cultural Heritage Sites of Ancient Khuttal	cultural-heritage-sites-of-ancient-khuttal	Cultural	Listed	2025	Tajikistan	Asia
+1744	Prehistoric Sites of the Khorramabad Valley	prehistoric-sites-of-the-khorramabad-valley	Cultural	Listed	2025	Iran (Islamic Republic of)	Asia
+1745	Diy-Gid-Biy Cultural Landscape of the Mandara Mountains	diy-gid-biy-cultural-landscape-of-the-mandara-mountains	Cultural	Listed	2025	Cameroon	Africa
+1746	Gola-Tiwai Complex	gola-tiwai-complex	Natural	Listed	2025	Sierra Leone	Africa
+1431	Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô	coastal-and-marine-ecosystems-of-the-bijagos-archipelago-omati-minho	Natural	Listed	2025	Guinea-Bissau	Africa
+914	iSimangaliso Wetland Park – Maputo National Park	isimangaliso-wetland-park-maputo-national-park	Natural	Listed	1999	Mozambique,South Africa	Africa
+951	Phong Nha-Ke Bang National Park and Hin Nam No National Park	phong-nha-ke-bang-national-park-and-hin-nam-no-national-park	Natural	Listed	2003	Lao People's Democratic Republic,Viet Nam	Asia
+1747	Peruaçu River Canyon	peruacu-river-canyon	Natural	Listed	2025	Brazil	South America
+1709	Murujuga Cultural Landscape	murujuga-cultural-landscape	Cultural	Listed	2025	Australia	Asia
+1748	Cambodian Memorial Sites: From centres of repression to places of peace and reflection	cambodian-memorial-sites-from-centres-of-repression-to-places-of-peace-and-reflection	Cultural	Listed	2025	Cambodia	Asia
+1704	Wixárika Route through Sacred Sites to Wirikuta (Tatehuarí Huajuyé)	wixarika-route-through-sacred-sites-to-wirikuta-tatehuari-huajuye	Cultural	Listed	2025	Mexico	South America
+1201	Mount Mulanje Cultural Landscape	mount-mulanje-cultural-landscape	Cultural	Listed	2025	Malawi	Africa
+749	W-Arly-Pendjari Complex	w-arly-pendjari-complex	Natural	Listed	1996	Benin,Burkina Faso,Niger	Africa
+985	Maloti-Drakensberg Park	maloti-drakensberg-park	Mixed	Listed	2000	Lesotho,South Africa	Africa
+1619	Ḥimā Cultural Area	hima-cultural-area	Cultural	Listed	2021	Saudi Arabia	Asia
+806	Hallstatt-Dachstein / Salzkammergut Cultural Landscape	hallstatt-dachstein-salzkammergut-cultural-landscape	Cultural	Listed	1997	Austria	Europe
+970	Wachau Cultural Landscape	wachau-cultural-landscape	Cultural	Listed	2000	Austria	Europe
+1608	Frontiers of the Roman Empire – The Danube Limes (Western Segment)	frontiers-of-the-roman-empire-the-danube-limes-western-segment	Cultural	Listed	2021	Austria,Germany,Slovakia	Europe
+1613	The Great Spa Towns of Europe	the-great-spa-towns-of-europe	Cultural	Listed	2021	Austria,Belgium,Czechia,France,Germany,Italy,United Kingdom of Great Britain and Northern Ireland	Europe
+230	Abbey Church of Saint-Savin sur Gartempe	abbey-church-of-saint-savin-sur-gartempe	Cultural	Listed	1983	France	Europe
+600	Paris, Banks of the Seine	paris-banks-of-the-seine	Cultural	Listed	1991	France	Europe
+288	Castles of Augustusburg and Falkenlust at Brühl	castles-of-augustusburg-and-falkenlust-at-bruhl	Cultural	Listed	1984	Germany	Europe
+1127	Muskauer Park / Park Mużakowski	muskauer-park-park-muzakowski	Cultural	Listed	2004	Germany,Poland	Europe
+526	Colonial City of Santo Domingo	colonial-city-of-santo-domingo	Cultural	Listed	1990	Dominican Republic	South America
+1749	Saint Hilarion Monastery/ Tell Umm Amer	saint-hilarion-monastery-tell-umm-amer	Cultural	Listed	2024	State of Palestine	Asia
+1642	Mount Kumgang – Diamond Mountain from the Sea	mount-kumgang-diamond-mountain-from-the-sea	Mixed	Listed	2025	Democratic People's Republic of Korea	Asia
+1582	The Colonial Transisthmian Route of Panamá	the-colonial-transisthmian-route-of-panama	Cultural	Listed	2025	Panama	South America

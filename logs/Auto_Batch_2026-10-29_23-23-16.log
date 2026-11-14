@@ -1,0 +1,19 @@
+Found 1 HTML posts to process.
+
+[1/1] Processing seo-test-post.html...
+
+==================================================
+PROCESSING: seo-test-post.html
+==================================================
+  [Engine] Removed old images from HTML. Ready for fresh fetch.
+  [main] Title: Seo Test Post
+  [Engine] No images found. Fetching 7 images from Unsplash...
+--- Running Flawless V2 Curator ---
+  [curator] Found 0 eligible sections.
+  [FAIL] Curator failed to place images. Moving to failed.
+run_engine: delegating to safe_batch for all pending
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

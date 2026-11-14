@@ -1,0 +1,56 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Ancient City Of Sigiriya   The.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Ancient City of Sigiriya
+Ancient City of Sigiriya
+The ruins of the capital built by the parricidal King Kassapa I (477–95) lie on the steep slopes and at the summit of a granite peak standing some 180m high (the 'Lion's Rock', which dominates the jungle from all sides). A series of galleries and staircases emerging from the mouth of a gigantic lion constructed of bricks and plaster provide access to the site.
+Description is available under license CC-BY-SA IGO 3.0
+Ville ancienne de Sigiriya
+Sur les pentes abruptes et au sommet d'un rocher de pierre rouge haut de 180m, le « Rocher du Lion », qui domine la jungle de toutes parts, subsistent les ruines de la citadelle dont le roi parricide Kassyapa (477-495) fit sa capitale. Une série de galeries et d'escaliers qui débouchent dans la gueule d'un lion colossal construit en brique et en plâtre permettent d'accéder au site.
+Description is available under license CC-BY-SA IGO 3.0
+مدينة سيغيريا القديمة
+لا تزال أنقاض القلعة التي جعل منها الملك كاسيابا الذي قتل والده (477 – 495) عاصمته قائمة على المنحدرات الوعرة وعلى قمة صخرة من الحجر الأحمر ترتفع الى 180 متراً وتعرف "بصخرة الأسد" المشرفة على الأدغال من الجهات كلها. ويمكن النفاذ الى هذا الموقع عبر مجموعة من الأروقة والأدراج التي تصب في فم أسد ضخم مصنوع من القرميد والجص.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+锡吉里亚古城
+锡吉里亚古城是弑亲的迦叶波一世（公元477-495年）时所建国都的遗址。锡吉里亚古城遗址位处陡峭的斜坡之上，位于高达180米的花岗岩山峰峰顶“狮子岩”上，这里人们可以从四面俯视整个丛林。用砖和灰泥修筑的长廊和台阶从巨狮口中延伸而出，通向锡吉里亚古城遗址 。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Древний город Сигирия
+Руины королевской резиденции, которую построил царь-отцеубийца Кассапа I (477-495 гг.), расположены на крутых склонах и на вершине гранитной скалы – это так называемая “Львиная скала”, возвышающаяся над окружающими джунглями на 180 м. Пройти в резиденцию можно было по лестнице, которая проходила через пасть гигантского льва, сооруженного из кирпича и покрытого штукатурным раствором.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Antigua ciudad de Sigiriya
+En la cumbre y las abruptas laderas de la “Roca del León” –un peñasco granítico de 180 metros de altura desde el que se domina toda la jungla circundante– se hallan las ruinas de la ciudad en la que el rey parricida Kassapa I (477–495) asentó su capital. Al sitio se accede por una serie de galerías y escaleras que salen de las fauces de un colosal león construido con ladrillos y yeso.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+古代都市シギリヤ
+source: NFUAJ
+Oude stad van Sigiriya
+Source: unesco.nl

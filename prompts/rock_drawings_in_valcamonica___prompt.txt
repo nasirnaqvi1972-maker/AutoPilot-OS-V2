@@ -1,0 +1,75 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Rock Drawings In Valcamonica  .
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Rock Drawings in Valcamonica
+Rock Drawings in Valcamonica
+Valcamonica, situated in the Lombardy plain, has one of the world's greatest collections of prehistoric petroglyphs – more than 140,000 symbols and figures carved in the rock over a period of 8,000 years and depicting themes connected with agriculture, navigation, war and magic.
+Description is available under license CC-BY-SA IGO 3.0
+Art rupestre du Valcamonica
+Dans la plaine de Lombardie, le val Camonica recèle un des ensembles les plus denses de pétroglyphes préhistoriques. Plus de 140 000 signes et figures, qui furent gravés dans le rocher pendant huit millénaires, évoquent les travaux des champs, la navigation, la guerre et la magie.
+Description is available under license CC-BY-SA IGO 3.0
+المنحوتات الصخرية في فالكامونيكا
+في سهل لومبارديا، يحوي وادي فالكامونيكا إحدى المجموعات الأكثر كثافة من مجموعات ما قبل التاريخ للنقش على الحجر. فأكثر من 140 ألف إشارة ورسم حفرت في الصخر على مدى ثمانية ألآف سنة تشير إلى أعمال زراعة الحقول، والإبحار، والحروب والسحر.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+梵尔卡莫尼卡谷地岩画
+在位于伦巴第平原上的梵尔卡莫尼卡谷地，有一批最壮观的史前岩石雕刻群。在持续约8000年的历史中，岩石上刻满了超过14万幅的符号和图案，这些图案描绘的主题是农业、航海、战争和魔法。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Наскальная живопись в Валь-Камонике
+В Валь-Камонике, расположенной на Ломбардской равнине, сосредоточено одно из крупнейших в мире собраний доисторических петроглифов. Свыше 140 тыс. символов и фигур высекались на скалах в течение 8 тыс. лет, их сюжеты связаны с сельским хозяйством, мореходством, военными конфликтами и верованиями.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Arte rupestre de Val Camónica
+Situado en la planicie de Lombardía, el sitio de Val Camónica alberga uno de los conjuntos más densos de petroglifos prehistóricos descubiertos hasta la fecha. Más de 140.000 figuras y símbolos esculpidos en la roca a lo largo de 8.000 años muestran escenas de faenas agrícolas, navegación, guerra y magia.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+ヴァルカモニカの岩絵群
+source: NFUAJ
+Rotstekeningen in Valcamonica
+Source: unesco.nl
+Outstanding Universal Value
+Brief Synthesis
+Valcamonica, situated in the mountainous area of the Lombardy region, has one of the world's greatest collections of prehistoric petroglyphs – more than 140,000 symbols and figures carved in the rock over a period of more than 8,000 years. Found on both sides of an entire valley, the petroglyphs depict themes connected to agriculture, deer hunting, duels, as well as geometric-symbolic figures.
+Criterion (iii): The Rock Drawings of Valcamonica stretch over a period of eight thousand years leading up to our present era, making these human renderings absolutely invaluable.
+Criterion (vi): The Rock Drawings of Valcamonica constitute an extraordinary figurative documentation of prehistoric customs and mentality. The systematic interpretation, typological classification, and the chronological study of these configurations in stone represent a considerable contribution to the fields of prehistory, sociology and ethnology.
+Integrity
+The propertycontains the necessary elements to express its Outstanding Universal Value. The inscribed property includes the most extraordinary engravings, which document and provide the most complete evidence of prehistoric customs and mentality. The general state of conservation of the rock surfaces and the visibility of the rock art images is good.
+Inherent aspects of the property are responsible for its vulnerability, for instance due to the exposure of the engravings to atmospheric and climatic factors, the presence of woods and the possible damages caused by pollution or direct human intervention.
+Authenticity
+The Rock Drawings of Valcamonica, as archaeological remains, have maintained high levels of authenticity in their form, iconography and material. The physical authenticity of the property is preserved thanks to continuous monitoring, restoration and control, ensured by the Soprintendenza per i Beni Archeologici della Lombardia (a local office of the Ministry for Cultural Heritage and Activities) and by a specific network of Parks with rock engravings. All the restoration works are performed under the direction of the Ministry, in accordance with the principles of the Venice Charter.
+Protection and management requirements
+The property is subject to different legal protections that operate at different levels: national, regional and local.
+The national law for the protection and preservation of cultural heritage (Legislative Decree 42/2004) subordinates all the actions on cultural heritage to the preventive approval by the peripheral offices of the Ministry for Cultural Heritage and Activities.
+Parks are governed by regional regulations on Parks and Natural Reserves that contain indications concerning the management of areas with archaeological, environmental, botanical and ethnographic importance. These rules are transposed into the municipal planning instruments.
+The Soprintendenza per i Beni Archeologici della Lombardia coordinates the actions for the property, the first Italian property inscribed in 1979, and the preparation of the Management Plan. These activities are carried out with the collaboration of the Local Authorities that, because of the vastness of the territory and variety of heritage (more than 180 localities with rock art) have been primarily identified as the Province of Brescia, Comunità Montana di Valle Camonica, Consorzio dei Comuni del Bacino Imbrifero Montano di Valle Camonica (BIM) and the 7 municipalities with Rock Art Parks.
+All the relevant public authorities and research institutions present on the territory have been involved in the preparation of the Management Plan. Together, they provided guidance and knowledge, ensured the preservation and enhancement of the property, and started programming and planning the Operation Plan for the sustainable development of the Valley.
+To achieve some priority actions of the Management Plan, the Institutional Coordination Group was established in 2006; it is still operative as a controlling instance. Positive developments include the widespread adoption of the Management Plan through resolutions taken by the municipalities, the establishment of new parks (with different institutional profiles: national, regional or municipal) and their involvement the network of the Rock Art Parks.
+Since 2007, the Institutional Coordination Group has interacted with the Cultural District of Valle Camonica (promoted by the Bank Cariplo Foundation). This also included improvements to the facilities and enhanced access for visitors.
+A monitoring program for the actions was prepared and has been implemented since 2006. In 2011, the different stakeholders involved in the management of the property have signed an agreement towards the integrated management of the cultural services of the property.

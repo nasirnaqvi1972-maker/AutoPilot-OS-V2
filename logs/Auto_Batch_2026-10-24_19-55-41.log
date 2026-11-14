@@ -1,0 +1,90 @@
+
+==================================================
+PROCESSING: budapest-including-the-banks-of-the-danube-the-buda-castle-quarter-and-andrssy-avenue.html
+==================================================
+  [main] Title: Budapest, Banks of the Danube, Buda Castle Quarter & Andrássy Avenue — The City That Remembers
+--- Running Flawless V2 Curator ---
+  [curator] Found 5 eligible sections.
+  [curator] Unsplash returned 29 candidates.
+  [curator] Candidate pool size: 29
+    [validator] Matching to: 'The River That Draws a Line Through Memory'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Origins and Historical Context'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Purpose and Lifestyle: The City as a Civic Project'
+      [OK] Accepted image 3
+    [validator] Matching to: 'Enduring Legacy and Modern Challenges'
+      [OK] Accepted image 4
+    [validator] Matching to: 'Human Connection Today'
+      [OK] Accepted image 5
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 6
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 7
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/60NHLNpk/d5048a0d41b3.jpg
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/S7RXTbFp/9ba49ed44fb9.jpg
+  [publisher] Uploading img_07.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/45HpPpT/cbf7aa288b6f.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/zVYSFRfB/c1e147ff52e7.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Fb6sJsgW/5b9b92d8ee37.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/LDCcG1v3/49a911a5a3d2.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/t516jHH/2ecd85953293.jpg
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 616287560676815120
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: budapest-including-the-banks-of-the-danube-the-buda-castle-quarter-and-andrssy-avenue.html moved to processed.
+
+==================================================
+PROCESSING: elephanta-caves.html
+==================================================
+  [main] Title: Elephanta Caves — The Silent Sanctuaries of the Sea
+--- Running Flawless V2 Curator ---
+  [curator] Found 7 eligible sections.
+  [curator] Unsplash returned 10 candidates.
+  [curator] Candidate pool size: 10
+    [validator] Matching to: 'The Island That Wears a Crown of Stone'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Origins and Historical Context'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Key Features and Architectural Marvels'
+      [OK] Accepted image 3
+    [validator] Matching to: 'Purpose and Lifestyle'
+      [OK] Accepted image 4
+  [WARNING] Only found 4 images total. Post will be published with 4 images.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Vc47VKjd/043520bbfd31.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/CN0FfVt/50e59a64f450.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/1tbN5HFg/8bf741f33e54.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/DgY2Mbt4/7f9f09c80f47.jpg
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 7712614889369527186
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: elephanta-caves.html moved to processed.
+Found 2 pending posts. Starting batch...
+
+=== Batch run 1/2 ===
+
+=== Batch run 2/2 ===
+
+Batch complete! Processed 2 posts.

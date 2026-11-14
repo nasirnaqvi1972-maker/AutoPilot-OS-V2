@@ -1,0 +1,66 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Al Qal A Of Beni Hammad   The .
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Al Qal'a of Beni Hammad
+Al Qal'a of Beni Hammad
+In a mountainous site of extraordinary beauty, the ruins of the first capital of the Hammadid emirs, founded in 1007 and demolished in 1152, provide an authentic picture of a fortified Muslim city. The mosque, whose prayer room has 13 aisles with eight bays, is one of the largest in Algeria.
+Description is available under license CC-BY-SA IGO 3.0
+La Kalâa des Béni Hammad
+Dans un site montagneux d’une saisissante beauté, les ruines de la première capitale des émirs hammadides, fondée en 1007 et démantelée en 1152, nous restituent l’image authentique d’une ville musulmane fortifiée. Sa mosquée, avec sa salle de prière de 13 nefs à 8 travées, est l’une des plus grandes d’Algérie.
+Description is available under license CC-BY-SA IGO 3.0
+قلعة بني حمّاد
+ترتفع بقايا عاصمة إمارة بني حمّاد الأولى في موقع جبلي رائع الجمال وقد تأسست في العام 1007 وتفكّكت في العام 1152، وهي تعيد إلينا الصورة الأصيلة الخاصة ببلدة مسلمة محصّنة. ويُعتبر المسجد بقاعة الصلاة المؤلفة من 13 صحناً وثماني فواصل من أكبر مساجد الجزائر.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+贝尼•哈玛德的卡拉城
+哈玛德王朝（Hammadid emirs）第一个首都的遗址，位于风景秀美的山区，始建于公元1007年，毁于公元1152年，是要塞型穆斯林城市的真实写照。这里的清真寺祈祷室有13条走廊和8个隔间，是阿尔及利亚最大的清真寺之一。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Крепость Аль-Кала в древнем городе Бени-Хаммад
+Расположенные в горной местности необыкновенной красоты, руины первой столицы эмиров из династии Хаммадидов, основанной в 1007 году и разрушенной в 1152, являют собой подлинную картину укрепленного мусульманского города. Мечеть, молельная зала которой имеет 13 боковых нефов с восемью нишами, является одной из самых больших в Алжире.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Kalâa de los Béni-Hammad
+Situadas en un paisaje montañoso de sorprendente belleza, las ruinas de la primera capital de los emires hamadidas –fundada en 1007 y destruida en 1152– ofrecen una imagen fidedigna de una ciudad musulmana fortificada. El oratorio de su mezquita, que es una de las más imponentes de Argelia, tiene trece naves con ocho bovedillas.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+ベニ・ハンマド要塞
+source: NFUAJ
+Al Qal'a van Beni Hammad
+Source: unesco.nl
+Outstanding Universal Value
+Brief synthesis
+The Qal'a of Beni Hammad is a remarkable archaeological site located 36 km to the north-east of the town of M'Sila. This ensemble of preserved ruins, at 1,000 m altitude, is located in a mountainous setting of striking beauty on the southern flank of Djebel Maâdid. The Qal'a of Beni Hammad was founded at the beginning of the 11th century by Hammad, son of Bologhine (founder of Algiers), and abandoned in 1090 under the threat of a Hilalian invasion. It is one of the most interesting and most precisely dated monumental complexes of the Islamic civilization. It was the first capital of the Hammadid emirs and enjoyed great splendour. The Qal'a comprises, within 7 km of partially dismantled fortified walls, a large number of monumental vestiges, among which are the great Mosque and its minaret, and a series of palaces. The mosque, with its prayer hall comprising 13 naves of 8 bays is the biggest after that of Mansourah and its minaret is the oldest in Algeria after that of Sidi Boumerouane. The ruins of the Qal'a bear witness to the great refinement of the Hammad civilization, an original architecture and the palatial culture of North Africa.
+Criterion (iii): The Qal'a of Beni Hammad bears exceptional testimony to the Hammadid civilization now disappeared. Founded in 1007 as a military stronghold, it was elevated to the level of metropolis. It has influenced the development of Arab architecture as well as other civilizing influences, including the Maghreb, Andalusia and Sicily. The archaeological and monumental vestiges of the Qal'a of Beni Hammad, among which are included the Great mosque and its minaret as well as a series of palaces, constitute the principal resources that testify to the wealth and influence of this Hammadid civilization.
+Integrity
+At the time of inscription, the attributes that characterise the property were the remains of the 7 km of fortified walls and all the monumental vestiges contained therein. The State Party intends to propose the revision of the boundaries of the property and to establish a buffer zone to protect the exceptional environment of the site. The integrity of the property is assured but the vestiges remain vulnerable to natural degradation and weathering.
+Authenticity
+All the attributes of the property such as the archaeological vestiges, the surrounding walls, the mosques, palaces and minaret form a coherent ensemble and remain intact.
+Protection and management requirements
+The protection of the site relates to National Law 98-04 concerning the protection of cultural heritage. The management of the site is entrusted to the Office of Cultural Properties Management and Exploitation (OGEBC), with the site manager being responsible for everyday management. The OGEBC is responsible, besides public service missions, protection, maintenance and presentation, of the implementation of the protection and presentation plan of the site (PPMVSA). This is done in coordination with the Directorate for Culture of the Wilaya of Setif, and specifically with a service responsible for conservation and presentation of cultural heritage. The need for funding and specialised professional personnel is still very important for the implementation of the plan. The management must focus on the restoration and conservation programme of the vestiges. The site is hardly visited - a few thousand visitors annually - and tourism does not constitute a threat for its conservation.

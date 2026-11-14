@@ -1,0 +1,65 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Djoudj National Bird Sanctuary.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Djoudj National Bird Sanctuary
+Djoudj National Bird Sanctuary
+Situated in the Senegal River delta, the Djoudj Sanctuary is a wetland of 16,000 ha, comprising a large lake surrounded by streams, ponds and backwaters. It forms a living but fragile sanctuary for some 1.5 million birds, such as the white pelican, the purple heron, the African spoonbill, the great egret and the cormorant.
+Description is available under license CC-BY-SA IGO 3.0
+Parc national des oiseaux du Djoudj
+Dans le delta du fleuve Sénégal, le parc est une zone humide de 16 000 ha comprenant un grand lac entouré de ruisseaux, d’étangs et de bras morts, qui constituent un sanctuaire vital, mais fragile, pour un million et demi d’oiseaux tels que le pélican blanc, le héron pourpre, la spatule africaine, la grande aigrette et le cormoran.
+Description is available under license CC-BY-SA IGO 3.0
+حديقة دجودج الوطنية للطيور
+تقع هذه الحديقة في دلتا نهر السنغاال، وهي عبارة عن منطقة رطبة تمتد على مساحة 16000 هكتاراً وتضم بحيرة كبيرة محاطة بالجداول والمستنقعات ومنعطفات النهر التي تشكل ملاذاً حيوياً لكن هشاً لمليون طير ونصف مثل البجع الأبيض ومالك الحزين الأرجواني وطائر أبو ملعقة الأفريقي والغوش الكبير وطيور الغاق.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+朱贾国家鸟类保护区
+朱贾国家鸟类保护区是一块占地面积约为16 000公顷的湿地，位处塞内加尔河三角洲地区。保护区内有一大型湖泊，湖泊四周分布着大大小小的溪流、池塘和水潭。这里生态环境不很稳定，但充满着生机。保护区里栖息着150多万种鸟类，有白鹈鹕、紫苍鹭、非洲篦鹭、大白鹭、鸬鹚等等。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Орнитологический резерват Джудж
+Водно-болотные угодья в дельте реки Сенегал, занимающие площадь 16 тыс. га, состоят из большого озера, окруженного протоками и мелкими водоемами. Это очень важное, но уязвимое убежище для 1,5 млн. пернатых, таких как белый пеликан, рыжая и большая белая цапли, колпица и баклан.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Santuario Nacional de Aves de Djudj
+Situado en el delta del río Senegal, este parque es un humedal de 16.000 hectáreas formado por un gran lago rodeado de arroyos, charcas y aguas estancadas, que constituye un santuario vital, aunque frágil, para un millón y medio de aves de diversas especies: pelícano blanco, garza púrpura, espátula africana, cormorán y garza real, entre otras.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+ジュッジ国立鳥類保護区
+source: NFUAJ
+Nationaal vogelreservaat van Djoudj
+Source: unesco.nl
+Outstanding Universal Value
+Brief synthesis
+In the Senegal River delta, the Djoudj National Park is a 16,000 ha wetland ecosystem that includes more than 1.5 million migratory birds. Comprised of lakes surrounded by streams, the property is a vital but fragile sanctuary for species such as the white pelican, African spoonbill, cormorant, pink flamingo and great egret.
+Criterion (vii): By its location, Djoudj National Park is more than a haven for Palaearctic migratory birds. It is an oasis in the desert consisting of a chain of lakes, backwaters, fords and sandbanks. It is the first migration stopover after crossing the Sahara for species of Palaearctic and Afrotropical birds. It should be noted that due to technical improvements to upgrade the conditions of migration reception (building nest boxes), species began to breed. With the annual renovation of these improvements and efforts to control the hydraulic system, the number of migratory as well as nesting species is increasing.
+Criterion (x): The property is a wetland of around 16,000 ha comprising a large lake surrounded by streams, ponds and backwaters. This habitat hosts more than 1.5 million birds of 365 species including over 120 species of Palaearctic migrants. The property is a vital sanctuary for nesting species such as the white pelican (Pelecanus onocrotalus), the purple heron (Ardea purpurea), the African spoonbill (Platalea alba), the great egret (Casmerodius albus), the night heron (Nycticorax nycticorax) and the cormorant (Phalacrocorax carbo). The property also contains large populations of crocodiles and manatees.
+Integrity 
+The park boundaries are correctly defined, but the property faces significant threats: agricultural chemicals are a source of water pollution for the Senegal River, threatening the delicate balance of the food chain; and the construction of a downstream dam project could severely disrupt the hydrological equilibrium of the property. Following the start-up of the Diama dam, located downstream from the park, the water balance of the property was severely disrupted. This resulted in the proliferation of invasive aquatic plants (Pistia stratoites, Lavinia molesta, Typha australis, etc.), the reduced amplitude of water levels, and decrease and / or disappearance of some bird colonies. For these reasons, the property was inscribed on the List of World Heritage in Danger during the periods 1984-1988 and 2000-2006.
+Protection and management requirements
+The protection of the property is governed by various national laws, and a development and management plan has been developed. No manner of exploitation is permitted except for scientific purposes. The property is managed by a management administration under the direct supervision of the State through the Ministry of Environment and Sustainable Development and the National Parks Directorate. This administration works closely with an inter-village committee assisted by a team of eco guards involving local communities in solving management problems. With great effort, the State Party reduced the proliferation of invasive species representing such a threat that they must be completely eradicated. This effort is one of the management priorities of the property, even if the main concern is the restoration of the ecological characteristics of the property in the long term,rdea to ensure the return of the bird population to its previous levels.

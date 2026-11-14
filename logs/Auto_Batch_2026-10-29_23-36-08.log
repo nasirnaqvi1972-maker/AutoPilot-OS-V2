@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Found 1 HTML posts to process.
+
+[1/1] Processing seo-test-post.html...
+
+==================================================
+PROCESSING: seo-test-post.html
+==================================================
+  [Engine] Removed old images from HTML. Ready for fresh fetch.
+  [main] Title: Seo Test Post
+  [Engine] No images found. Fetching 7 images from Unsplash...
+--- Running Flawless V2 Curator ---
+  [curator] Found 0 eligible sections.
+  [curator] Fallback found 7 sections.
+  [curator] Unsplash returned 30 candidates.
+  [curator] Candidate pool size: 30
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: animal).
+      [Image Validator] Skipping low-res image (<800x600).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: monkey).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: animal).
+  [FAIL] Only found 0 images. Post requires at least 1. Moving to failed folder.
+  [FAIL] Curator failed to place images. Moving to failed.
+run_engine: delegating to safe_batch for all pending
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

@@ -1,0 +1,91 @@
+Found 1 HTML posts to process.
+
+[1/1] Processing seo-test-post.html...
+
+==================================================
+PROCESSING: seo-test-post.html
+==================================================
+  [Engine] Removed old images from HTML. Ready for fresh fetch.
+  [main] Title: Seo Test Post
+  [Engine] No images found. Fetching 7 images from Unsplash...
+--- Running Flawless V2 Curator ---
+  [curator] Found 0 eligible sections.
+  [curator] Fallback found 7 sections.
+  [curator] Unsplash returned 30 candidates.
+  [curator] Candidate pool size: 30
+      [Vision Check] Rejected image (Category: person).
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 1
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: animal).
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 3
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 4
+      [Vision Check] Rejected image (Category: person).
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 5
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: monkey).
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 6
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: person).
+      [Vision Check] Rejected image (Category: animal).
+
+--- Publishing to Blogger ---
+  [Engine] CREATED new draft.
+  [Warning] Could not detect location for post: Seo Test Post
+  [Engine] Assigned labels: none.
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/F4zVTjxL/a50b3a2d825a.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/R4DV4sjg/96029f5f69e9.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/5C67kCC/50315ee32e04.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/q3qGtSrQ/3c4c33dd0327.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/pjQchYJP/79f07c419482.jpg
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/yFK1pSTd/6704046ba01a.jpg
+  [publisher] Applying SEO Optimizations...
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\safe_batch.py", line 147, in <module>
+    main()
+    ~~~~^^
+  File "D:\Projects\AutoPilot_OS_v2\safe_batch.py", line 144, in main
+    process_post(html_file)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Projects\AutoPilot_OS_v2\safe_batch.py", line 105, in process_post
+    post_id = publish_post(
+        html_path=curated_html_path,
+    ...<3 lines>...
+        post_id=existing_id
+    )
+  File "D:\Projects\AutoPilot_OS_v2\core\blogger_publisher.py", line 111, in publish_post
+    print(f"[Engine] Generated SEO Meta Description: {clean_text}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nasir\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\ufeff' in position 41: character maps to <undefined>
+run_engine: delegating to safe_batch for all pending
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

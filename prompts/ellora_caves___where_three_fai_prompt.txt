@@ -1,0 +1,73 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Ellora Caves   Where Three Fai.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Ellora Caves
+Ellora Caves
+These 34 monasteries and temples, extending over more than 2 km, were dug side by side in the wall of a high basalt cliff, not far from Aurangabad, in Maharashtra. Ellora, with its uninterrupted sequence of monuments dating from A.D. 600 to 1000, brings the civilization of ancient India to life. Not only is the Ellora complex a unique artistic creation and a technological exploit but, with its sanctuaries devoted to Buddhism, Hinduism and Jainism, it illustrates the spirit of tolerance that was characteristic of ancient India.
+Description is available under license CC-BY-SA IGO 3.0
+Grottes d'Ellora
+Trente-quatre monastères et temples ont été creusés en succession serrée dans la paroi d'une haute falaise basaltique, non loin d'Aurangabad, contribuant à faire revivre une brillante civilisation ancienne dans une séquence ininterrompue de monuments datables de 600 à 1000. L'ensemble d'Ellora est une réalisation artistique unique et un tour de force technique. Avec ses sanctuaires consacrés respectivement au bouddhisme, au brahmanisme et au jaïnisme, il illustre l'esprit de tolérance caractéristique de l'Inde ancienne.
+Description is available under license CC-BY-SA IGO 3.0
+كُهف إلورا
+تمّ حفر أربعة وثلاثين ديراً ومعبداً تباعاً في جدار جُرف عال بزلتيّ لا يبعد عن أورانغباد، مما ساهم في إعادة إنعاش حضارة لامعة قديمة في تسلسل متواصل من النصب التذكارية العائدة لفترة تتراوح بين عامي600 و1000. وتشكّل مجموعة إلورا إنجازاً فنياً فريداً من نوعه وقوةً تقنيةً تتطلّب الجهد. ويجسد الكهف بمعابده المخصّصة على التوالي للبوذية والبرهمانية واليانية (إحدى الديانات الهندية القديمة) روح التسامح التي تميزت بها الهند القديمة.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+埃洛拉石窟群
+埃洛拉石窟群位于马哈拉施特拉邦(Maharashtra)，离奥兰加巴德不远。高高的陡峭玄武岩壁上，34座洞穴庙宇被开凿出来，一座挨一座，延伸2000多米。这些保存完好、排列有序的遗迹可追溯到公元600年至1000年，它们生动完好地再现了古印度文明。埃洛拉石窟群不仅艺术造型独特，技术水准高超，而且作为佛教、婆罗门教和耆那教的圣殿，它们是古代印度容忍、宽恕特性的精神体现。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Пещерные храмы в Эллоре
+Эти 34 монастыря и храма, растянувшиеся на расстояние более 2 км, высечены друг за другом в стене высокого базальтового обрыва, недалеко от города Аурангабада в штате Махараштра. Благодаря Эллоре, с ее непрерывной преемственностью в формировании наследия в период 600-1000 гг., следы древней индийской цивилизации дошли до наших дней. Эллора – это не только комплекс уникального художественного творчества и технических достижений. Это также иллюстрация духа терпимости, характерного для древней Индии, что подтверждается расположенными рядом святилищами буддизма, индуизма и джайнизма.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Grutas de Ellora
+Situados cerca de Aurangabad (Estado de Maharashtra), los 34 monasterios y templos de este sitio se alinean, uno junto a otro, a lo largo de 2 km, en la pared del alto farallón basáltico en la que fueron excavados. El sitio hace revivir la antigua civilización de la India gracias a la secuencia ininterrumpida de sus monumentos, que datan de los siglos VII a XI. La realización de este conjunto monumental de calidad artística excepcional fue una verdadera proeza técnica. Con sus santuarios budistas, brahmánicos y jainistas, Ellora ilustra también el espíritu de tolerancia característico de la India antigua. Su ininterrumpida secuencia de creación, que se extiende desde el año 600 al 1000, es una brillante muestra de esa civilización.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+エローラ石窟群
+source: NFUAJ
+Grotten van Ellora
+Source: unesco.nl
+एलोरा की गुफाएं
+महाराष्ट्र के औरंगाबाद से थोड़ी ही दूरी पर 2 किमी के क्षेत्र में फैले हुए, ये 34 मठ-मंदिर एक ऊंची बेसाल्ट चट्टान की दीवार को काटकर साथ-साथ ही बनाए गए हैं। 600 से लेकर 1000 ईस्वी काल के दौरान एक के बाद एक बने स्मारकों से समृद्ध एलोरा, प्राचीन भारत की सभ्यता को जीवंत करता है। एलोरा परिसर, न केवल एक अद्वितीय कलात्मक रचना और तकनीकी कार्य है, अपितु यह बौद्ध, हिंदू और जैन धर्म को समर्पित अपने मठ-मंदिरों के साथ सहिष्णुता की उस भावना को भी पूरी तरह से दर्शाता है, जो प्राचीन भारत की विशेषता थी।
+Source: India
+Outstanding Universal Value
+Brief synthesis
+The invaluable ensemble of 34 caves at Ellora in the Charanandri hills of western India’s Maharashtra State showcases a spirit of co-existence and religious tolerance through the outstanding architectural activities carried out by the followers of three prominent religions: Buddhism, Brahmanism, and Jainism. The rock-cut activity was carried out in three phases from the 6th century to the 12th century. The earliest caves (caves 1–12), excavated between the 5th and 8th centuries, reflect the Mahayana philosophy of Buddhism then prevalent in this region. The Brahmanical group of caves (caves 13–29), including the renowned Kailasa temple (cave 16), was excavated between the 7th and 10th centuries. The last phase, between the 9th and 12th centuries, saw the excavation of a group of caves (caves 30–34) reflecting Jaina philosophy.
+Amongst the caves of the Buddhist group, Cave 10 (Visvakarma or Sutar-ki-jhopari, the Carpenter’s cave), Cave 11, and Cave 12 (Teen Tal, or three-storied monastery, the largest in this category) are particularly important. These caves mark the development of the Vajrayana form of Buddhism and represent a host of Buddhist deities. The prominent caves of the Brahmanical group are Cave 15 (Dasavatara, or Cave of Ten Incarnations), Cave 16 (Kailasa, the largest monolithic temple), Cave 21 (Ramesvara), and Cave 29 (Dumar Lena). Amongst these, Cave 16 is an excellent example of structural innovation, and marks the culmination of rock-cut architecture in India featuring elaborate workmanship and striking proportions. The temple is decorated with some of the boldest and finest sculptural compositions to be found in India. The sculpture depicting Ravana attempting to lift Mount Kailasa, the abode of Siva, is especially noteworthy. The remains of beautiful paintings belonging to different periods are preserved on the ceilings of the front mandapa (pillared hall) of this temple. The Jaina group of caves (caves 30 – 34) is exquisitely carved with fine, delicate sculptures, and includes fine paintings dedicated to the Digambara sect. Through their art and architecture, the Ellora Caves serve as a window to ancient India, including socio-cultural phenomena, material culture, politics, and lifestyles.
+Criterion (i): The ensemble of Ellora is a unique artistic achievement, a masterpiece of human creative genius. If one considers only the work of excavating the rock, a monument such as the Kailasa Temple is a technological exploit without equal. However, this temple, which transposes models from “constructed” architecture, offers an extraordinary repertory of sculpted and painted forms of a very high plastic quality and an encyclopaedic program.
+Criterion (iii): Ellora brings to life again the civilization of ancient India with its uninterrupted sequence of monuments from AD 600 to 1000.
+Criterion (vi): The Ellora Caves not only bear witness to three great religions, i.e. Buddhism, Brahmanism, and Jainism, they illustrate the spirit of tolerance, characteristic of ancient India, which permitted these three religions to establish their sanctuaries and their communities in a single place, which thus served to reinforce its universal value.
+Integrity
+Ellora Caves includes all the elements necessary to express its Outstanding Universal Value, including the architectural and sculptural elements that bear witness to Buddhism, Brahmanism, and Jainism in an uninterrupted sequence of monuments from AD 600 to 1000. The property, which encompasses the ensemble along with its natural setting, is of adequate size to ensure the complete representation of features and processes that convey the property’s significance, and does not suffer from adverse effects of development and/or neglect. Identified potential threats to the integrity of the property include visitor and environmental management, seepage and cracking in the caves, and the capacity of conservation staff at the property.
+Authenticity
+The authenticity of Ellora Caves is expressed through the architectural forms and designs such as the viharas (monasteries), chaityagriha (sanctuary), and monolithic temples belonging to three different faiths. The materials, locations, and natural setting also play significant roles in determining the authenticity of the property. The Ellora Caves are authentic in terms of the forms and designs, materials and substance, and locations and setting of paintings, rock-cut architecture, sculptures, and unfinished temples of three different faiths, i.e. Buddhism, Brahmanism, and Jainism.
+Protection and management requirements
+The management of the Ellora Caves is carried out by the Archaeological Survey of India (ASI), while the buffer zones are jointly managed by the ASI, the Forest Department, and the Government of Maharashtra. Various legislation, including the Ancient Monuments and Archaeological Sites and Remains Act (1958) and its Rules (1959), Ancient Monuments and Archaeological Sites and Remains (Amendment and Validation) Act (2010), Forest Act (1927), Forest Conservation Act (1980), Municipal Councils, Nagar Panchayats and Industrial Townships Act, Maharashtra (1965), and Regional and Town Planning Act, Maharashtra (1966), governs the overall administration of the property and its buffer zones. A detailed condition survey of all caves has been undertaken as a part of the Comprehensive Conservation Management Plan and implementation is underway.
+Sustaining the Outstanding Universal Value of the property over time will require developing and implementing a framework to address issues such as visitor management as well as environment management; long-term monitoring for seepage and cracking patterns in all the caves; and capacity building of conservation staff at the property, with the objective of ensuring the long-term protection of attributes that sustain the Outstanding Universal Value, integrity and authenticity of the property.

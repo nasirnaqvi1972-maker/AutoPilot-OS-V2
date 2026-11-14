@@ -1,0 +1,71 @@
+2026-10-26 13:59:45,544 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 13:59:53,693 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:13:14,052 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:18:13,117 | INFO | =================================================================
+2026-10-26 14:18:13,118 | INFO | Starting v2_safe_bulk_push.py
+2026-10-26 14:18:13,118 | INFO | DRY_RUN=True
+2026-10-26 14:18:13,119 | INFO | MAX_DRAFTS=1
+2026-10-26 14:18:13,120 | INFO | =================================================================
+2026-10-26 14:18:13,129 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:18:14,069 | INFO | Resolved blog ID: 1922469613291345636
+2026-10-26 14:18:14,073 | INFO | Loaded 166 inventory records.
+2026-10-26 14:18:14,076 | INFO | -----------------------------------------------------------------
+2026-10-26 14:18:14,076 | INFO | Processing draft: abbey_of_st_gall___the_library_revision.html
+2026-10-26 14:18:14,080 | INFO | Matched abbey_of_st_gall___the_library_revision.html -> Abbey of St Gall — The Library of the Soul's Healing (7656529907871695774)
+2026-10-26 14:18:14,619 | ERROR | FAILED: abbey_of_st_gall___the_library_revision.html | Post 7656529907871695774 is not LIVE; refusing to patch.
+Traceback (most recent call last):
+  File "D:\Projects\AutoPilot_OS_v2\v2_safe_bulk_push.py", line 924, in main
+    prepare_one_draft(
+    ~~~~~~~~~~~~~~~~~^
+        service,
+        ^^^^^^^^
+    ...<2 lines>...
+        inventory_posts,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Projects\AutoPilot_OS_v2\v2_safe_bulk_push.py", line 735, in prepare_one_draft
+    raise ValueError(
+        f"Post {post_id} is not LIVE; refusing to patch."
+    )
+ValueError: Post 7656529907871695774 is not LIVE; refusing to patch.
+2026-10-26 14:18:14,622 | ERROR | Run stopped with 1 failure(s). See D:\Projects\AutoPilot_OS_v2\push_log.txt.
+2026-10-26 14:25:22,098 | INFO | Connecting to Blogger API...
+2026-10-26 14:25:22,102 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:25:23,070 | INFO | Processing: abbey_of_st_gall___the_library_revision.html
+2026-10-26 14:25:23,535 | WARNING | Skipping 7656529907871695774: Status is , not LIVE.
+2026-10-26 14:25:23,536 | INFO | Processing: abu_mena___the_desert_city_rai_revision.html
+2026-10-26 14:25:24,046 | WARNING | Skipping 677389960192258951: Status is , not LIVE.
+2026-10-26 14:25:24,053 | INFO | Processing: acropolis___the_sacred_citadel_revision.html
+2026-10-26 14:25:24,621 | WARNING | Skipping 9216206703425015332: Status is , not LIVE.
+2026-10-26 14:26:15,022 | INFO | Connecting to Blogger API...
+2026-10-26 14:26:15,027 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:26:15,777 | INFO | Processing: abbey_of_st_gall___the_library_revision.html
+2026-10-26 14:26:16,317 | INFO | Wrote cleaned output: D:\Projects\AutoPilot_OS_v2\safe_push_output\7656529907871695774_ready.html
+2026-10-26 14:26:16,317 | INFO | DRY_RUN=True: no Blogger update attempted for post 7656529907871695774
+2026-10-26 14:26:16,318 | INFO | Processing: abu_mena___the_desert_city_rai_revision.html
+2026-10-26 14:26:16,893 | INFO | Wrote cleaned output: D:\Projects\AutoPilot_OS_v2\safe_push_output\677389960192258951_ready.html
+2026-10-26 14:26:16,894 | INFO | DRY_RUN=True: no Blogger update attempted for post 677389960192258951
+2026-10-26 14:26:16,895 | INFO | Processing: acropolis___the_sacred_citadel_revision.html
+2026-10-26 14:26:17,477 | INFO | Wrote cleaned output: D:\Projects\AutoPilot_OS_v2\safe_push_output\9216206703425015332_ready.html
+2026-10-26 14:26:17,478 | INFO | DRY_RUN=True: no Blogger update attempted for post 9216206703425015332
+2026-10-26 14:29:22,803 | INFO | Connecting to Blogger API...
+2026-10-26 14:29:22,807 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:29:24,052 | INFO | Processing: abbey_of_st_gall___the_library_revision.html
+2026-10-26 14:29:24,572 | INFO | DRY_RUN: No update for 7656529907871695774
+2026-10-26 14:29:24,573 | INFO | Processing: abu_mena___the_desert_city_rai_revision.html
+2026-10-26 14:29:25,114 | INFO | DRY_RUN: No update for 677389960192258951
+2026-10-26 14:29:25,114 | INFO | Processing: acropolis___the_sacred_citadel_revision.html
+2026-10-26 14:29:25,624 | INFO | DRY_RUN: No update for 9216206703425015332
+2026-10-26 14:29:25,626 | INFO | Processing: taxila_revision.html
+2026-10-26 14:29:26,223 | INFO | DRY_RUN: No update for 5156852846229382939
+2026-10-26 14:30:37,534 | INFO | Connecting to Blogger API...
+2026-10-26 14:30:37,538 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-10-26 14:30:38,497 | INFO | Processing: abbey_of_st_gall___the_library_revision.html
+2026-10-26 14:30:41,134 | INFO | SUCCESS: Live post 7656529907871695774 updated.
+2026-10-26 14:30:43,136 | INFO | Processing: abu_mena___the_desert_city_rai_revision.html
+2026-10-26 14:30:45,709 | INFO | SUCCESS: Live post 677389960192258951 updated.
+2026-10-26 14:30:47,712 | INFO | Processing: acropolis___the_sacred_citadel_revision.html
+2026-10-26 14:30:50,419 | INFO | SUCCESS: Live post 9216206703425015332 updated.
+2026-10-26 14:30:52,424 | INFO | Processing: taxila_revision.html
+2026-10-26 14:30:54,943 | INFO | SUCCESS: Live post 5156852846229382939 updated.

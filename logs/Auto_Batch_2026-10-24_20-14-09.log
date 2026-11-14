@@ -1,0 +1,42 @@
+  [WARNING] Draft has 6 images (need 7).
+  Fixed draft 'Elephanta Caves â€” The Silent Sanctuaries': generated meta description, injected jump break
+Draft doctor complete.
+Found 1 HTML posts to process.
+
+[1/1] Processing elephanta-caves.html...
+
+==================================================
+PROCESSING: elephanta-caves.html
+==================================================
+  [main] Title: Elephanta Caves — The Silent Sanctuaries of the Sea
+  [Engine] Post already contains 8 images. Skipping Auto-Image fetching.
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/Vc47VKjd/043520bbfd31.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/CN0FfVt/50e59a64f450.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/1tbN5HFg/8bf741f33e54.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/DgY2Mbt4/7f9f09c80f47.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/ymBbZM8r/0cc815829026.jpg
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/zTq5pDj7/eaba83e24395.jpg
+  [publisher] Missing local image: img_07.jpg. Removing figure.
+  [publisher] Missing local image: img_08.jpg. Removing figure.
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 6528114268400441094
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: elephanta-caves.html moved to processed.
+run_engine: delegating to safe_batch for all pending
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

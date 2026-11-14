@@ -1,0 +1,31 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Harappa Unesco.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Archaeological Site of Harappa
+Department of Archaeology and Museums
+Disclaimer
+The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.
+The sole responsibility for the content of each Tentative List lies with the State Party concerned. The publication of the Tentative Lists does not imply the expression of any opinion whatsoever of the World Heritage Committee or of the World Heritage Centre or of the Secretariat of UNESCO concerning the legal status of any country, territory, city or area or of its boundaries.
+Property names are listed in the language in which they have been submitted by the State Party
+Description
+The archaeological sequence at the site of Harappa is over 13 metres deep, spanning the period between the fourth and second millennium BC. Being located beside an old course of the Ravi River, its inhabitants had easy access to trade networks, aquatic food stuffs as well as water for drinking and cultivation, perhaps explaining why the site was occupied for so long. Indeed, the site represents a classic archaeological tell site, that is an artificial mound created by generations of superimposed mud brick structures. Its excavators have proposed the following chronology:
+1.Ravi Aspect of the Hakra phase c.3300-2800 BC
+2.Kot Dijian (Early Harappan) phase c.2800-2600 BC
+3.Harappan Phase c.2600-1900 BC
+4.Transitional Phase c.1900-1800 BC
+5.Late Harappan Phase c.1800-1300 BC
+The earliest evidence for occupation at the site, that of a small agricultural settlement, has been identified at the foot of the north-west corner of mound AB, but by third millennium BC all AB and much of E were also settled. The site continued to expand and reached its full extent of over 100 hectares during the mature of Harappan period between 2600 and 1900 BC. Harappa’s unique town plan is at its most obvious during this period with at least for self contained walled centres, each on its own raised mounds. Cemetery H represents the final transformation of this urbanised, literate civilisation into a mosaic of mobile cultures demonstrating little socio economic integration. Following its abandonment in the second millennium BC, the upper parts of its mud-brick structures eroded sufficiently to protect those below. Certainly the hoistoric occupation of parts of the site although frequently reusing Bronze Age bricks, had little impact. However, three more recent developments have greatly affected the property. The first, the removal of thousands of bricks for railway ballast in the 1850s, destroyed many of the late phases of occupation the second, the increasing use of irrigation agriculture, resulted in gross salination; whilst the third, archaeological excavations, exposed structures to the destructive nature of salination. As a result many of the structures exposed and conserved by Wheeler in the 1940s have been completely destroyed.

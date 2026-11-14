@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+==================================================
+PROCESSING: archaeological-site-of-mystras.html
+==================================================
+  [main] Title: Archaeological Site of Mystras — The Last Flickering Candle of Byzantium
+--- Running Flawless V2 Curator ---
+  [curator] Found 4 eligible sections.
+  [curator] Candidate pool size: 30
+    [validator] Matching to: 'The Calcined Echoes of a Dying Glory'
+  [FAIL] Curator crashed: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\AutoPilot_OS_v2\\content\\processed\\archaeological-site-of-mystras\\temp.jpg' -> 'D:\\Projects\\AutoPilot_OS_v2\\content\\processed\\archaeological-site-of-mystras\\img_01.jpg'
+  [FAIL] Curator failed to place images. Moving to failed.
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

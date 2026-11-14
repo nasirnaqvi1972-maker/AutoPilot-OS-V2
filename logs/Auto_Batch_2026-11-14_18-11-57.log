@@ -1,0 +1,65 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[SmartMatch] Placed image for block "Extending southward from the Ethiopian G..." with confidence score: 0.19
+[SmartMatch] Placed image for block "While the Lower Omo Valley has yielded v..." with confidence score: 0.18
+[SmartMatch] Placed image for block "Long before modern humans walked the flo..." with confidence score: 0.19
+[SmartMatch] Placed image for block "The Lower Valley of the Omo is not merel..." with confidence score: 0.21
+[SmartMatch] Placed image for block "The scientific awakening of the Lower Om..." with confidence score: 0.18
+[SmartMatch] Placed image for block "Beyond its ancient fossil wealth, the Lo..." with confidence score: 0.19
+Post updated.
+  [WARNING] Draft has 6 images (need 7).
+  [DEBUG] Scanning text: Lower Valley of the Omo | Labels found: ['Africa', 'Ethiopia']
+  Fixed draft 'Lower Valley of the Omo': generated meta description
+Draft doctor complete.
+run_engine: processing 1 pending posts via safe_batch
+Found 1 HTML posts to process.
+
+[1/1] Processing Lower-Valley-of-the-Omo.html...
+
+==================================================
+PROCESSING: Lower-Valley-of-the-Omo.html
+==================================================
+  [main] Title: Lower Valley of the Omo
+  [Engine] No images found. Fetching images via curator...
+--- Running Flawless V2 Curator ---
+  [curator] Found 7 eligible sections.
+  [curator] Unsplash returned 14 candidates.
+  [curator] Candidate pool size: 14
+      [Vision Check] Rejected image (Category: animal).
+    [validator] Matching to: 'The Geological Time Capsule: Stratigraphy of the Omo Basin'
+      [OK] Accepted image 1
+    [validator] Matching to: 'Dawn of Homo sapiens: The Pivotal Kibish Fossils'
+      [OK] Accepted image 2
+    [validator] Matching to: 'Deep Ancestry: Australopithecines and Early Hominins'
+      [OK] Accepted image 3
+      [Image Validator] Skipping low-res image (<800x600).
+    [validator] Matching to: 'The Lithic Revolution: Oldowan and Acheulean Tool Traditions'
+      [OK] Accepted image 4
+    [validator] Matching to: 'Chronicles of Discovery: From Arambourg to the International Expedition'
+      [OK] Accepted image 5
+    [validator] Matching to: 'A Living Mosaic: Ethnographic Tapestry of the Lower Omo'
+      [OK] Accepted image 6
+
+--- Publishing to Blogger ---
+  [Engine] CREATED new draft.
+  [DEBUG] Scanning text: Lower Valley of the Omo | Labels found: ['Africa', 'Ethiopia']
+  [Engine] Assigned labels: Africa, Ethiopia.
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_01.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/XZrGSSqw/a88ada70c54c.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/8LHcJ6Ld/6fb5c733e829.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/xtXkvrb4/d2373ee6c8fb.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/1fJc5tfQ/31bde139b611.jpg
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/20GwP2Sg/971def77dc8b.jpg
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/jPTZn9Xy/887978f50927.jpg
+  [publisher] Applying SEO Optimizations...
+[Engine] Generated SEO Meta Description: Lower Valley of the Omo Cradle of Humanity â€” Where Time, Bone, and River Converge Carved through the sun-baked riftlands of southern Ethiopia, the Low
+  [publisher] Connecting to Blogger API...

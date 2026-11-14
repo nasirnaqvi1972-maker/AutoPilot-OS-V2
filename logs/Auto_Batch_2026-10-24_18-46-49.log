@@ -1,0 +1,51 @@
+
+==================================================
+PROCESSING: archaeological-site-of-mystras.html
+==================================================
+  [main] Title: Archaeological Site of Mystras — The Last Flickering Candle of Byzantium
+--- Running Flawless V2 Curator ---
+  [curator] Found 4 eligible sections.
+  [curator] Candidate pool size: 30
+    [validator] Matching to: 'The Calcined Echoes of a Dying Glory'
+      [OK] Accepted image 1
+    [validator] Matching to: 'The Crucible of the Despots'
+      [OK] Accepted image 2
+    [validator] Matching to: 'A Symphony of Stone and Pigment'
+      [OK] Accepted image 3
+    [validator] Matching to: 'The Long Twilight and the Modern Gaze'
+      [OK] Accepted image 4
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 5
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 6
+    [validator] Matching to: 'Additional View'
+      [OK] Accepted image 7
+
+--- Publishing to Blogger ---
+
+--- Publishing to Blogger ---
+  [publisher] Uploading img_05.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/xSqJpq3g/c6ca5cd12a82.jpg
+  [publisher] Uploading img_01.jpg to ImgBB...
+  [publisher] ImgBB upload failed for D:\Projects\AutoPilot_OS_v2\content\processed\archaeological-site-of-mystras\img_01.jpg: HTTPSConnectionPool(host='api.imgbb.com', port=443): Max retries exceeded with url: /1/upload (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.imgbb.com', port=443) at 0x1fe9093a990>, 'Connection to api.imgbb.com timed out. (connect timeout=30)'))
+  [publisher] Uploading img_06.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/4ngC20d4/511f27e4c5bb.jpg
+  [publisher] Uploading img_02.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/9H8PDV2T/0f412abf2d98.jpg
+  [publisher] Uploading img_07.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/jZvcCDWQ/784268bf7148.jpg
+  [publisher] Uploading img_03.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/sdWJ6k0s/f5de646f568c.jpg
+  [publisher] Uploading img_04.jpg to ImgBB...
+    [OK] URL: https://i.ibb.co/vxN4WTKT/0941aff3e7ae.jpg
+  [publisher] Applying SEO Optimizations...
+  [publisher] Connecting to Blogger API...
+  [publisher] Creating a brand new draft...
+  [OK] SUCCESS! Post ID: 8682464776358122443
+  [LINK] URL: https://dustanddynasty.blogspot.com/
+  [OK] SUCCESS: archaeological-site-of-mystras.html moved to processed.
+Found 1 pending posts. Starting batch...
+
+=== Batch run 1/1 ===
+
+Batch complete! Processed 1 posts.

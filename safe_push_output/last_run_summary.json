@@ -1,0 +1,12 @@
+{
+  "completed_at": "2026-10-26T09:18:14.621014+00:00",
+  "blog_id": "1922469613291345636",
+  "dry_run": true,
+  "attempted": 1,
+  "failures": [
+    {
+      "draft": "abbey_of_st_gall___the_library_revision.html",
+      "error": "Post 7656529907871695774 is not LIVE; refusing to patch."
+    }
+  ]
+}

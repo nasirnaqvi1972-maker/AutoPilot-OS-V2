@@ -1,0 +1,56 @@
+Act as a historical research assistant specializing in archaeology. 
+Develop a distinctive, accurate, readable article about Tiya   The Standing Stones Tha.
+
+Do NOT merely summarize the source. Explain the historical significance of the evidence. 
+Maintain a research ledger. Distinguish established facts from scholarly interpretations. 
+Do not invent controversies. Check the chronology carefully. 
+Write for readers interested in South Asian and global history. Use clear prose. 
+Include citations for important claims. 
+
+Deliverables:
+1. Research findings
+2. Evidence gaps
+3. Article outline
+4. Draft article (Format this in pure HTML using <p>, <h2>, and <strong>. Do not wrap it in markdown ```html blocks, just give the raw HTML code).
+5. Fact-check report
+
+Here is the source text:
+Tiya
+Tiya
+Tiya is among the most important of the roughly 160 archaeological sites discovered so far in the Soddo region, south of Addis Ababa. The site contains 36 monuments, including 32 carved stelae covered with symbols, most of which are difficult to decipher. They are the remains of an ancient Ethiopian culture whose age has not yet been precisely determined.
+Description is available under license CC-BY-SA IGO 3.0
+Tiya
+Sur quelque 160 sites archéologiques découverts jusqu'à présent dans la région du Soddo, au sud d'Addis-Abeba, celui de Tiya est l'un des plus importants. Il comprend 36 monuments, dont 32 stèles présentant une figuration sculptée faite d'épées et de symboles demeurés énigmatiques. Ces stèles témoignent d'une culture proto-historique d'Éthiopie que l'on n'a pas encore pu dater avec précision.
+Description is available under license CC-BY-SA IGO 3.0
+تيا
+يعتبر موقع تيا أهمّ المواقع الأثريّة المئة والستين التي جرى اكتشافها حتّى يومنا هذا في منطقة سودو جنوب أديس أبابا. وفي هذا الموقع 36 تحفةً أثريةًّ ومنها 32 مسلّة تذكاريّة هي منحوتة مصنوعةً من سيوف ورموز غريبة على الفهم. وهذه المسلاّت هي الشهادة على ثقافة إثيوبيا التاريخيّة الأولى والتي لم يُحدد تاريخها بدقّة حتّى يومنا هذا.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+蒂亚
+在亚的斯亚贝巴南部的索多地区迄今为止发现的大约160处考古遗址中，蒂亚石柱是最重要的一处。这里有36处古迹，其中有32个雕刻石柱，刻着很多符号，但大部分都无法解读。这是埃塞俄比亚古代文化的遗存，其年代至今尚无法准确估算。
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Археологические памятники Тийа
+Памятники Тийа относятся к самым ценным из примерно 160 обнаруженных к настоящему времени в районе Соддо к югу от Аддис-Абебы. Объект содержит 36 памятников, включая 32 стелы, покрытых резьбой с символами, большую часть которых трудно расшифровать. Они являются остатками древней эфиопской культуры, возраст которой еще точно не установлен.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+Tiya
+De los 160 sitios arqueológicos descubiertos hasta la fecha en la región de Sodo, al sur de Addis Abeba, el de Tiya es uno de los más importantes. Posee 36 monumentos, entre los que figuran 32 estelas esculpidas con representaciones de espadas y símbolos enigmáticos. Estas estelas son los vestigios de una cultura etíope protohistórica que no se ha podido datar con precisión.
+									source: UNESCO/CPE
+									
+Description is available under license CC-BY-SA IGO 3.0
+					
+								
+ティヤ
+source: NFUAJ
+Tiya
+Source: unesco.nl

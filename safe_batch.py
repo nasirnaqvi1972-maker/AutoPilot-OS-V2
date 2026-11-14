@@ -1,0 +1,162 @@
+import os
+import json
+import sys
+import shutil
+import subprocess
+import traceback
+import unicodedata
+from pathlib import Path
+from bs4 import BeautifulSoup
+
+sys.path.append(str(Path(__file__).resolve().parent))
+from core.blogger_publisher import publish_post, get_blogger_service
+from core.image_curator import curate_images
+from location_detector import detect_location
+from topic_tracker import main as run_topic_tracker
+
+V2_ROOT = Path(__file__).resolve().parent
+PENDING_DIR = V2_ROOT / "content" / "pending"
+REGISTRY_PATH = V2_ROOT / "data" / "post_registry.json"
+
+# Load the registry (memory)
+if REGISTRY_PATH.exists():
+    with open(REGISTRY_PATH, 'r', encoding='utf-8') as f:
+        registry = json.load(f)
+else:
+    registry = {}
+PROCESSED_DIR = V2_ROOT / "content" / "processed"
+FAILED_DIR = V2_ROOT / "content" / "failed"
+
+def process_post(html_path):
+    print(f"\n==================================================")
+    print(f"PROCESSING: {html_path.name}")
+    print(f"==================================================")
+
+    with open(html_path, 'r', encoding='utf-8') as f:
+        html_content = f.read()
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+    h1 = soup.find('h1')
+    title = h1.get_text(strip=True) if h1 else html_path.stem.replace('-', ' ').title()
+    print(f"  [main] Title: {title}")
+
+    img_folder = PROCESSED_DIR / html_path.stem
+
+    # Check if post already contains images BEFORE stripping
+    existing_imgs = soup.find_all("img")
+    if len(existing_imgs) >= 1:
+        print(f"  [Engine] Post already contains {len(existing_imgs)} images. Skipping Auto-Image fetching.")
+        # Strip old separator divs and figures but keep img tags
+        for div in soup.find_all('div', class_='separator'):
+            div.decompose()
+        for fig in soup.find_all('figure'):
+            fig.decompose()
+        html_content = str(soup)
+        success = True
+        # ensure img_folder exists
+        img_folder.mkdir(parents=True, exist_ok=True)
+        # copy html to curated output
+        curated_html_path = img_folder / "_output.html"
+        curated_html_path.write_text(html_content, encoding="utf-8")
+    else:
+        print("  [Engine] No images found. Fetching images via curator...")
+        try:
+            # curate_images reads the original file from disk and adds images
+            success = curate_images(html_path, img_folder)
+        except Exception as e:
+            print(f"  [FAIL] Curator crashed: {e}")
+            traceback.print_exc()
+            success = False
+
+    if not success:
+        print("  [FAIL] Curator failed to place images. Moving to failed.")
+        shutil.move(str(html_path), str(FAILED_DIR / html_path.name))
+        return
+        
+    curated_html_path = img_folder / "_output.html"
+    if not curated_html_path.exists():
+         print("  [FAIL] Curated HTML not found. Moving to failed.")
+         shutil.move(str(html_path), str(FAILED_DIR / html_path.name))
+         return
+         
+    print(f"\n--- Publishing to Blogger ---")
+    # Check for existing post (draft or live) with same title
+    existing_id = None
+    try:
+        service = get_blogger_service()
+        blog = service.blogs().getByUrl(url='https://dustanddynasty.blogspot.com').execute()
+        blog_id = blog['id']
+        target_title = unicodedata.normalize('NFC', title.strip().lower())
+        page_token = None
+        while True:
+            res = service.posts().list(blogId=blog_id, maxResults=100, pageToken=page_token).execute()
+            for d in res.get('items', []):
+                d_title = unicodedata.normalize('NFC', d.get('title', '').strip().lower())
+                if d_title == target_title:
+                    existing_id = d['id']
+                    break
+            if existing_id:
+                break
+            page_token = res.get('nextPageToken')
+            if not page_token:
+                break
+    except Exception as e:
+        print(f"  [post check] failed: {e}")
+    if existing_id:
+        print(f"  [Engine] UPDATED existing draft (ID: {existing_id}) in place. No duplicates created.")
+    else:
+        print("  [Engine] CREATED new draft.")
+
+    labels = detect_location(title, html_content)
+    print(f"  [Engine] Assigned labels: {', '.join(labels) if labels else 'none'}.")
+
+    post_id = publish_post(
+        html_path=curated_html_path,
+        img_folder=img_folder,
+        title=title,
+        labels=labels,
+        post_id=existing_id
+    )
+    
+    if post_id:
+        print(f"[AutoPilot] Post published (ID: {post_id}). Automatically running Smart Image Replacer to fix context...")
+        try:
+            subprocess.run([str(Path(__file__).resolve().parent / "os_env" / "Scripts" / "python.exe"), str(Path(__file__).resolve().parent / "smart_image_replacer.py"), str(post_id)], cwd=str(Path(__file__).resolve().parent), timeout=120)
+        except Exception as e:
+            print(f"  [smart] failed: {e}")
+        try:
+            subprocess.run([str(Path(__file__).resolve().parent / "os_env" / "Scripts" / "python.exe"), str(Path(__file__).resolve().parent / "draft_doctor.py"), str(post_id)], cwd=str(Path(__file__).resolve().parent), timeout=120)
+        except Exception as e:
+            print(f"  [doctor] failed: {e}")
+    
+    if post_id:
+        shutil.move(str(html_path), str(PROCESSED_DIR / html_path.name))
+        print(f"  [OK] SUCCESS: {html_path.name} moved to processed.")
+    else:
+        shutil.move(str(html_path), str(FAILED_DIR / html_path.name))
+        print(f"  [FAIL] FAILED: {html_path.name} moved to failed.")
+
+def main():
+    PENDING_DIR.mkdir(parents=True, exist_ok=True)
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    FAILED_DIR.mkdir(parents=True, exist_ok=True)
+
+    pending_files = list(PENDING_DIR.glob("*.html"))
+    if not pending_files:
+        print("No .html files found in pending.")
+        return
+
+    print(f"Found {len(pending_files)} HTML posts to process.")
+    for i, html_file in enumerate(pending_files, 1):
+        print(f"\n[{i}/{len(pending_files)}] Processing {html_file.name}...")
+        process_post(html_file)
+    
+    # Auto-update topic lists after batch completes
+    print("\n--- Updating Topic Tracker ---")
+    try:
+        run_topic_tracker()
+    except Exception as e:
+        print(f"[Tracker] Failed to update topic lists: {e}")
+
+if __name__ == "__main__":
+    main()
