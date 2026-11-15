@@ -1,0 +1,73 @@
+﻿import re
+import subprocess
+import sys
+import unicodedata
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+PENDING_DIR = ROOT / "content" / "pending"
+SAFE_BATCH = ROOT / "safe_batch.py"
+
+
+def slugify(text: str) -> str:
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    text = re.sub(r"-{2,}", "-", text)
+    return text[:120] or "draft"
+
+
+def wrap_with_h1(title: str, content: str) -> str:
+    body = (content or "").strip()
+    # Strip markdown code fences if present
+    body = re.sub(r"^```(?:html)?\s*", "", body, flags=re.IGNORECASE)
+    body = re.sub(r"\s*```$", "", body)
+
+    # If content already has an h1, keep as-is
+    if re.search(r"<h1\b", body, flags=re.IGNORECASE):
+        return body
+
+    safe_title = (
+        title.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+    return f"<h1>{safe_title}</h1>\n{body}"
+
+
+def save_to_pending(title: str, content: str, slug: str | None = None) -> Path:
+    PENDING_DIR.mkdir(parents=True, exist_ok=True)
+    topic_slug = slugify(slug or title)
+    output_path = PENDING_DIR / f"{topic_slug}.html"
+    html = wrap_with_h1(title, content)
+    output_path.write_text(html, encoding="utf-8")
+    return output_path
+
+
+def trigger_publisher(python_exe: str | None = None) -> subprocess.CompletedProcess:
+    exe = python_exe or sys.executable
+    return subprocess.run([exe, str(SAFE_BATCH)], cwd=str(ROOT))
+
+
+def sync_and_publish(title: str, content: str, slug: str | None = None, python_exe: str | None = None):
+    output_path = save_to_pending(title, content, slug=slug)
+    print(f"[sync_writer_to_publisher] Saved: {output_path}")
+    print("[sync_writer_to_publisher] Triggering publisher: safe_batch.py")
+    result = trigger_publisher(python_exe=python_exe)
+    if result.returncode != 0:
+        raise RuntimeError(f"safe_batch.py exited with code {result.returncode}")
+    return output_path
+
+
+if __name__ == "__main__":
+    # Usage: python sync_writer_to_publisher.py "Title" path\to\body.html [slug]
+    if len(sys.argv) < 3:
+        print("Usage: python sync_writer_to_publisher.py <title> <content_file> [slug]")
+        sys.exit(2)
+    title = sys.argv[1]
+    content_file = Path(sys.argv[2])
+    slug = sys.argv[3] if len(sys.argv) > 3 else None
+    content = content_file.read_text(encoding="utf-8")
+    sync_and_publish(title, content, slug=slug)

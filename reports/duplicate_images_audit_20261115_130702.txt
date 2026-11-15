@@ -1,0 +1,39 @@
+
+======================================================================
+  AUDIT SUMMARY
+======================================================================
+Total Posts Scanned         : 168
+Total Image Tags Extracted   : 1241
+Total Unique Image URLs      : 1227
+Cross-Post Duplicate URLs    : 1
+Posts with Intra-Repeats     : 5
+======================================================================
+
+[!] DETECTED 1 DUPLICATE IMAGE(S) SHARED ACROSS POSTS:
+
+----------------------------------------------------------------------
+Duplicate #1 (Shared across 2 posts)
+URL: https://files.catbox.moe/sr9j5u.jpg
+Appears in:
+  - [UNKNOWN] Historic Centre of the Town of Olinda — The Hilltop Sugar Capital That Rose from the Ashes to Dance
+    Post ID : 7984407255053264343
+    Live URL: https://dustanddynasty.blogspot.com/2026/10/historic-centre-of-town-of-olinda.html
+    Alt Text: "Church of Nossa Senhora da Graça Olinda Brazil former Jesuit college and church in the UNESCO World Heritage historic..."
+  - [UNKNOWN] Historic Town of Ouro Preto — Where Gold Built a Baroque Heaven in the Mountains
+    Post ID : 6222766435592613746
+    Live URL: https://dustanddynasty.blogspot.com/2026/10/historic-town-of-ouro-preto-brazil.html
+    Alt Text: "Interior of the Matriz de Nossa Senhora do Pilar in Ouro Preto Brazil, a UNESCO World Heritage Site, showing the golden..."
+
+----------------------------------------------------------------------
+  INTRA-POST REPETITIONS (Same image repeated within 1 post):
+----------------------------------------------------------------------
+• Post: Old Walled City of Shibam — The Manhattan of the Desert (ID: 5872828403351303540)
+    - Repeated 2x: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Shibam_Wadi_Hadhramaut_Yemen.jpg/1280px-Shibam_Wadi_Hadhramaut_Yemen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+• Post: Sun Temple, Konârak — The Stone Chariot of the Sun God (ID: 3986801303476041706)
+    - Repeated 6x: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Konark_chakra_by_Ansu_Anurag_Swain.jpg/1280px-Konark_chakra_by_Ansu_Anurag_Swain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+• Post: Plitvice Lakes National Park — Cascades of Turquoise Water (ID: 7553872700625619797)
+    - Repeated 4x: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lika-Senj_%28HR%29%2C_Plitvicer_Seen%2C_Kozjak_--_2022_--_0248.jpg/1280px-Lika-Senj_%28HR%29%2C_Plitvicer_Seen%2C_Kozjak_--_2022_--_0248.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+• Post: Mesa Verde National Park — Villages Built Into the Cliffs (ID: 1023870585161043628)
+    - Repeated 3x: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Canyon%2C_Mesa_Verde_National_Park%2C_Mancos%2C_CO.jpg/1280px-Canyon%2C_Mesa_Verde_National_Park%2C_Mancos%2C_CO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+• Post: The First Park on Earth | Yellowstone National Park (ID: 8246076384848086098)
+    - Repeated 3x: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Landsat_7_-_First_Cloud-free_Image_of_Yellowstone_National_Park_%28543%29.jpg/1280px-Landsat_7_-_First_Cloud-free_Image_of_Yellowstone_National_Park_%28543%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail

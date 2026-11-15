@@ -1,4 +1,4 @@
-﻿import sys
+import sys
 import io
 if sys.stdout.encoding != 'utf-8':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -10,6 +10,8 @@ import base64
 import requests
 import pickle
 import time
+import random
+import unicodedata
 from pathlib import Path
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
@@ -26,6 +28,50 @@ from core.quality_gate import enforce_adsense_compliance
 load_dotenv()
 SCOPES = ['https://www.googleapis.com/auth/blogger']
 IMGBB_API_KEY = os.getenv("IMGBB_API_KEY", "ea907fa6f9a48ecf480a0ca77f6a550b")
+
+# Support banner HTML (Gumroad one-time + Patreon monthly).
+# Injected AFTER enforce_adsense_compliance() so Patreon/Gumroad links survive SEC-03 stripping.
+SUPPORT_BANNER_HTML = r"""<!--Start of Dust and Dynasty Sidebar Support Banner-->
+<style>
+  .sidebar-support-banner {
+    background-color: #FDFBF7; 
+    border: 1px solid #E6DBCB; 
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .sidebar-support-banner h3 { color: #2C3E50; margin-top: 0; margin-bottom: 10px; font-size: 16px; }
+  .sidebar-support-banner p { color: #5A6C7A; margin-bottom: 15px; font-size: 13px; line-height: 1.4; }
+  .sidebar-button-group { display: flex; flex-direction: column; gap: 10px; }
+  .sidebar-btn { display: block; padding: 10px 15px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; transition: background-color 0.3s ease; text-align: center; }
+  .sidebar-btn-one-time { background-color: #D4A373; color: #FFFFFF; }
+  .sidebar-btn-one-time:hover { background-color: #C39262; }
+  .sidebar-btn-monthly { background-color: #2A5C43; color: #FFFFFF; }
+  .sidebar-btn-monthly:hover { background-color: #1E422F; }
+</style>
+<!--End of Dust and Dynasty Sidebar Support Banner-->
+<div class="sidebar-support-banner post-support-banner">
+<h3>🌍 Support Dust and Dynasty</h3>
+<p>Your support funds the research and hosting that keeps this encyclopedia free for everyone.</p>
+<div class="sidebar-button-group">
+<a class="sidebar-btn sidebar-btn-one-time" href="https://dustanddynasty.gumroad.com/l/coffee" rel="noopener" target="_blank">☕ Buy Me a Coffee</a>
+<a class="sidebar-btn sidebar-btn-monthly" href="https://www.patreon.com/cw/dustanddynasty" rel="noopener" target="_blank">🔁 Monthly Support</a>
+</div>
+</div>"""
+
+
+def inject_buy_me_coffee_banner(soup):
+    """Inject support banner at end of post body."""
+    banner = BeautifulSoup(SUPPORT_BANNER_HTML, "html.parser")
+    body = soup.find("body")
+    if body:
+        body.append(banner)
+    else:
+        soup.append(banner)
+    return soup
 
 def safe_print(msg: str):
     """Print safely on Windows console (cp1252 fallback)."""
@@ -68,6 +114,22 @@ def get_blogger_service():
 
     return build('blogger', 'v3', credentials=creds)
 
+def execute_with_retry(request, max_retries=4, base_delay=2.0):
+    """Executes a Google API request with exponential backoff and jitter (REL-02)."""
+    for attempt in range(max_retries + 1):
+        try:
+            return request.execute()
+        except Exception as e:
+            err_str = str(e)
+            is_retryable = any(code in err_str for code in ['429', '500', '502', '503', '504', 'timed out', 'ConnectionResetError', 'HttpError'])
+            if attempt < max_retries and is_retryable:
+                jitter = random.uniform(0.5, 1.5)
+                delay = (base_delay ** attempt) + jitter
+                print(f"  [Blogger API Retry] Attempt {attempt + 1}/{max_retries} failed ({e}). Retrying in {delay:.2f}s...")
+                time.sleep(delay)
+            else:
+                raise e
+
 def upload_to_imgbb(image_path, api_key):
     """Uploads an image to ImgBB and returns the direct URL. Retries 3 times, then raises."""
     last_error = None
@@ -78,7 +140,8 @@ def upload_to_imgbb(image_path, api_key):
                     "key": api_key,
                     "image": base64.b64encode(file.read()).decode('utf-8')
                 }
-            response = requests.post("https://api.imgbb.com/1/upload", data=payload, timeout=30)
+            # REL-01: Explicit connect (10s) and read (30s) timeouts
+            response = requests.post("https://api.imgbb.com/1/upload", data=payload, timeout=(10, 30))
             response.raise_for_status()
             data = response.json()
             return data['data']['url']
@@ -99,28 +162,40 @@ def publish_post(html_path, img_folder, title, labels, post_id=None):
         
     soup = BeautifulSoup(html_content, 'html.parser')
     
-    # 2. Upload Images and Replace Sources
-    img_cache = {}
+    # 2. Upload Images and Replace Sources (STA-04: Transactional Upload)
+    img_uploads = {}
+    images_to_remove = []
     try:
         for img in soup.find_all('img'):
             src = img.get('src')
             if src and not src.startswith('http'):
                 local_img_path = Path(img_folder) / src
                 if local_img_path.exists():
-                    print(f"  [publisher] Uploading {src} to ImgBB...")
-                    hosted_url = upload_to_imgbb(local_img_path, IMGBB_API_KEY)
-                    img['src'] = hosted_url
-                    img_cache[src] = hosted_url
-                    print(f"    [OK] URL: {hosted_url}")
+                    if src not in img_uploads:
+                        print(f"  [publisher] Uploading {src} to ImgBB...")
+                        hosted_url = upload_to_imgbb(local_img_path, IMGBB_API_KEY)
+                        img_uploads[src] = hosted_url
+                        print(f"    [OK] URL: {hosted_url}")
                 else:
-                    print(f"  [publisher] Missing local image: {src}. Removing figure.")
+                    print(f"  [publisher] Missing local image: {src}. Marking figure for removal.")
                     fig = img.find_parent('figure')
-                    if fig:
-                        fig.decompose()
-                    else:
-                        img.decompose()
+                    images_to_remove.append(fig if fig else img)
+
+        # Commit phase: Only mutate DOM in memory after all network uploads succeed
+        for img in soup.find_all('img'):
+            src = img.get('src')
+            if src in img_uploads:
+                img['src'] = img_uploads[src]
+                # Also update wrapping <a> tag href so image links point to ImgBB
+                parent_a = img.find_parent('a')
+                if parent_a and parent_a.get('href') == src:
+                    parent_a['href'] = img_uploads[src]
+
+        for target in images_to_remove:
+            target.decompose()
+
     except Exception as e:
-        print(f"  [FAIL] Image upload failed: {e}")
+        print(f"  [FAIL] Image upload failed: {e}. Aborting without DOM mutation.")
         return None
 
     # 3. Apply SEO Optimizations
@@ -130,8 +205,14 @@ def publish_post(html_path, img_folder, title, labels, post_id=None):
     
     meta_description = optimizer.get_meta_description()
     final_html = optimizer.get_html()
-    # Enforce AdSense/SEO compliance (monetization removal, attributions, sanitization)
+
+    # Enforce AdSense/SEO compliance first (monetization removal, attributions, sanitization)
     final_html = enforce_adsense_compliance(final_html)
+
+    # Inject Buy Me a Coffee banner after quality gate (guaranteed to survive)
+    soup_banner = BeautifulSoup(final_html, "html.parser")
+    inject_buy_me_coffee_banner(soup_banner)
+    final_html = str(soup_banner)
     
     # Generate SEO meta description
     soup_meta = BeautifulSoup(final_html, "html.parser")
@@ -144,7 +225,8 @@ def publish_post(html_path, img_folder, title, labels, post_id=None):
     # 4. Connect to Blogger
     print("  [publisher] Connecting to Blogger API...")
     service = get_blogger_service()
-    blog = service.blogs().getByUrl(url='https://dustanddynasty.blogspot.com').execute()
+    blog_req = service.blogs().getByUrl(url='https://dustanddynasty.blogspot.com')
+    blog = execute_with_retry(blog_req)
     blog_id = blog['id']
 
     # 5. Prepare the Payload
@@ -157,14 +239,38 @@ def publish_post(html_path, img_folder, title, labels, post_id=None):
     }
     print(f"  [publisher] Payload: {body}")
     
-    # 6. Insert or Patch
+    # 6. Insert or Patch (STA-01: Idempotency & REL-02: Retry Backoff)
     try:
+        if not post_id:
+            target_title = unicodedata.normalize('NFC', title.strip().lower())
+            print(f"  [publisher] Resolving existing post by normalized title: '{target_title}'...")
+            page_token = None
+            while True:
+                list_req = service.posts().list(
+                    blogId=blog_id,
+                    status=['DRAFT', 'LIVE'],
+                    maxResults=100,
+                    pageToken=page_token
+                )
+                res = execute_with_retry(list_req)
+                for item in res.get('items', []):
+                    item_title = unicodedata.normalize('NFC', item.get('title', '').strip().lower())
+                    if item_title == target_title:
+                        post_id = item['id']
+                        print(f"  [publisher] Found existing post (ID: {post_id}). Switching to PATCH.")
+                        break
+                if post_id or not res.get('nextPageToken'):
+                    break
+                page_token = res.get('nextPageToken')
+
         if post_id:
             print(f"  [publisher] Updating existing draft (ID: {post_id})...")
-            result = service.posts().patch(blogId=blog_id, postId=post_id, body=body).execute()
+            patch_req = service.posts().patch(blogId=blog_id, postId=post_id, body=body)
+            result = execute_with_retry(patch_req)
         else:
             print("  [publisher] Creating a brand new draft...")
-            result = service.posts().insert(blogId=blog_id, body=body, isDraft=True).execute()
+            insert_req = service.posts().insert(blogId=blog_id, body=body, isDraft=True)
+            result = execute_with_retry(insert_req)
             
         print(f"  [OK] SUCCESS! Post ID: {result['id']}")
         print(f"  [LINK] URL: {result['url']}")

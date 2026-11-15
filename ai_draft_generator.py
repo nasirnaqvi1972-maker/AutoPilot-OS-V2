@@ -4,10 +4,13 @@ ai_draft_generator.py - Generate AI draft using local FreeLLMAPI (OpenAI-compati
 """
 
 import csv
+import json
 import os
 import re
+import subprocess
 import sys
 import time
+import unicodedata
 from pathlib import Path
 
 from openai import OpenAI
@@ -21,32 +24,98 @@ client = OpenAI(
 
 PENDING_DIR = Path(r"D:\Projects\AutoPilot_OS_v2\content\pending")
 REMAINING_CSV = Path(r"D:\Projects\AutoPilot_OS_v2\topic_lists\remaining_topics.csv")
+SITES_CSV = Path(r"D:\Projects\AutoPilot_OS_v2\sites.csv")
+VENV_PYTHON = Path(r"D:\Projects\AutoPilot_OS_v2\os_env\Scripts\python.exe")
 
 # Models to test - FreeLLMAPI serves these models
 MODELS_TO_TEST = ["auto", "qwen3.8-max", "glm-5.3", "claude-sonnet-4-5"]
 
-def load_next_topic():
-    """Load first topic from remaining_topics.csv"""
-    with open(REMAINING_CSV, 'r', encoding='utf-8') as f:
+def normalize_title(title: str) -> str:
+    return unicodedata.normalize('NFC', title.strip().lower())
+
+
+def find_site_in_master_list(title: str):
+    """Search sites.csv for a matching site_name. Returns (title, country, year) or None."""
+    if not SITES_CSV.exists():
+        return None
+    target = normalize_title(title)
+    with open(SITES_CSV, 'r', encoding='utf-8', newline='') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            return row['master_title'], row['country'], row['year_inscribed']
+            site_name = row.get('site_name', '')
+            if normalize_title(site_name) == target:
+                return site_name, row.get('country', ''), row.get('year_inscribed', '')
+    return None
+
+
+def get_first_site_from_master_list():
+    """Get the first row from sites.csv as (title, country, year)."""
+    if not SITES_CSV.exists():
+        return None
+    with open(SITES_CSV, 'r', encoding='utf-8', newline='') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            site_name = row.get('site_name', '')
+            if site_name:
+                return site_name, row.get('country', ''), row.get('year_inscribed', '')
+    return None
+
+
+def load_next_topic(cli_title: str | None = None):
+    """Load topic: CLI arg > sites.csv first row > remaining_topics.csv first row."""
+    if cli_title:
+        found = find_site_in_master_list(cli_title)
+        if found:
+            return found
+        response = input(f"[Topic] '{cli_title}' not found in sites.csv. Use anyway? (y/n): ").strip().lower()
+        if response == 'y':
+            return cli_title, "", ""
+        return None, None, None
+
+    found = get_first_site_from_master_list()
+    if found:
+        return found
+
+    if REMAINING_CSV.exists():
+        with open(REMAINING_CSV, 'r', encoding='utf-8', newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                return row['master_title'], row['country'], row['year_inscribed']
+
     return None, None, None
 
-def build_prompt(topic, country, year):
+def build_prompt(topic, country, year, internal_links=None):
     """Build strict prompt enforcing the exact HTML structure."""
+
+    # Build internal links section
+    links_section = ""
+    if internal_links:
+        links_list = "\n".join(
+            f'   - <a href="{url}" rel="noopener noreferrer" style="color:#0b5ed7;font-weight:700;text-decoration:underline;text-decoration-color:#0b5ed7;" target="_blank">{title}</a>'
+            for title, url in internal_links
+        )
+        links_section = (
+            'INTERNAL LINKING (REQUIRED - embed 2-3 naturally within article body):\n'
+            f'{links_list}\n'
+            'Naturally embed 2-3 of these internal links within your article body using <a> tags.\n'
+            'Do not force links where they do not fit contextually.\n\n'
+        )
+
     prompt = (
         'You are a professional travel writer for "Dust and Dynasty" \u2014 a UNESCO World Heritage site encyclopedia.\n\n'
         'Write a comprehensive 3000-word article about: ' + topic + ' (' + country + ', inscribed ' + year + ').\n\n'
         'OUTPUT REQUIREMENTS \u2014 FOLLOW EXACTLY:\n\n'
-        '1. Start with a lead paragraph: <p style="font-size: 1.05em; color: #555; font-style: italic; margin-top: 0;">[1-2 sentence poetic summary with location and UNESCO status]</p>\n'
-        '2. Then a summary table in this EXACT format:\n'
+        '1. Start with an SEO-optimized, click-worthy <h1> title (e.g., "The Great Wall of China: A Journey Through Time and Stone").\n'
+        '2. Directly underneath the <h1>, add a short, compelling subtitle formatted as: <p><em>{subtitle}</em></p>\n'
+        '3. Then a lead paragraph: <p style="font-size: 1.05em; color: #555; font-style: italic; margin-top: 0;">[1-2 sentence poetic summary with location and UNESCO status]</p>\n'
+        '4. Then a summary table in this EXACT format:\n'
         '<div style="background: #f8f9fa; border-left: 4px solid #2563eb; padding: 14px 18px; margin: 20px 0; border-radius: 4px;"><table style="border-collapse: collapse; width: 100%;"><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Location:</td><td style="padding: 4px 0;">[Country, region, coordinates]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Year of UNESCO Inscription:</td><td style="padding: 4px 0;">' + year + '</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Category:</td><td style="padding: 4px 0;">[Cultural/Natural/Mixed]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">UNESCO Reference:</td><td style="padding: 4px 0;">[Reference number]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Criteria:</td><td style="padding: 4px 0;">[e.g., (i)(ii)(iv)]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Coordinates:</td><td style="padding: 4px 0;">[Lat, Long]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Area:</td><td style="padding: 4px 0;">[Area in hectares/sq km]</td></tr></table></div>\n'
-        '3. Then <!--more--> on its own line.\n'
-        '4. Then AT LEAST 7 <h2> sections (no inline styles on h2), each with 2-4 <p> paragraphs.\n'
+        '5. Then <!--more--> on its own line.\n'
+        '6. Then AT LEAST 7 <h2> sections (no inline styles on h2), each with 2-4 <p> paragraphs.\n'
         '   - Use bold for key terms on first mention.\n'
         '   - Include internal links to other posts where relevant: <a href="https://dustanddynasty.blogspot.com/2026/10/..." rel="noopener noreferrer" style="color:#0b5ed7;font-weight:700;text-decoration:underline;text-decoration-color:#0b5ed7;" target="_blank">Linked Post Title</a>\n'
-        '5. REQUIRED SPECIAL SECTIONS (in this order):\n'
+        + links_section +
+        '7. REQUIRED SPECIAL SECTIONS (in this order):\n'
         '   <h2>\u2726 Also Read \u2014 [Related Post]</h2>\n'
         '   <p><a href="..." rel="noopener noreferrer" style="color:#0b5ed7;font-weight:700;text-decoration:underline;text-decoration-color:#0b5ed7;" target="_blank">Related Post Title</a></p>\n'
         '   <p>One sentence description.</p>\n\n'
@@ -60,14 +129,17 @@ def build_prompt(topic, country, year):
         '   <p>Answer.</p>\n'
         '   (minimum 4 Q&A pairs)\n\n'
         '   <h2>\U0001f9fe Summary Table of Facts</h2>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Site Name \u2014 ' + topic + '</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Country \u2014 ' + country + '</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Continent \u2014 [Continent]</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Category \u2014 [Cultural/Natural/Mixed]</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Year of Inscription \u2014 ' + year + '</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">UNESCO Reference \u2014 [Reference]</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Criteria \u2014 [Criteria]</p>\n'
-        '   (add 5-8 more fact lines)\n\n'
+        '   CRITICAL: For the Summary Table of Facts, you MUST output exactly this HTML structure:\n'
+        '   <table style="width: 100%; border-collapse: collapse;">\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Site Name</strong></td><td style="padding: 8px; border: 1px solid #ddd;">' + topic + '</td></tr>\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Country</strong></td><td style="padding: 8px; border: 1px solid #ddd;">' + country + '</td></tr>\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Continent</strong></td><td style="padding: 8px; border: 1px solid #ddd;">[Continent]</td></tr>\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Category</strong></td><td style="padding: 8px; border: 1px solid #ddd;">[Cultural/Natural/Mixed]</td></tr>\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Year of Inscription</strong></td><td style="padding: 8px; border: 1px solid #ddd;">' + year + '</td></tr>\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>UNESCO Reference</strong></td><td style="padding: 8px; border: 1px solid #ddd;">[Reference]</td></tr>\n'
+        '     <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Criteria</strong></td><td style="padding: 8px; border: 1px solid #ddd;">[Criteria]</td></tr>\n'
+        '   </table>\n'
+        '   Do NOT use <h1>, <h2>, or <h3> tags for table rows. Use only <table>, <tr>, and <td> elements.\n\n'
         '   <h2>\U0001f9f3 Visitor\'s Guide</h2>\n'
         '   <p style="margin: 2px 0; line-height: 1.35;">Access \u2014 [How to reach]</p>\n'
         '   <p style="margin: 2px 0; line-height: 1.35;">Best Time to Visit \u2014 [Season]</p>\n'
@@ -84,9 +156,8 @@ def build_prompt(topic, country, year):
         '   <p>Wikipedia \u2014 ' + topic + ': https://en.wikipedia.org/wiki/[slug]</p>\n'
         '   (add 2-3 more sources)\n\n'
         'IMPORTANT: Use the SAME latitude,longitude coordinates in the Summary Table "Coordinates" row, the Location Map iframe src, and the map caption. Replace [LAT],[LON] with actual decimal coordinates (e.g., 4.5333,36.3333).\n\n'
-        '7. DO NOT include: <html>, <head>, <body>, <img>, <figure>, <figcaption>, or any image tags.\n'
-        '8. DO NOT include the sidebar support banner (engine adds it).\n'
-        '9. DO NOT output any <h1> tags in the HTML body. Start directly with the <p> paragraph.\n'
+        '8. DO NOT include: <html>, <head>, <body>, , <figure>, <figcaption>, or any image tags.\n'
+        '9. DO NOT include the sidebar support banner (engine adds it).\n'
         '10. RETURN ONLY RAW HTML \u2014 no markdown, no code fences, no explanations.\n\n'
         'JSON-LD SCHEMA (copy exactly, use the topic as headline):\n'
         '<script type="application/ld+json">{\n'
@@ -123,11 +194,48 @@ def test_api():
     print("All models failed during testing.")
     return None
 
+def slugify(title):
+    """Create URL/filesystem-safe slug from title."""
+    text = unicodedata.normalize("NFKD", title)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    text = re.sub(r"-{2,}", "-", text)
+    return text[:120] or "draft"
+
+
 def sanitize_filename(title):
     """Create safe filename from title."""
-    safe = re.sub(r'[<>:"/\\|?*]', '', title)
-    safe = re.sub(r'\s+', '-', safe)
-    return safe[:100] + '.html'
+    return f"{slugify(title)}.html"
+
+
+REGISTRY_PATH = Path(r"D:\Projects\AutoPilot_OS_v2\content\post_registry.json")
+
+
+def get_recent_posts(limit=20):
+    """Read most recent posts from post_registry.json, deduplicated by post_id."""
+    if not REGISTRY_PATH.exists():
+        return []
+    with open(REGISTRY_PATH, 'r', encoding='utf-8') as f:
+        registry = json.load(f)
+    seen = {}
+    for key, entry in registry.items():
+        post_id = entry.get('post_id', '')
+        updated = entry.get('updated', '')
+        if post_id and post_id not in seen:
+            seen[post_id] = entry
+        elif post_id and updated > seen[post_id].get('updated', ''):
+            seen[post_id] = entry
+    posts = sorted(seen.values(), key=lambda e: e.get('updated', ''), reverse=True)
+    recent = posts[:limit]
+    result = []
+    for entry in recent:
+        title = entry.get('title', '')
+        slug = entry.get('slug', '')
+        if title and slug:
+            url = f"https://dustanddynasty.blogspot.com/2026/10/{slug}.html"
+            result.append((title, url))
+    return result
 
 def main():
     model_name = test_api()
@@ -135,16 +243,23 @@ def main():
         print("Aborting. API connection failed entirely.")
         return
 
+    # CLI argument handling
+    cli_title = sys.argv[1] if len(sys.argv) > 1 else None
+
     print("[Generator] Loading next topic...")
-    topic, country, year = load_next_topic()
+    topic, country, year = load_next_topic(cli_title)
     
     if not topic:
         print("[ERROR] No topics remaining")
         return
     
     print(f"[Generator] Topic: {topic} ({country}, {year})")
-    
-    prompt = build_prompt(topic, country, year)
+
+    recent_posts = get_recent_posts(limit=20)
+    if recent_posts:
+        print(f"[Generator] Injected {len(recent_posts)} recent posts for internal linking.")
+
+    prompt = build_prompt(topic, country, year, internal_links=recent_posts)
     print(f"[Generator] Calling LLM with model {model_name}...")
     
     max_retries = 5
@@ -153,7 +268,7 @@ def main():
             response = client.chat.completions.create(
                 model=model_name,
                 messages=[
-                    {"role": "system", "content": "You are a professional UNESCO World Heritage travel writer. Output ONLY raw HTML."},
+                    {"role": "system", "content": "You are a professional UNESCO World Heritage travel writer. Output ONLY raw HTML. ONLY use URLs from the INTERNAL LINKING list provided above. Do not invent, guess, or include any other URLs. Ensure proper spacing between all words. Do not concatenate words. For the Summary Table of Facts, you MUST use a valid HTML <table> with <tr> and <td> elements. Do NOT use <h1>, <h2>, or <h3> tags for data rows."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.7,
@@ -171,16 +286,39 @@ def main():
             html = re.sub(r'^```html\s*', '', html, flags=re.IGNORECASE)
             html = re.sub(r'^```\s*', '', html)
             html = re.sub(r'\s*```$', '', html)
-            
+
+            # Ensure publisher-ready HTML starts with <h1> title
+            if not re.search(r"<h1\b", html, flags=re.IGNORECASE):
+                safe_title = (
+                    topic.replace("&", "&amp;")
+                    .replace("<", "&lt;")
+                    .replace(">", "&gt;")
+                )
+                html = f"<h1>{safe_title}</h1>\n{html}"
+
             PENDING_DIR.mkdir(parents=True, exist_ok=True)
             filename = sanitize_filename(topic)
             output_path = PENDING_DIR / filename
-            
+
+            # Inject ORIGINAL_TOPIC comment for master-list removal matching
+            html_with_topic = f"<!-- ORIGINAL_TOPIC: {topic} -->\n{html}"
             with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(html)
-            
+                f.write(html_with_topic)
+
             print(f"[Generator] Saved draft to: {output_path}")
             print(f"[Generator] Topic: {topic}")
+
+            # Automatically trigger the main publisher engine
+            publisher_script = Path(__file__).resolve().parent / "safe_batch.py"
+            print(f"[Generator] Triggering publisher: {publisher_script}")
+            venv_exe = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable
+            result = subprocess.run(
+                [venv_exe, str(publisher_script)],
+                cwd=str(Path(__file__).resolve().parent),
+            )
+            if result.returncode != 0:
+                print(f"[ERROR] safe_batch.py exited with code {result.returncode}")
+                return
             return
             
         except Exception as e:

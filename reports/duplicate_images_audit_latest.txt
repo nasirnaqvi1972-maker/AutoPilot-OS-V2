@@ -1,0 +1,12 @@
+
+======================================================================
+  AUDIT SUMMARY
+======================================================================
+Total Posts Scanned         : 168
+Total Image Tags Extracted   : 1228
+Total Unique Image URLs      : 1228
+Cross-Post Duplicate URLs    : 0
+Posts with Intra-Repeats     : 0
+======================================================================
+
+[+] SUCCESS: Zero duplicate images found across live and draft posts!

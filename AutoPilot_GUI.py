@@ -1,5 +1,8 @@
-﻿import os
+# -*- coding: utf-8 -*-
+import os
 import sys
+
+os.environ["PYTHONIOENCODING"] = "utf-8"
 import threading
 import subprocess
 import datetime
@@ -42,7 +45,7 @@ class AutoPilotGUI:
         # --- BUTTONS ---
         ttk.Label(btn_frame, text="Operations", style="TLabel").pack(pady=(0, 10))
 
-        self.btn_publish = ttk.Button(btn_frame, text="ðŸš€ Publish Next Draft", command=lambda: self.run_script("Publisher", "run_engine.py"))
+        self.btn_publish = ttk.Button(btn_frame, text="🚀 Publish Next Draft", command=lambda: self.run_script("Publisher", "run_engine.py"))
         self.btn_publish.pack(fill=tk.X, pady=5)
 
         self.btn_inspect = ttk.Button(btn_frame, text="Inspect Pending Posts", command=lambda: self.run_script("Inspector", "post_inspector.py"))
@@ -51,16 +54,16 @@ class AutoPilotGUI:
         self.btn_doctor = ttk.Button(btn_frame, text="Inspect & Fix Blogger Drafts", command=lambda: self.run_script("DraftDoctor", "draft_doctor.py"))
         self.btn_doctor.pack(fill=tk.X, pady=5)
 
-        self.btn_auto = ttk.Button(btn_frame, text="âš¡ Auto Post (All Pending)", command=lambda: self.run_script("Auto_Batch", "auto_batch_publisher.py"))
+        self.btn_auto = ttk.Button(btn_frame, text="⚡ Auto Post (All Pending)", command=lambda: self.run_script("Auto_Batch", "auto_batch_publisher.py"))
         self.btn_auto.pack(fill=tk.X, pady=5)
 
-        self.btn_retry = ttk.Button(btn_frame, text="â™»ï¸ Retry Failed Posts", command=lambda: self.run_script("Retry_Failed", "retry_failed.py"))
+        self.btn_retry = ttk.Button(btn_frame, text="♻️ Retry Failed Posts", command=lambda: self.run_script("Retry_Failed", "retry_failed.py"))
         self.btn_retry.pack(fill=tk.X, pady=5)
 
         ttk.Label(btn_frame, text="Post ID:", style="TLabel").pack(anchor=tk.W, pady=(10,0))
         self.post_id_entry = ttk.Entry(btn_frame)
         self.post_id_entry.pack(fill=tk.X, pady=5)
-        self.btn_republish = ttk.Button(btn_frame, text="ðŸ”„ Fetch & Republish", command=lambda: self.run_script("Republish", "republish_post.py", [self.post_id_entry.get().strip()]))
+        self.btn_republish = ttk.Button(btn_frame, text="🔄 Fetch & Republish", command=lambda: self.run_script("Republish", "republish_post.py", [self.post_id_entry.get().strip()]))
         self.btn_republish.pack(fill=tk.X, pady=5)
 
         self.btn_pull = ttk.Button(btn_frame, text="Pull All Blogger Drafts", command=lambda: self.run_script("PullDrafts", "pull_all_drafts.py"))
@@ -69,16 +72,16 @@ class AutoPilotGUI:
         self.btn_smart = ttk.Button(btn_frame, text="Smart Replace Images", command=lambda: self.run_script("SmartReplace", "smart_image_replacer.py", [self.post_id_entry.get().strip()]))
         self.btn_smart.pack(fill=tk.X, pady=5)
 
-        self.btn_seo = ttk.Button(btn_frame, text="ðŸ“Š Run SEO Auditor", command=lambda: self.run_script("SEO_Auditor", "seo/seo_optimizer.py"))
+        self.btn_seo = ttk.Button(btn_frame, text="📊 Run SEO Auditor", command=lambda: self.run_script("SEO_Auditor", "seo/seo_optimizer.py"))
         self.btn_seo.pack(fill=tk.X, pady=5)
 
-        self.btn_repair = ttk.Button(btn_frame, text="ðŸ”§ Repair Links (Live)", command=lambda: self.run_script("Link_Repair", "seo/link_repair.py"))
+        self.btn_repair = ttk.Button(btn_frame, text="🔧 Repair Links (Live)", command=lambda: self.run_script("Link_Repair", "seo/link_repair.py"))
         self.btn_repair.pack(fill=tk.X, pady=5)
 
-        self.btn_curator = ttk.Button(btn_frame, text="ðŸ¤– Run Curator (Live)", command=lambda: self.run_script("Curator", "seo/curator_engine.py"))
+        self.btn_curator = ttk.Button(btn_frame, text="🤖 Run Curator (Live)", command=lambda: self.run_script("Curator", "seo/curator_engine.py"))
         self.btn_curator.pack(fill=tk.X, pady=5)
 
-        self.btn_img_audit = ttk.Button(btn_frame, text="ðŸ–¼ï¸ Image Auditor", command=lambda: self.run_script("Image_Auditor", "image_auditor.py"))
+        self.btn_img_audit = ttk.Button(btn_frame, text="🖼️ Image Auditor", command=lambda: self.run_script("Image_Auditor", "image_auditor.py"))
         self.btn_img_audit.pack(fill=tk.X, pady=5)
 
         self.btn_pattern = ttk.Button(btn_frame, text="Pattern Auditor", command=lambda: self.run_script("Pattern_Auditor", "pattern_auditor.py"))
@@ -165,11 +168,11 @@ class AutoPilotGUI:
         self.toggle_buttons(tk.NORMAL)
         if success:
             self.status_label.config(text="Status: Idle (Success)", foreground="#4CAF50")
-            self.log(f"\nâœ… {task_name} completed successfully.")
+            self.log(f"\n✅ {task_name} completed successfully.")
             messagebox.showinfo("Success", f"{task_name} finished successfully!")
         else:
             self.status_label.config(text="Status: Idle (Failed)", foreground="#F44336")
-            self.log(f"\nâŒ {task_name} encountered an error. Check logs.")
+            self.log(f"\n❌ {task_name} encountered an error. Check logs.")
 
     def toggle_buttons(self, state):
         for btn in [self.btn_publish, self.btn_inspect, self.btn_doctor, self.btn_auto, self.btn_retry, self.btn_republish, self.btn_smart, self.btn_seo, self.btn_repair, self.btn_curator, self.btn_img_audit, self.btn_pattern, self.btn_topic_update]:

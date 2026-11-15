@@ -21,19 +21,17 @@ from sanitize_html import sanitize_post_html
 
 # Domains that trigger monetization link removal
 MONETIZATION_DOMAIN_RE = re.compile(
-    r"(?:patreon|gumroad|buymeacoffee|ko-fi|kofi|paypal\.me|liberapay|payhip|sellfy|gum\.co)\.com",
+    r"(?:patreon|gumroad|ko-fi|kofi|paypal\.me|liberapay|payhip|sellfy|gum\.co)\.com",
     re.IGNORECASE,
 )
 
 # Phrases that mark a tag for removal (with word boundaries for single words)
 MONETIZATION_TEXT_PATTERNS = [
-    re.compile(r"buy\s+me\s+a\s+coffee", re.IGNORECASE),
     re.compile(r"support\s+(?:me|us|this\s+site|this\s+blog)", re.IGNORECASE),
     re.compile(r"become\s+a\s+patron", re.IGNORECASE),
     re.compile(r"\bpledge\b", re.IGNORECASE),
     re.compile(r"\bdonate\b", re.IGNORECASE),
     re.compile(r"\btip\s+(?:me|us|jar)\b", re.IGNORECASE),
-    re.compile(r"coffee\.com", re.IGNORECASE),
 ]
 
 EMPTY_CONTAINER_TAGS = ("div", "p", "section", "article", "aside")
@@ -155,14 +153,49 @@ def remove_monetization(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     to_remove: list[Tag] = []
 
-    # 1. <a> tags with monetization domains in href
+    # Allowlist: never strip Buy Me a Coffee links
+    BUYMECOFFEE_ALLOWED = {"buymeacoffee.com"}
+
+    # Banner class names whose links must never be stripped (Patreon/Gumroad support banner)
+    SUPPORT_BANNER_CLASSES = {"sidebar-support-banner", "post-support-banner"}
+
+    def is_inside_support_banner(tag: Tag) -> bool:
+        """Return True if tag is inside a .sidebar-support-banner or .post-support-banner container."""
+        for anc in tag.parents:
+            if anc.name is None:
+                continue
+            classes = anc.get("class", [])
+            if isinstance(classes, str):
+                classes = [classes]
+            if any(c in SUPPORT_BANNER_CLASSES for c in classes):
+                return True
+        return False
+
+    def is_monetization_domain(href: str) -> bool:
+        """Return True if href domain is a monetization domain (not buymeacoffee)."""
+        parts = urlsplit(href)
+        netloc = parts.netloc.lower()
+        if not netloc:
+            return False
+        # Always allow Buy Me a Coffee (exact domain or subdomain)
+        if netloc == "buymeacoffee.com" or netloc.endswith(".buymeacoffee.com"):
+            return False
+        return bool(MONETIZATION_DOMAIN_RE.search(netloc))
+
+    # 1. <a> tags with monetization domains in href (netloc-based, not substring)
     for a in list(soup.find_all("a", href=True)):
-        if MONETIZATION_DOMAIN_RE.search(a.get("href", "")):
+        # Skip links inside the support banner (Patreon/Gumroad must survive)
+        if is_inside_support_banner(a):
+            continue
+        if is_monetization_domain(a.get("href", "")):
             to_remove.append(a)
 
     # 2. <a>, <button>, <p>, <div> with monetization text
     for tag in list(soup.find_all(["a", "button", "p", "div"])):
         if tag in to_remove:
+            continue
+        # Skip tags inside the support banner
+        if is_inside_support_banner(tag):
             continue
         if tag_has_monetization_text(tag):
             to_remove.append(tag)

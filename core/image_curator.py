@@ -15,7 +15,7 @@ RELAY_TOKEN = "ddd-secret-2026"
 
 def _relay_get(target_url, timeout=30):
     params = urllib.parse.urlencode({"url": target_url, "token": RELAY_TOKEN})
-    req = urllib.request.Request(f"{RELAY_URL}?{params}", headers={"User-Agent": "DustAndDynastyBot/1.0"})
+    req = urllib.request.Request(f"{RELAY_URL}?{params}", headers={"User-Agent": "DustAndDynastyBot/1.0 (https://dustanddynasty.blogspot.com; admin@dustanddynasty.com) AutoPilot/2.0"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as response:
             return response.read()
@@ -290,7 +290,7 @@ def curate_images(html_path, output_dir):
     soup = BeautifulSoup(html, 'html.parser')
     soup = clean_generated_html(soup)
     title = soup.find('h1').text.strip() if soup.find('h1') else "Unknown"
-    subject = title.split('—')[0].split('|')[0].strip()
+    subject = title.split(':')[0].split('—')[0].split('|')[0].strip()
     
     os.makedirs(output_dir, exist_ok=True)
     
@@ -327,9 +327,6 @@ def curate_images(html_path, output_dir):
                 sections.append({"heading": "Additional View", "p": p})
                 used.add(id(p))
     
-    pool = build_candidate_pool(subject)
-    print(f"  [curator] Candidate pool size: {len(pool)}")
-    
     img_count = 0
     hashes = set()
     md5_hashes = set()
@@ -342,6 +339,73 @@ def curate_images(html_path, output_dir):
             hashes |= set(json.load(f))
     except Exception:
         pass
+
+    # Task 3: Load and bridge SACRED Image Overrides (content/image_overrides.json)
+    overrides_path = os.path.join(ROOT, "content", "image_overrides.json")
+    overrides_data = {}
+    try:
+        if os.path.exists(overrides_path):
+            with open(overrides_path, "r", encoding="utf-8") as f:
+                overrides_data = json.load(f)
+    except Exception as e:
+        print(f"  [curator] Warning reading image_overrides.json: {e}")
+
+    slug = Path(html_path).stem.lower()
+    title_lower = title.lower()
+    subject_lower = subject.lower()
+    post_overrides = None
+    for k, v in overrides_data.items():
+        kl = k.lower()
+        if kl == slug or kl == title_lower or kl == subject_lower or kl in slug or slug in kl:
+            post_overrides = v
+            print(f"  [curator] Active Image Overrides found for '{k}': {v}")
+            break
+
+    # Apply explicit overrides for slots first, bypassing search for those slots
+    if post_overrides:
+        def get_override_url(ov, slot_i):
+            slot_n = slot_i + 1
+            if isinstance(ov, dict):
+                for ck in [str(slot_n), f"img_{slot_n:02d}", f"slot_{slot_n}", slot_n]:
+                    if ck in ov:
+                        return ov[ck]
+            elif isinstance(ov, list):
+                if slot_i < len(ov) and ov[slot_i]:
+                    return ov[slot_i]
+            return None
+
+        for _ in range(min(len(sections), 7)):
+            ov_url = get_override_url(post_overrides, img_count)
+            if ov_url:
+                print(f"  [curator] Applying Override for slot {img_count+1}: {ov_url}")
+                temp_path = os.path.join(output_dir, "temp.jpg")
+                if download_image(ov_url, temp_path):
+                    final_path = os.path.join(output_dir, f"img_{img_count+1:02d}.jpg")
+                    os.replace(temp_path, final_path)
+                    slot = sections[img_count]
+                    p_text = slot['p'].get_text(" ", strip=True)
+                    caption = p_text.split('.')[0] + '.' if '.' in p_text else slot['heading']
+                    if len(caption) > 150:
+                        caption = caption[:147] + "..."
+                    figure_html = f"""
+                    <figure style="clear: both; text-align: center; margin: 24px 0px;">
+                        <a href="img_{img_count+1:02d}.jpg"><img border="0" src="img_{img_count+1:02d}.jpg" alt="{caption}" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto;" /></a>
+                        <figcaption style="font-size: 11px; color: #777; text-align: center;">Image: {title} / Verified Archive</figcaption>
+                    </figure>
+                    """
+                    new_fig = BeautifulSoup(figure_html, 'html.parser')
+                    slot['p'].insert_after(new_fig)
+                    used_in_this_post.add(ov_url)
+                    img_count += 1
+                    print(f"      [OK] Accepted override image {img_count}")
+
+    # Build pool only if more slots are needed
+    if img_count < min(len(sections), 7):
+        pool = build_candidate_pool(subject)
+        print(f"  [curator] Candidate pool size: {len(pool)}")
+    else:
+        pool = []
+        print("  [curator] All required slots satisfied by overrides. Bypassing candidate search.")
     
     for page in pool:
         if img_count >= len(sections) or img_count >= 7: break
