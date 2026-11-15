@@ -1,4 +1,4 @@
-import os, re, json, time, urllib.parse, urllib.request, hashlib
+import os, re, json, time, urllib.parse, urllib.request, urllib.error, socket, hashlib
 from pathlib import Path
 from bs4 import BeautifulSoup
 from core.html_cleaner import clean_generated_html
@@ -16,8 +16,12 @@ RELAY_TOKEN = "ddd-secret-2026"
 def _relay_get(target_url, timeout=30):
     params = urllib.parse.urlencode({"url": target_url, "token": RELAY_TOKEN})
     req = urllib.request.Request(f"{RELAY_URL}?{params}", headers={"User-Agent": "DustAndDynastyBot/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return response.read()
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return response.read()
+    except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
+        print(f"      [Relay Timeout/Error] Failed to fetch {target_url} within {timeout}s: {e}")
+        raise
 
 def _relay_json(base_url, **params):
     params["format"] = "json"
@@ -330,6 +334,7 @@ def curate_images(html_path, output_dir):
     hashes = set()
     md5_hashes = set()
     phash_set = set()
+    used_in_this_post = set()  # Intra-post deduplication: tracks URLs & perceptual/MD5 hashes
     ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     used_path = os.path.join(ROOT, "content", "used_images.json")
     try:
@@ -342,12 +347,15 @@ def curate_images(html_path, output_dir):
         if img_count >= len(sections) or img_count >= 7: break
         
         url = page['imageinfo'][0].get('thumburl') or page['imageinfo'][0].get('url')
+        if not url or url in used_in_this_post:
+            print("      [curator] Candidate URL already used in this post. Fetching next candidate...")
+            continue
         temp_path = os.path.join(output_dir, "temp.jpg")
         
         if download_image(url, temp_path):
             with open(temp_path, "rb") as f:
                 md5 = hashlib.md5(f.read()).hexdigest()
-            if md5 in md5_hashes:
+            if md5 in md5_hashes or md5 in used_in_this_post:
                 print("      [Image Validator] Skipping duplicate image (MD5 match).")
                 os.remove(temp_path)
                 continue
@@ -356,7 +364,7 @@ def curate_images(html_path, output_dir):
             try:
                 with Image.open(temp_path) as im:
                     ph = str(imagehash.phash(im.convert("RGB")))
-                if ph in phash_set:
+                if ph in phash_set or ph in used_in_this_post:
                     print("      [Image Validator] Skipping perceptual duplicate.")
                     os.remove(temp_path)
                     continue
@@ -381,7 +389,8 @@ def curate_images(html_path, output_dir):
             try:
                 img = Image.open(temp_path).convert('RGB')
                 h = str(imagehash.dhash(img))
-                if h in hashes:
+                if h in hashes or h in used_in_this_post:
+                    print("      [Image Validator] Skipping duplicate image (dHash match).")
                     os.remove(temp_path)
                     continue
             except Exception:
@@ -429,6 +438,13 @@ def curate_images(html_path, output_dir):
             """
             new_fig = BeautifulSoup(figure_html, 'html.parser')
             slot['p'].insert_after(new_fig)
+            
+            # Register in intra-post set to guarantee zero repeats within this post
+            used_in_this_post.add(url)
+            used_in_this_post.add(md5)
+            used_in_this_post.add(ph)
+            used_in_this_post.add(h)
+            
             img_count += 1
             print(f"      [OK] Accepted image {img_count}")
 
@@ -446,7 +462,6 @@ def curate_images(html_path, output_dir):
 def vision_check(image_path):
     try:
         _load_clip()
-        import torch
         with Image.open(image_path) as im:
             img = _preprocess(im.convert("RGB")).unsqueeze(0)
         positives = ["architecture", "ruins", "statue", "landscape", "monument"]
