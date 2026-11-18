@@ -8,6 +8,7 @@ import csv
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import unicodedata
@@ -20,6 +21,16 @@ try:
 except ImportError:
     DUCKDUCKGO_AVAILABLE = False
     DDGS = None
+    print("[WARNING] duckduckgo-search not installed. Competitor research will be skipped.")
+    print("         Run: pip install duckduckgo-search")
+
+# Optional dependency - BeautifulSoup for HTML cleaning
+try:
+    from bs4 import BeautifulSoup
+    BEAUTIFULSOUP_AVAILABLE = True
+except ImportError:
+    BEAUTIFULSOUP_AVAILABLE = False
+    BeautifulSoup = None
 
 from openai import OpenAI
 
@@ -388,6 +399,13 @@ def main():
         print("[ERROR] No topics remaining")
         return
     
+    # FIX #3: Strip HTML tags from topic (CSV may contain <br />, <small>, etc.)
+    if BEAUTIFULSOUP_AVAILABLE and BeautifulSoup:
+        topic = BeautifulSoup(topic, "html.parser").get_text().strip()
+    else:
+        # Fallback: regex strip
+        topic = re.sub(r'<[^>]+>', '', topic).strip()
+    
     print(f"[Generator] Topic: {topic} ({country}, {year})")
 
     # Competitive Research Node
@@ -407,6 +425,7 @@ def main():
 
     # --- GENERATION LOOP (max 2 calls: initial + 1 revision) ---
     final_html = None
+    first_draft_html = None  # Keep first draft as fallback
     final_score = 0
     final_errors = []
     
@@ -419,7 +438,8 @@ def main():
             error_list = "\n".join(f"- {e}" for e in final_errors)
             user_prompt = (
                 f"Your article scored {final_score}/100. Fix these specific errors:\n{error_list}\n\n"
-                f"Return the fully rewritten HTML. Follow all original requirements."
+                f"You MUST retain the JSON-LD schema, the <!--more--> tag, exactly 7 <h2> tags, "
+                f"and the internal link. Return the fully rewritten HTML."
             )
         
         try:
@@ -441,11 +461,19 @@ def main():
                 final_html = html
                 break
             elif revision_num < MAX_REVISIONS:
+                # Save first draft as fallback
+                if first_draft_html is None:
+                    first_draft_html = html
                 print(f"[Quality] FAIL - will attempt revision")
                 continue
             else:
-                print(f"[WARNING] Article failed quality check after {MAX_REVISIONS + 1} attempt(s). Saving anyway.")
-                final_html = html
+                print(f"[WARNING] Article failed quality check after {MAX_REVISIONS + 1} attempt(s).")
+                # Goldfish fix: Use first draft if revision failed quality, else use revision
+                if first_draft_html:
+                    print(f"[Quality] Falling back to first draft (was cleaner).")
+                    final_html = first_draft_html
+                else:
+                    final_html = html
                 break
                 
         except Exception as e:
@@ -455,8 +483,9 @@ def main():
                 print("[ERROR] Initial generation failed. Aborting.")
                 return
             else:
-                # If revision fails, use what we have
-                print("[ERROR] Revision failed. Using previous version.")
+                # If revision fails, use first draft
+                print("[ERROR] Revision failed. Falling back to first draft.")
+                final_html = first_draft_html
                 break
     
     if not final_html:
