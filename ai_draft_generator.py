@@ -616,6 +616,9 @@ def main():
     print(f"[Generator] Saved draft to: {output_path}")
     print(f"[Generator] Final Quality Score: {final_score}/100")
     print(f"[Generator] Topic: {topic}")
+    if os.getenv('AUTOPILOT_SKIP_PUBLISH') == '1':
+        print('[Generator] Auto-publish skipped for audit')
+        return
 
     # Automatically trigger the main publisher engine
     publisher_script = Path(__file__).resolve().parent / "safe_batch.py"
