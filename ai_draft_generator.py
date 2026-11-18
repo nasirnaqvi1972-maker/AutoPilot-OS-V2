@@ -1,17 +1,25 @@
 #!/usr/bin/env python3
 """
-ai_draft_generator.py - Generate AI draft using local FreeLLMAPI (OpenAI-compatible)
+ai_draft_generator.py - Generate AI draft using FreeLLMAPI with Competitive Research
+and Deterministic Quality Scorer with Revision Loop.
 """
 
 import csv
 import json
 import os
 import re
-import subprocess
 import sys
 import time
 import unicodedata
 from pathlib import Path
+
+# Optional dependency - duckduckgo_search
+try:
+    from duckduckgo_search import DDGS
+    DUCKDUCKGO_AVAILABLE = True
+except ImportError:
+    DUCKDUCKGO_AVAILABLE = False
+    DDGS = None
 
 from openai import OpenAI
 
@@ -29,6 +37,10 @@ VENV_PYTHON = Path(r"D:\Projects\AutoPilot_OS_v2\os_env\Scripts\python.exe")
 
 # Models to test - FreeLLMAPI serves these models
 MODELS_TO_TEST = ["auto", "qwen3.8-max", "glm-5.3", "claude-sonnet-4-5"]
+
+QUALITY_THRESHOLD = 85
+MAX_REVISIONS = 1  # One revision = max 2 LLM calls total
+
 
 def normalize_title(title: str) -> str:
     return unicodedata.normalize('NFC', title.strip().lower())
@@ -48,21 +60,8 @@ def find_site_in_master_list(title: str):
     return None
 
 
-def get_first_site_from_master_list():
-    """Get the first row from sites.csv as (title, country, year)."""
-    if not SITES_CSV.exists():
-        return None
-    with open(SITES_CSV, 'r', encoding='utf-8', newline='') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            site_name = row.get('site_name', '')
-            if site_name:
-                return site_name, row.get('country', ''), row.get('year_inscribed', '')
-    return None
-
-
 def load_next_topic(cli_title: str | None = None):
-    """Load topic: CLI arg > sites.csv first row > remaining_topics.csv first row."""
+    """Load topic: CLI arg > first row from remaining_topics.csv."""
     if cli_title:
         found = find_site_in_master_list(cli_title)
         if found:
@@ -72,19 +71,126 @@ def load_next_topic(cli_title: str | None = None):
             return cli_title, "", ""
         return None, None, None
 
-    found = get_first_site_from_master_list()
-    if found:
-        return found
-
+    # Primary source: remaining_topics.csv
     if REMAINING_CSV.exists():
         with open(REMAINING_CSV, 'r', encoding='utf-8', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                return row['master_title'], row['country'], row['year_inscribed']
+                return row.get('master_title', ''), row.get('country', ''), row.get('year_inscribed', '')
+
+    # Fallback: first row from sites.csv
+    if SITES_CSV.exists():
+        with open(SITES_CSV, 'r', encoding='utf-8', newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                return row.get('site_name', ''), row.get('country', ''), row.get('year_inscribed', '')
 
     return None, None, None
 
-def build_prompt(topic, country, year, internal_links=None):
+
+def slugify(title):
+    """Create URL/filesystem-safe slug from title."""
+    text = unicodedata.normalize("NFKD", title)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    text = re.sub(r"-{2,}", "-", text)
+    return text[:120] or "draft"
+
+
+def competitive_research(topic: str) -> str:
+    """
+    Search DuckDuckGo for competitor article angles.
+    Returns a formatted string or empty string on failure.
+    """
+    if not DUCKDUCKGO_AVAILABLE:
+        print("[Research] duckduckgo_search not installed. Skipping competitor research.")
+        return ""
+
+    query = f"{topic} UNESCO World Heritage"
+    print(f"[Research] Searching DuckDuckGo: {query}")
+    
+    try:
+        with DDGS() as ddgs:
+            results = list(ddgs.text(query, max_results=3))
+        
+        if not results:
+            print("[Research] No results returned.")
+            return ""
+        
+        titles = [r.get('title', '').strip() for r in results if r.get('title')]
+        if not titles:
+            return ""
+        
+        competitor_string = "Competitor Article Angles: " + ", ".join(titles[:3])
+        print(f"[Research] Found angles: {competitor_string}")
+        return competitor_string
+        
+    except Exception as e:
+        print(f"[Research] DuckDuckGo search failed (graceful fallback): {e}")
+        return ""
+
+
+def score_article(html_text: str, primary_keyword: str) -> dict:
+    """
+    Deterministic Quality Scorer.
+    Returns dict with 'score' (0-100) and 'errors' (list of strings).
+    """
+    score = 100
+    errors = []
+    
+    # Strip HTML tags for text analysis
+    text_only = re.sub(r'<[^>]+>', ' ', html_text)
+    text_only = re.sub(r'\s+', ' ', text_only).strip()
+    words = text_only.split()
+    word_count = len(words)
+    
+    # 1. Word count < 2500: -20 points
+    if word_count < 2500:
+        score -= 20
+        errors.append(f"Word count {word_count} < 2500 (-20)")
+    
+    # 2. Less than 7 <h2> tags: -15 points
+    h2_count = len(re.findall(r'<h2\b', html_text, flags=re.IGNORECASE))
+    if h2_count < 7:
+        score -= 15
+        errors.append(f"Only {h2_count} <h2> tags (need >= 7) (-15)")
+    
+    # 3. Primary keyword not in first 150 words (case-insensitive): -15 points
+    first_150_words = " ".join(words[:150]).lower()
+    keyword_lower = primary_keyword.lower()
+    # Also check for partial keyword match (e.g., "Omo Valley" in "Lower Valley of the Omo")
+    keyword_parts = [part for part in keyword_lower.split() if len(part) > 3]
+    keyword_found = keyword_lower in first_150_words
+    if not keyword_found and keyword_parts:
+        # Check if any significant part of keyword appears
+        keyword_found = any(part in first_150_words for part in keyword_parts)
+    if not keyword_found:
+        score -= 15
+        errors.append(f"Primary keyword '{primary_keyword}' not in first 150 words (-15)")
+    
+    # 4. Missing JSON-LD <script type="application/ld+json">: -20 points
+    if 'application/ld+json' not in html_text:
+        score -= 20
+        errors.append("Missing JSON-LD schema (-20)")
+    
+    # 5. Missing <!--more--> tag: -10 points
+    if '<!--more-->' not in html_text:
+        score -= 10
+        errors.append("Missing <!--more--> tag (-10)")
+    
+    # 6. Missing internal link to dustanddynasty.blogspot.com: -10 points
+    if 'dustanddynasty.blogspot.com' not in html_text:
+        score -= 10
+        errors.append("Missing internal link to dustanddynasty.blogspot.com (-10)")
+    
+    # Clamp score
+    score = max(0, score)
+    
+    return {'score': score, 'errors': errors}
+
+
+def build_prompt(topic, country, year, competitor_angles, internal_links=None):
     """Build strict prompt enforcing the exact HTML structure."""
 
     # Build internal links section
@@ -101,9 +207,15 @@ def build_prompt(topic, country, year, internal_links=None):
             'Do not force links where they do not fit contextually.\n\n'
         )
 
+    # Competitor research section
+    competitor_section = ""
+    if competitor_angles:
+        competitor_section = f"COMPETITOR RESEARCH:\n{competitor_angles}\n\nDifferentiate your angle. Do not copy these titles. Go deeper.\n\n"
+
     prompt = (
         'You are a professional travel writer for "Dust and Dynasty" \u2014 a UNESCO World Heritage site encyclopedia.\n\n'
         'Write a comprehensive 3000-word article about: ' + topic + ' (' + country + ', inscribed ' + year + ').\n\n'
+        + competitor_section +
         'OUTPUT REQUIREMENTS \u2014 FOLLOW EXACTLY:\n\n'
         '1. Start with an SEO-optimized, click-worthy <h1> title (e.g., "The Great Wall of China: A Journey Through Time and Stone").\n'
         '2. Directly underneath the <h1>, add a short, compelling subtitle formatted as: <p><em>{subtitle}</em></p>\n'
@@ -144,7 +256,7 @@ def build_prompt(topic, country, year, internal_links=None):
         '   <p style="margin: 2px 0; line-height: 1.35;">Access \u2014 [How to reach]</p>\n'
         '   <p style="margin: 2px 0; line-height: 1.35;">Best Time to Visit \u2014 [Season]</p>\n'
         '   <p style="margin: 2px 0; line-height: 1.35;">Permits \u2014 [If any]</p>\n'
-        '   <p style="margin: 2px 0; line-height: 1.35;">Activities \u2014 [What to do]</p>\n'
+        '   <p style="margin: 2px 0; line-height: 1.35;">Activities \u2014 [What to do]</p>'
         '   <p style="margin: 2px 0; line-height: 1.35;">What to Bring \u2014 [Essentials]</p>\n'
         '   <p style="margin: 2px 0; line-height: 1.35;">Etiquette \u2014 [Behavior rules]</p>\n\n'
         '   <h2>\U0001f4cd Location Map</h2>\n'
@@ -172,6 +284,7 @@ def build_prompt(topic, country, year, internal_links=None):
     )
     return prompt
 
+
 def test_api():
     print("Testing API connectivity...")
     for model_name in MODELS_TO_TEST:
@@ -193,20 +306,6 @@ def test_api():
                 break
     print("All models failed during testing.")
     return None
-
-def slugify(title):
-    """Create URL/filesystem-safe slug from title."""
-    text = unicodedata.normalize("NFKD", title)
-    text = text.encode("ascii", "ignore").decode("ascii")
-    text = text.lower()
-    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
-    text = re.sub(r"-{2,}", "-", text)
-    return text[:120] or "draft"
-
-
-def sanitize_filename(title):
-    """Create safe filename from title."""
-    return f"{slugify(title)}.html"
 
 
 REGISTRY_PATH = Path(r"D:\Projects\AutoPilot_OS_v2\content\post_registry.json")
@@ -237,6 +336,42 @@ def get_recent_posts(limit=20):
             result.append((title, url))
     return result
 
+
+def call_llm(model_name: str, system_prompt: str, user_prompt: str) -> str:
+    """Call the LLM and return raw response text."""
+    response = client.chat.completions.create(
+        model=model_name,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        temperature=0.7,
+        max_tokens=8000
+    )
+    return response.choices[0].message.content
+
+
+def extract_html(full_response: str) -> str:
+    """Extract HTML from LLM response, cleaning markdown fences."""
+    html = full_response
+    # Remove markdown code fences
+    html = re.sub(r'^```html\s*', '', html, flags=re.IGNORECASE)
+    html = re.sub(r'^```\s*', '', html)
+    html = re.sub(r'\s*```$', '', html)
+    
+    # Find first HTML tag
+    start_index = html.find("<")
+    if start_index != -1:
+        html = html[start_index:]
+    
+    # Ensure starts with <h1>
+    if not re.search(r"<h1\b", html, flags=re.IGNORECASE):
+        # This shouldn't happen if prompt is followed, but safety net
+        pass
+    
+    return html
+
+
 def main():
     model_name = test_api()
     if not model_name:
@@ -255,82 +390,105 @@ def main():
     
     print(f"[Generator] Topic: {topic} ({country}, {year})")
 
+    # Competitive Research Node
+    competitor_angles = competitive_research(topic)
+
     recent_posts = get_recent_posts(limit=20)
     if recent_posts:
         print(f"[Generator] Injected {len(recent_posts)} recent posts for internal linking.")
 
-    prompt = build_prompt(topic, country, year, internal_links=recent_posts)
-    print(f"[Generator] Calling LLM with model {model_name}...")
+    system_prompt = (
+        "You are a professional UNESCO World Heritage travel writer. "
+        "Output ONLY raw HTML. ONLY use URLs from the INTERNAL LINKING list provided above. "
+        "Do not invent, guess, or include any other URLs. Ensure proper spacing between all words. "
+        "Do not concatenate words. For the Summary Table of Facts, you MUST use a valid HTML "
+        "<table> with <tr> and <td> elements. Do NOT use <h1>, <h2>, or <h3> tags for data rows."
+    )
+
+    # --- GENERATION LOOP (max 2 calls: initial + 1 revision) ---
+    final_html = None
+    final_score = 0
+    final_errors = []
     
-    max_retries = 5
-    for attempt in range(max_retries):
+    for revision_num in range(MAX_REVISIONS + 1):  # 0 = initial, 1 = revision
+        if revision_num == 0:
+            print(f"[Generator] Calling LLM (initial generation) with model {model_name}...")
+            user_prompt = build_prompt(topic, country, year, competitor_angles, internal_links=recent_posts)
+        else:
+            print(f"[Generator] Calling LLM (revision 1/{MAX_REVISIONS}) - Score was {final_score}/100")
+            error_list = "\n".join(f"- {e}" for e in final_errors)
+            user_prompt = (
+                f"Your article scored {final_score}/100. Fix these specific errors:\n{error_list}\n\n"
+                f"Return the fully rewritten HTML. Follow all original requirements."
+            )
+        
         try:
-            response = client.chat.completions.create(
-                model=model_name,
-                messages=[
-                    {"role": "system", "content": "You are a professional UNESCO World Heritage travel writer. Output ONLY raw HTML. ONLY use URLs from the INTERNAL LINKING list provided above. Do not invent, guess, or include any other URLs. Ensure proper spacing between all words. Do not concatenate words. For the Summary Table of Facts, you MUST use a valid HTML <table> with <tr> and <td> elements. Do NOT use <h1>, <h2>, or <h3> tags for data rows."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.7,
-                max_tokens=8000
-            )
-            full_response = response.choices[0].message.content
+            full_response = call_llm(model_name, system_prompt, user_prompt)
+            html = extract_html(full_response)
             
-            if "<h2>" in full_response or "<p>" in full_response:
-                start_index = full_response.find("<")
-                html = full_response[start_index:] if start_index != -1 else full_response
+            # Score the article
+            result = score_article(html, topic)
+            final_score = result['score']
+            final_errors = result['errors']
+            
+            print(f"[Quality] Score: {final_score}/100")
+            if final_errors:
+                for err in final_errors:
+                    print(f"  - {err}")
+            
+            if final_score >= QUALITY_THRESHOLD:
+                print(f"[Quality] PASS (threshold {QUALITY_THRESHOLD})")
+                final_html = html
+                break
+            elif revision_num < MAX_REVISIONS:
+                print(f"[Quality] FAIL - will attempt revision")
+                continue
             else:
-                html = f"<p>Error parsing AI response.</p><p>{full_response}</p>"
-            
-            # Clean up any markdown code fences if present
-            html = re.sub(r'^```html\s*', '', html, flags=re.IGNORECASE)
-            html = re.sub(r'^```\s*', '', html)
-            html = re.sub(r'\s*```$', '', html)
-
-            # Ensure publisher-ready HTML starts with <h1> title
-            if not re.search(r"<h1\b", html, flags=re.IGNORECASE):
-                safe_title = (
-                    topic.replace("&", "&amp;")
-                    .replace("<", "&lt;")
-                    .replace(">", "&gt;")
-                )
-                html = f"<h1>{safe_title}</h1>\n{html}"
-
-            PENDING_DIR.mkdir(parents=True, exist_ok=True)
-            filename = sanitize_filename(topic)
-            output_path = PENDING_DIR / filename
-
-            # Inject ORIGINAL_TOPIC comment for master-list removal matching
-            html_with_topic = f"<!-- ORIGINAL_TOPIC: {topic} -->\n{html}"
-            with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(html_with_topic)
-
-            print(f"[Generator] Saved draft to: {output_path}")
-            print(f"[Generator] Topic: {topic}")
-
-            # Automatically trigger the main publisher engine
-            publisher_script = Path(__file__).resolve().parent / "safe_batch.py"
-            print(f"[Generator] Triggering publisher: {publisher_script}")
-            venv_exe = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable
-            result = subprocess.run(
-                [venv_exe, str(publisher_script)],
-                cwd=str(Path(__file__).resolve().parent),
-            )
-            if result.returncode != 0:
-                print(f"[ERROR] safe_batch.py exited with code {result.returncode}")
-                return
-            return
-            
+                print(f"[WARNING] Article failed quality check after {MAX_REVISIONS + 1} attempt(s). Saving anyway.")
+                final_html = html
+                break
+                
         except Exception as e:
-            error_str = str(e)
-            if "429" in error_str or "503" in error_str or "rate_limit" in error_str.lower():
-                print(f"  [API SPIKE/LIMIT] Sleeping for 30 seconds... (Attempt {attempt+1}/{max_retries})")
-                time.sleep(30)
+            print(f"[ERROR] LLM call failed: {e}")
+            if revision_num == 0:
+                # If initial call fails completely, we have nothing
+                print("[ERROR] Initial generation failed. Aborting.")
+                return
             else:
-                print(f"  [ERROR] {e}")
+                # If revision fails, use what we have
+                print("[ERROR] Revision failed. Using previous version.")
                 break
     
-    print("[ERROR] Failed to generate HTML after retries")
+    if not final_html:
+        print("[ERROR] No HTML generated.")
+        return
+
+    # Save to pending
+    PENDING_DIR.mkdir(parents=True, exist_ok=True)
+    filename = slugify(topic) + ".html"
+    output_path = PENDING_DIR / filename
+
+    # Inject ORIGINAL_TOPIC comment for master-list removal matching
+    html_with_topic = f"<!-- ORIGINAL_TOPIC: {topic} -->\n{final_html}"
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html_with_topic)
+
+    print(f"[Generator] Saved draft to: {output_path}")
+    print(f"[Generator] Final Quality Score: {final_score}/100")
+    print(f"[Generator] Topic: {topic}")
+
+    # Automatically trigger the main publisher engine
+    publisher_script = Path(__file__).resolve().parent / "safe_batch.py"
+    print(f"[Generator] Triggering publisher: {publisher_script}")
+    venv_exe = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable
+    result = subprocess.run(
+        [venv_exe, str(publisher_script)],
+        cwd=str(Path(__file__).resolve().parent),
+    )
+    if result.returncode != 0:
+        print(f"[ERROR] safe_batch.py exited with code {result.returncode}")
+        return
+
 
 if __name__ == "__main__":
     main()
