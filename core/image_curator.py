@@ -435,7 +435,7 @@ def curate_images(html_path, output_dir):
                 phash_set.add(ph)
             except Exception:
                 pass
-            if not vision_check(temp_path):
+            if not vision_check(temp_path, subject):
                 os.remove(temp_path)
                 continue
             try:
@@ -523,13 +523,54 @@ def curate_images(html_path, output_dir):
         f.write(str(soup))
     return True
 
-def vision_check(image_path):
+
+# --- NATURE RESERVE WHITELIST ---
+# Sites where wildlife/animal images are expected and should be allowed
+NATURE_RESERVE_KEYWORDS = {
+    "galapagos", "serengeti", "komodo", "ngorongoro", "masai mara", "maasai mara",
+    "okavango", "chobe", "kruger", "etasha", "etasa", "moremi", "savuti",
+    "pantanal", "ibera", "torres del paine", "los glaciares", "yellowstone",
+    "yosemite", "grand canyon", "banff", "jasper", "fiordland", "tongariro",
+    "kahurangi", "mt. cook", "mt cook", "aoraki", "westland", "te wahipounamu",
+    "shark bay", "ningaloo", "kakadu", "uluru", "katajuta", "purnululu",
+    "wildlife", "sanctuary", "reserve", "national park", "biosphere",
+    "marine park", "coral reef", "great barrier", "belize barrier",
+    "sundarbans", "chitwan", "royal chitwan", "bardiya", "bardia",
+    "gunung leuser", "kerinci seblat", "bukit barisan", "tropical rainforest",
+    "dja", "lobeke", "dzanga", "sangha", "trinational", "ouanga",
+    "lake baikal", "baikal", "kamchatka", "volcanoes of kamchatka",
+    "wrangell", "st. elias", "khuang", "khuang", "khuang",
+    "ichkeul", "djoudj", "banc d'arguin", "banc d'arguin",
+    "wadi al-hitan", "wadi al hitan", "whale valley",
+    "messal", "messal", "hierapolis", "pamukkale",
+    "cappadocia", "goreme", "hierapolis-pamukkale",
+}
+
+def is_nature_reserve(subject: str) -> bool:
+    """Check if the subject is a nature reserve/wildlife site."""
+    if not subject:
+        return False
+    subject_lower = subject.lower()
+    for keyword in NATURE_RESERVE_KEYWORDS:
+        if keyword in subject_lower:
+            return True
+    return False
+
+
+def vision_check(image_path, subject=None):
     try:
         _load_clip()
         with Image.open(image_path) as im:
             img = _preprocess(im.convert("RGB")).unsqueeze(0)
-        positives = ["architecture", "ruins", "statue", "landscape", "monument"]
-        negatives = ["monkey", "animal", "stamp", "postage", "person", "flower", "food"]
+        
+        # For nature reserves, allow wildlife/animal images
+        if subject and is_nature_reserve(subject):
+            positives = ["architecture", "ruins", "statue", "landscape", "monument", "wildlife", "animal", "nature", "bird", "mammal", "ecosystem"]
+            negatives = ["stamp", "postage", "person", "flower", "food", "selfie", "tourist"]
+        else:
+            positives = ["architecture", "ruins", "statue", "landscape", "monument"]
+            negatives = ["monkey", "animal", "stamp", "postage", "person", "flower", "food"]
+        
         labels = positives + negatives
         text = _tokenizer(labels)
         with torch.no_grad():

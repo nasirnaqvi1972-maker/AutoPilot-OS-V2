@@ -13,6 +13,98 @@ import sys
 import time
 import unicodedata
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, TimeoutError
+
+# --- TEXT SANITIZER FOR GLUED WORDS ---
+GLOVE_WORD_PATTERN = re.compile(r'\b([a-z]{3,})([A-Z][a-z]{2,})\b')
+GLUE_WORD_PATTERN2 = re.compile(r'\b([a-z]{4,})([a-z]{4,})\b')  # lowercase run-on like "theparkis"
+
+COMMON_GLUES = {
+    'the': ['park', 'site', 'area', 'city', 'region', 'valley', 'mountain', 'river', 'lake', 'temple', 'church', 'palace', 'fortress', 'monument', 'landscape', 'heritage', 'world', 'unesco', 'national', 'ancient', 'historic', 'cultural', 'natural'],
+    'in': ['the', 'this', 'that', 'which', 'what', 'where', 'when'],
+    'of': ['the', 'this', 'that', 'a', 'an'],
+    'and': ['the', 'a', 'an', 'is', 'was', 'are', 'were'],
+    'for': ['the', 'a', 'an', 'this', 'that'],
+    'with': ['the', 'a', 'an', 'its', 'their'],
+    'on': ['the', 'a', 'an', 'this', 'that'],
+    'at': ['the', 'a', 'an', 'this', 'that'],
+    'by': ['the', 'a', 'an', 'this', 'that'],
+    'from': ['the', 'a', 'an', 'this', 'that'],
+    'as': ['a', 'an', 'the', 'is', 'was'],
+    'is': ['a', 'an', 'the', 'in', 'on', 'at', 'by'],
+    'was': ['a', 'an', 'the', 'in', 'on', 'at', 'by'],
+    'are': ['the', 'a', 'an', 'in', 'on', 'at', 'by'],
+    'were': ['the', 'a', 'an', 'in', 'on', 'at', 'by'],
+    'has': ['a', 'an', 'the', 'been'],
+    'have': ['a', 'an', 'the', 'been'],
+    'had': ['a', 'an', 'the', 'been'],
+    'will': ['be', 'have', 'find', 'see', 'visit'],
+    'can': ['be', 'find', 'see', 'visit', 'reach'],
+    'may': ['be', 'find', 'see', 'visit', 'include'],
+    'should': ['be', 'visit', 'see', 'include'],
+    'would': ['be', 'make', 'find', 'see'],
+    'could': ['be', 'find', 'see', 'visit', 'include'],
+}
+
+def sanitize_glued_words(text: str) -> str:
+    """
+    Fix glued words in LLM output while preserving href/src attributes.
+    Handles:
+    - CamelCase glued words: "TheParkIs" -> "The Park Is"
+    - Lowercase run-ons: "theparkis" -> "the park is" (common words)
+    """
+    if not text:
+        return text
+    
+    # First, protect href/src attributes by replacing them with placeholders
+    protected_attrs = []
+    
+    def protect_attrs(match):
+        protected_attrs.append(match.group(0))
+        return f"__PROTECTED_ATTR_{len(protected_attrs)-1}__"
+    
+    # Protect href="..." and src="..." attributes
+    text = re.sub(r'(href|src)="[^"]*"', protect_attrs, text)
+    # Also protect single-quoted attributes
+    text = re.sub(r"(href|src)='[^']*'", protect_attrs, text)
+    
+    # Fix CamelCase glued words: "TheParkIs" -> "The Park Is"
+    def fix_camel(match):
+        word1 = match.group(1)
+        word2 = match.group(2)
+        # Don't split if it's a known proper noun or abbreviation
+        if len(word1) <= 3 and word1.lower() not in ['the', 'and', 'for', 'with', 'from', 'this', 'that']:
+            return match.group(0)
+        return f"{word1} {word2}"
+    
+    text = GLOVE_WORD_PATTERN.sub(fix_camel, text)
+    
+    # Fix common lowercase run-ons using known word pairs
+    words = text.split()
+    fixed_words = []
+    for word in words:
+        fixed = word
+        for prefix, suffixes in COMMON_GLUES.items():
+            for suffix in suffixes:
+                glued = prefix + suffix
+                if fixed.lower() == glued and len(fixed) > len(prefix) + 1:
+                    # Preserve original capitalization
+                    if fixed[0].isupper():
+                        fixed = prefix.capitalize() + ' ' + suffix
+                    else:
+                        fixed = prefix + ' ' + suffix
+                    break
+            if fixed != word:
+                break
+        fixed_words.append(fixed)
+    
+    text = ' '.join(fixed_words)
+    
+    # Restore protected attributes
+    for i, attr in enumerate(protected_attrs):
+        text = text.replace(f"__PROTECTED_ATTR_{i}__", attr)
+    
+    return text
 
 # Optional dependency - duckduckgo_search
 try:
@@ -100,10 +192,12 @@ def load_next_topic(cli_title: str | None = None):
 
 
 def slugify(title):
-    """Create URL/filesystem-safe slug from title."""
+    """Create URL/filesystem-safe slug from title. Truncate at first parenthesis or dash."""
     text = unicodedata.normalize("NFKD", title)
     text = text.encode("ascii", "ignore").decode("ascii")
     text = text.lower()
+    # Truncate at first parenthesis or dash (common in UNESCO titles)
+    text = re.split(r'[\(\)\-]', text)[0].strip()
     text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
     text = re.sub(r"-{2,}", "-", text)
     return text[:120] or "draft"
@@ -121,9 +215,15 @@ def competitive_research(topic: str) -> str:
     query = f"{topic} UNESCO World Heritage"
     print(f"[Research] Searching DuckDuckGo: {query}")
     
-    try:
+    def _search():
         with DDGS() as ddgs:
-            results = list(ddgs.text(query, max_results=3))
+            return list(ddgs.text(query, max_results=3))
+    
+    try:
+        # Run search with 15-second timeout to avoid DNS hangs
+        with ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(_search)
+            results = future.result(timeout=15)
         
         if not results:
             print("[Research] No results returned.")
@@ -137,6 +237,9 @@ def competitive_research(topic: str) -> str:
         print(f"[Research] Found angles: {competitor_string}")
         return competitor_string
         
+    except TimeoutError:
+        print("[Research] DuckDuckGo search timed out (15s). Skipping.")
+        return ""
     except Exception as e:
         print(f"[Research] DuckDuckGo search failed (graceful fallback): {e}")
         return ""
@@ -228,17 +331,16 @@ def build_prompt(topic, country, year, competitor_angles, internal_links=None):
         'Write a comprehensive 3000-word article about: ' + topic + ' (' + country + ', inscribed ' + year + ').\n\n'
         + competitor_section +
         'OUTPUT REQUIREMENTS \u2014 FOLLOW EXACTLY:\n\n'
-        '1. Start with an SEO-optimized, click-worthy <h1> title (e.g., "The Great Wall of China: A Journey Through Time and Stone").\n'
-        '2. Directly underneath the <h1>, add a short, compelling subtitle formatted as: <p><em>{subtitle}</em></p>\n'
-        '3. Then a lead paragraph: <p style="font-size: 1.05em; color: #555; font-style: italic; margin-top: 0;">[1-2 sentence poetic summary with location and UNESCO status]</p>\n'
-        '4. Then a summary table in this EXACT format:\n'
+        '1. DO NOT output any <h1> tags. The post must start directly with the lead <p> paragraph.\n'
+        '2. Lead paragraph (FIRST element): <p style="font-size: 1.05em; color: #555; font-style: italic; margin-top: 0;">[1-2 sentence poetic summary with location and UNESCO status]</p>\n'
+        '3. Then a summary table in this EXACT format:\n'
         '<div style="background: #f8f9fa; border-left: 4px solid #2563eb; padding: 14px 18px; margin: 20px 0; border-radius: 4px;"><table style="border-collapse: collapse; width: 100%;"><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Location:</td><td style="padding: 4px 0;">[Country, region, coordinates]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Year of UNESCO Inscription:</td><td style="padding: 4px 0;">' + year + '</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Category:</td><td style="padding: 4px 0;">[Cultural/Natural/Mixed]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">UNESCO Reference:</td><td style="padding: 4px 0;">[Reference number]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Criteria:</td><td style="padding: 4px 0;">[e.g., (i)(ii)(iv)]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Coordinates:</td><td style="padding: 4px 0;">[Lat, Long]</td></tr><tr><td style="padding: 4px 10px 4px 0; vertical-align: top; font-weight: bold; white-space: nowrap;">Area:</td><td style="padding: 4px 0;">[Area in hectares/sq km]</td></tr></table></div>\n'
-        '5. Then <!--more--> on its own line.\n'
-        '6. Then AT LEAST 7 <h2> sections (no inline styles on h2), each with 2-4 <p> paragraphs.\n'
+        '4. Then <!--more--> on its own line.\n'
+        '5. Then AT LEAST 7 <h2> sections (no inline styles on h2), each with 2-4 <p> paragraphs.\n'
         '   - Use bold for key terms on first mention.\n'
         '   - Include internal links to other posts where relevant: <a href="https://dustanddynasty.blogspot.com/2026/10/..." rel="noopener noreferrer" style="color:#0b5ed7;font-weight:700;text-decoration:underline;text-decoration-color:#0b5ed7;" target="_blank">Linked Post Title</a>\n'
         + links_section +
-        '7. REQUIRED SPECIAL SECTIONS (in this order):\n'
+        '6. REQUIRED SPECIAL SECTIONS (in this order):\n'
         '   <h2>\u2726 Also Read \u2014 [Related Post]</h2>\n'
         '   <p><a href="..." rel="noopener noreferrer" style="color:#0b5ed7;font-weight:700;text-decoration:underline;text-decoration-color:#0b5ed7;" target="_blank">Related Post Title</a></p>\n'
         '   <p>One sentence description.</p>\n\n'
@@ -281,8 +383,9 @@ def build_prompt(topic, country, year, competitor_angles, internal_links=None):
         'IMPORTANT: Use the SAME latitude,longitude coordinates in the Summary Table "Coordinates" row, the Location Map iframe src, and the map caption. Replace [LAT],[LON] with actual decimal coordinates (e.g., 4.5333,36.3333).\n\n'
         '8. DO NOT include: <html>, <head>, <body>, , <figure>, <figcaption>, or any image tags.\n'
         '9. DO NOT include the sidebar support banner (engine adds it).\n'
-        '10. RETURN ONLY RAW HTML \u2014 no markdown, no code fences, no explanations.\n\n'
-        'JSON-LD SCHEMA (copy exactly, use the topic as headline):\n'
+        '10. DO NOT output any HTML comments (e.g., <!-- ORIGINAL_TOPIC -->).\n'
+        '11. RETURN ONLY RAW HTML \u2014 no markdown, no code fences, no explanations.\n\n'
+        'JSON-LD SCHEMA (MUST be the VERY FIRST element in output):\n'
         '<script type="application/ld+json">{\n'
         '    "@context": "https://schema.org",\n'
         '    "@type": "BlogPosting",\n'
@@ -370,15 +473,13 @@ def extract_html(full_response: str) -> str:
     html = re.sub(r'^```\s*', '', html)
     html = re.sub(r'\s*```$', '', html)
     
+    # Remove HTML comments from top
+    html = re.sub(r'^\s*<!--.*?-->\s*', '', html, flags=re.DOTALL)
+    
     # Find first HTML tag
     start_index = html.find("<")
     if start_index != -1:
         html = html[start_index:]
-    
-    # Ensure starts with <h1>
-    if not re.search(r"<h1\b", html, flags=re.IGNORECASE):
-        # This shouldn't happen if prompt is followed, but safety net
-        pass
     
     return html
 
@@ -420,7 +521,9 @@ def main():
         "Output ONLY raw HTML. ONLY use URLs from the INTERNAL LINKING list provided above. "
         "Do not invent, guess, or include any other URLs. Ensure proper spacing between all words. "
         "Do not concatenate words. For the Summary Table of Facts, you MUST use a valid HTML "
-        "<table> with <tr> and <td> elements. Do NOT use <h1>, <h2>, or <h3> tags for data rows."
+        "<table> with <tr> and <td> elements. Do NOT use <h1>, <h2>, or <h3> tags for data rows. "
+        "DO NOT output any <h1> tags. The JSON-LD schema MUST be the very first element. "
+        "Do NOT output any HTML comments."
     )
 
     # --- GENERATION LOOP (max 2 calls: initial + 1 revision) ---
@@ -445,6 +548,9 @@ def main():
         try:
             full_response = call_llm(model_name, system_prompt, user_prompt)
             html = extract_html(full_response)
+            
+            # Sanitize glued words while preserving href/src attributes
+            html = sanitize_glued_words(html)
             
             # Score the article
             result = score_article(html, topic)
@@ -497,10 +603,15 @@ def main():
     filename = slugify(topic) + ".html"
     output_path = PENDING_DIR / filename
 
-    # Inject ORIGINAL_TOPIC comment for master-list removal matching
-    html_with_topic = f"<!-- ORIGINAL_TOPIC: {topic} -->\n{final_html}"
+    # No ORIGINAL_TOPIC comment - LLM is instructed not to output HTML comments
+    # Cycle 2 sanitizer
+    final_html = re.sub(r'^\s*(?:<!--.*?-->\s*)+', '', final_html, flags=re.DOTALL)
+    final_html = re.sub(r'<h1[^>]*>.*?</h1>\s*', '', final_html, flags=re.DOTALL | re.IGNORECASE)
+    if 'application/ld+json' not in final_html:
+        _schema = {'@context': 'https://schema.org', '@type': 'Article', 'headline': topic}
+        final_html = '<script type="application/ld+json">' + __import__('json').dumps(_schema) + '</script>' + chr(10) + final_html
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html_with_topic)
+        f.write(final_html)
 
     print(f"[Generator] Saved draft to: {output_path}")
     print(f"[Generator] Final Quality Score: {final_score}/100")

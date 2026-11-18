@@ -279,3 +279,7 @@ def publish_post(html_path, img_folder, title, labels, post_id=None):
     except Exception as e:
         print(f"  [FAIL] FAILED to publish: {e}")
         return None
+# Force IPv4 for Google TLS
+import urllib3.util.connection as u3c
+u3c.HAS_IPV6 = False
+
