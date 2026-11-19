@@ -13,9 +13,9 @@ import imagehash
 RELAY_URL = "https://wikimedia-relay.nasirabbasnaqvi.workers.dev"
 RELAY_TOKEN = "ddd-secret-2026"
 
-def _relay_get(target_url, timeout=30):
+def _relay_get(target_url, timeout=10):
     params = urllib.parse.urlencode({"url": target_url, "token": RELAY_TOKEN})
-    req = urllib.request.Request(f"{RELAY_URL}?{params}", headers={"User-Agent": "DustAndDynastyBot/1.0 (https://dustanddynasty.blogspot.com; admin@dustanddynasty.com) AutoPilot/2.0"})
+    req = urllib.request.Request(f"{RELAY_URL}?{params}", headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as response:
             return response.read()
@@ -186,7 +186,7 @@ def build_candidate_pool(subject):
                 print(f"  [curator] Unsplash returned {len(pool)} candidates.")
             # Fall through to Wikimedia to fill remaining slots
         except Exception as e:
-            print(f"  [curator] Unsplash failed: {e}; falling back to Wikimedia.")
+            print(f"  [curator] Unsplash failed or empty: {e}. Returning empty pool."); return []
     
     WD = "https://www.wikidata.org/w/api.php"
     r = _relay_json(WD, action="wbsearchentities", search=subject, language="en", limit=1)
@@ -593,7 +593,7 @@ def download_image(url, save_path):
         if 'unsplash.com' in url or 'images.unsplash.com' in url:
             import urllib.request
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=10) as resp:
                 raw = resp.read()
         else:
             raw = _relay_get(url)
