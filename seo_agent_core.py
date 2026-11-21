@@ -8,8 +8,19 @@ from langchain_core.output_parsers import StrOutputParser
 # Load from the V2 .env file
 load_dotenv()
 
-API_KEY = os.getenv("FREE_LLM_API_KEY", "sk-local")
+# --- CONFIGURATION & VALIDATION ---
+API_KEY = os.getenv("FREE_LLM_API_KEY")
 BASE_URL = os.getenv("FREE_LLM_API_BASE", "http://127.0.0.1:31415/v1")
+
+if not API_KEY:
+    print("❌ ERROR: FREE_LLM_API_KEY is not set in your .env file!")
+    print("Please create a .env file in D:\\Projects\\AutoPilot_OS_v2\\ with:")
+    print('FREE_LLM_API_KEY="your_actual_key_here"')
+    print('FREE_LLM_API_BASE="http://127.0.0.1:31415/v1"')
+    exit(1)
+
+# Remove any accidental quotes from the key if the user pasted them
+API_KEY = API_KEY.strip('"').strip("'")
 
 def audit_draft(blog_text, current_title=""):
     llm = ChatOpenAI(
@@ -40,8 +51,12 @@ def audit_draft(blog_text, current_title=""):
 
     chain = prompt | llm | StrOutputParser()
     
-    print("🤖 Sending draft to FreeLLMAPI for Audit...")
-    result_text = chain.invoke({"text": blog_text, "title": current_title})
+    print(f"🤖 Sending draft to FreeLLMAPI at {BASE_URL}...")
+    try:
+        result_text = chain.invoke({"text": blog_text, "title": current_title})
+    except Exception as e:
+        print(f"❌ API ERROR: {e}")
+        return None
     
     result_text = result_text.replace("```json", "").replace("```", "").strip()
     
@@ -65,4 +80,4 @@ if __name__ == "__main__":
         print("\n✅ SUCCESS! Here is the audit:")
         print(json.dumps(result, indent=4))
     else:
-        print("\n❌ FAILED to get a valid response.")
+        print("\n❌ FAILED to get a valid response. Check your .env file and ensure FreeLLMAPI desktop app is running.")
