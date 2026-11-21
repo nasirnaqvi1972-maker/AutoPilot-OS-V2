@@ -1,3 +1,6 @@
+import json
+import shutil
+from seo_agent_core import audit_draft
 import os
 import re
 import json
