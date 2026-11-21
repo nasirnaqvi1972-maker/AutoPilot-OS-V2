@@ -26,7 +26,7 @@ def audit_draft(blog_text, current_title=""):
     llm = ChatOpenAI(
         openai_api_key=API_KEY,
         openai_api_base=BASE_URL,
-        model="gemini-3.5-flash",
+        model="gpt-oss-120b",
         temperature=0.2
     )
 
